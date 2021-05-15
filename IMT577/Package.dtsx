@@ -11,29 +11,29 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="55"
-  DTS:VersionGUID="{E2C58902-F7BA-4B97-847A-1CAAA1D534E4}">
+  DTS:VersionBuild="60"
+  DTS:VersionGUID="{E57E0A60-40ED-433A-B889-9F62946A6BC2}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
     <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[Excel Connection Manager 1]"
+      DTS:refId="Package.ConnectionManagers[Excel Connection Manager]"
       DTS:CreationName="EXCEL"
-      DTS:DTSID="{0BC27975-0482-4D98-8B18-D65F13E496FD}"
-      DTS:ObjectName="Excel Connection Manager 1">
+      DTS:DTSID="{51A8F540-AB88-42B9-8C5B-B22D581DCC31}"
+      DTS:ObjectName="Excel Connection Manager">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Users\imt577user\Desktop\Target Data - Product.xls;Extended Properties=&quot;EXCEL 8.0;HDR=YES&quot;;" />
+          DTS:ConnectionString="Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Users\imt577user\Documents\IMT577 Project Files\IMT577\Target Data - Channel Reseller and Store.xls;Extended Properties=&quot;Excel 8.0;HDR=YES&quot;;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[Excel Connection Manager 2]"
+      DTS:refId="Package.ConnectionManagers[Excel Connection Manager 1]"
       DTS:CreationName="EXCEL"
-      DTS:DTSID="{C1399D9C-9D76-411A-B16B-4EED873BD1B0}"
-      DTS:ObjectName="Excel Connection Manager 2">
+      DTS:DTSID="{17C62538-5753-436F-8803-A7D42650AA37}"
+      DTS:ObjectName="Excel Connection Manager 1">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Users\imt577user\Desktop\Target Data - Channel Reseller and Store.xls;Extended Properties=&quot;EXCEL 8.0;HDR=YES&quot;;" />
+          DTS:ConnectionString="Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Users\imt577user\Documents\IMT577 Project Files\IMT577\Target Data - Product.xls;Extended Properties=&quot;Excel 8.0;HDR=YES&quot;;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -47,7 +47,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAD3WQEnNxoWRIE+gO1sWedhzsgFLyzeu9wTl+GsvN9T5QAAAAAOgAAAAAIAACAAAACMc2LLZfsLinA4qqeevPWk3tRikesXKSbVzHIM5SzORTAAAABptM3WYOlhnEqIguoNDWqmW+E4T3nhPaHodDtkTvL51cz1ZFmVJrbx3Wo8962WEhVAAAAA9js4lJ2ei3c/fQ9N+pQaM/buI6/hD/MuZTh5Hl5b5Uhjk5GajlRw7DVNyNwwFUfuTZdtMyXlVQAFqxTDCflVaw</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABlD0W/b5dHh6zW0lkIHu37DIkPFp/96BbwXf8cRFy3MgAAAAAOgAAAAAIAACAAAAB1l2IoXSDqIGryVWKE6nBtut0PxW4PtqDjBruqQgnmFTAAAAANbH4AMTRVLu5Nq7rpMt0hflFCooCrXiY8O/TvEVqFE+bm/D7/lyorOYhGBsQjxxxAAAAAzT5d9iZ0eYvcFXatkeH62B9qRkzb3RscOsO+gbBpz13OI0wj05m8EeQYCIBMhu40Sb9TA5fjmeyB4z2hBTojig</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -62,7 +62,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADUB9bFJAk85OuTisRPuk/X2wNUO5IUw0DqxNoJ3wD0vgAAAAAOgAAAAAIAACAAAACUtZKOHgnqR8cJo3dfqISYIG6qjgzKY+56aop+UY4kCTAAAADRH9MRSJJv2KyU88en8vikalSfQ4LY+aR6pxkfT6tTYLqrEV4scptWQdXDXSXhR+NAAAAAQOEujMBDR/gQ7cAFcsRp+MS8tQ3w36h7ndeJG9SoR386ClwZm/PKG5sLQzBJyL/louV1jslD9TjBZWdNvxs6lw</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAD1YUeUa5WmyomsBhRgliF1pzshT07F93XFM99DDFyjcgAAAAAOgAAAAAIAACAAAAAixxq32iLCEIKjKyCh4QvGiiexjdXotMsFdzeZriSt6TAAAADEPO5RmEwJIyMvWwaa6lQ5gQ5QJcgAK+daO2hTuAxHPd5qV7BkZtLZi7a52eEurI5AAAAAv6dB7nyw8h52p5vAIyR/h0gq0qWFSpdaNrBCg3WyaeFuTnEIfCbnIu+8NfStlAVHAy4hOPSgNhnX9N9yqw16xw</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -77,7 +77,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAByElpkGbzwIsfVfb0MboY3x9kqMFqZuPaNBW6Rx5kEbAAAAAAOgAAAAAIAACAAAAAKtq/rpRVuTFn8lg9Cf0jm+AKwy0C/gqeN8r9n4EP5DzAAAAB36v8jg4e4pggFmgkThqGznizLzv+Pry8HSKccUQ4r8m5VA0REGhdunXenoeegAuVAAAAASIZPl4pcNstW62uk+zNlgYVVvUBMTlp25W8pGZU8aj2gTmZEboQ3Ow6Xar9HNQQq5VNW2liCCkBdBy7pvuqbKg</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADyX4Z2S3PIUQuJ39AdoyEwiNMPnzST3qAjtGN5Sg3yKAAAAAAOgAAAAAIAACAAAAC08Bd42F3PLkbkjMRgwtrzSDi1w2aoPQnzxEQ0ge5CVTAAAAAyhieuHOFKNncDwJLEI/AvzuufWq3jZeNNu6YKAX6iDxuHKL2FrirrKZITlQaP+qpAAAAAs9bEItkqULOqVsjggsaKvBs6UP8eLNGEkwRqc99tPfjkpJu8l77fKlvQwIh1OhQ4B77GLxzCeWglDluG34WAtA</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -92,7 +92,37 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABxRKYWk9H5+EUx9OAIzgIJX+1blh0oEVeENREE9d1LKQAAAAAOgAAAAAIAACAAAAAu2l7NcW7hVN0I3V+U4vbwbiyWTtrT2D5Ny2ZVs277FTAAAABtmH2fkdyXeQmmUC+rnKfSa335vw1AKRCb/uZGRiTFKEmTeXplu6q5RYkRpsPLqo5AAAAA3AVLtMtUVO84/YRBCJ2Jm1mWvUDW7OfvSQq9H1CK+LUwSo4odZcdE/o2B6MB3OyTEQJTr3IRYX/BQLhowsEKPw</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADuVhzMnz1V2SK6D+R/dz13v+C+EBEFdp9PQRlXSktFcwAAAAAOgAAAAAIAACAAAABeLiEpxEMiZZrVFfSeEP9d/opWIprLuDjOPohFXhA1hjAAAADESjfPI3e+FlyU82UH+7LJ2DCHwHgdyefqql0/xhsQuwxx6duhwgeC26BuHkNOq1lAAAAA28jH/+xQ/weqoWPCEqemZkiMDxMBH8nG9z0dGRtaaxUWvnThRPuyKmF9z19njGP1PPZzaHvMsWE42IPR79NgJA</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[ML-RefVm-765087.DestinationSystem.sa 5]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{4E096CB9-5F8A-40A3-8BC7-9194D9E3C38E}"
+      DTS:ObjectName="ML-RefVm-765087.DestinationSystem.sa 5">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=ML-RefVm-765087;User ID=sa;Initial Catalog=DestinationSystem;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACcQynNcnNbInOxEPABKXucNGCR832HVvSRG486PQ2twwAAAAAOgAAAAAIAACAAAAC4poaDZtOlJOcRhzRt5YvEJ+aYdWYB5k+mikk2V8o7JzAAAAB28LE3RpNdyEJP131betG1kv59ZAusMlDzi1eZj6wJZmqwqyuhooWBOkayWFCHIa9AAAAAPkp+3bYhM69lHpigp2rO6HINvA7hH5zLA/0w+qc0lm9TI8+vmf2LOPFxgpPWwgHf7d6iAhxQHSbboEi1yIVwvg</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[ML-RefVm-765087.sa]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{3235B7BB-89FB-4F37-8BCA-324B8D2E67CD}"
+      DTS:ObjectName="ML-RefVm-765087.sa">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=ML-RefVm-765087;User ID=sa;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABR0tIvR9iSSjCmXLr7shkdN6c0QFsZL1rBXfpB63uw0gAAAAAOgAAAAAIAACAAAAAcU5jwwxoXV4vTnQbWBbqmt+tTxQqgrSFLP4QKWlh4mjAAAADxXn7Wr6eoKI38nadfltXAKjFx9Sy87f7dsxWIfchtuYWQsvY917k57p3kc5pwSnFAAAAA+b5Ob7vC/JbwUf7H63mOuUNQ2jLZ8C4f2l4fAPkWDqRqvDOyD1sMABT4pReIYH/8fBgjb4/JwNcagyIqWfy31A</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -107,7 +137,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAaLElcHPf3hbHQ6SKF+U7qDJpA//UVyt7jIGS54j/RnwAAAAAOgAAAAAIAACAAAAAflVE4r485n6oS0FRojStNwwm/6tiV+8L/r10+gNTt4jAAAAAqk0euShgicMrfnCHMjllP2U9DifAbA/HoOQDWBCpCpKWvDSvsHoRVYemdDoZj5qdAAAAAnwnWGs/4yKKlUucON65DFmx4IYrKU7M9oGlnyMZgUQ4Ybdsr4FkzC5XqU9R22DXm7dwdf5F67z/7BalUZjXrvQ</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACc6JeKQ4UBREiewJ+AHHnpuPqiNnZrTfKQSq1BYhRtagAAAAAOgAAAAAIAACAAAAC2Cpkf0yjEg1fJXgnEVQw7QQlDZujoDSCRA7SW/smq9zAAAAAVe8x413L20M/utJgeX3ooUSPApswlp2S+nF+ta+aRM1oDc0Wn1GPVJid/zcxbFGlAAAAATRbdiJPyffLrskvbKvIJuPGGFPnkxEmTBp9MLb3WOUJyQhmLEhPspKbnZM8CqG5/AWzqBVr0mCBx/fj44K94lA</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -123,7 +153,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="Create Destination Database Schema and Tables"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="2">
+      DTS:ThreadHint="1">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -5491,13 +5521,13 @@
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
-      DTS:refId="Package\Stage Target_CRS"
+      DTS:refId="Package\Stage TargetCRS"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:DTSID="{7B3F9931-9B3D-420E-87B1-F099F5346E56}"
+      DTS:DTSID="{536D289B-AD50-40BF-8332-03354FD8152A}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
-      DTS:ObjectName="Stage Target_CRS"
+      DTS:ObjectName="Stage TargetCRS"
       DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
       <DTS:Variables />
       <DTS:ObjectData>
@@ -5505,169 +5535,11 @@
           version="1">
           <components>
             <component
-              refId="Package\Stage Target_CRS\Excel Source"
-              componentClassID="Microsoft.ExcelSource"
-              contactInfo="Excel Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
-              description="Excel Source"
-              name="Excel Source"
-              usesDispositions="true"
-              version="1">
-              <properties>
-                <property
-                  dataType="System.Int32"
-                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
-                  name="CommandTimeout">0</property>
-                <property
-                  dataType="System.String"
-                  description="Specifies the name of the database object used to open a rowset."
-                  name="OpenRowset">'Target Data - Channel Reseller $'</property>
-                <property
-                  dataType="System.String"
-                  description="Specifies the variable that contains the name of the database object used to open a rowset."
-                  name="OpenRowsetVariable"></property>
-                <property
-                  dataType="System.String"
-                  description="The SQL command to be executed."
-                  name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
-                <property
-                  dataType="System.String"
-                  description="The variable that contains the SQL command to be executed."
-                  name="SqlCommandVariable"></property>
-                <property
-                  dataType="System.Int32"
-                  description="Specifies the mode used to access the database."
-                  name="AccessMode"
-                  typeConverter="AccessMode">0</property>
-                <property
-                  dataType="System.String"
-                  description="The mapping from parameters in the SQL command to variables."
-                  name="ParameterMapping"></property>
-              </properties>
-              <connections>
-                <connection
-                  refId="Package\Stage Target_CRS\Excel Source.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[Excel Connection Manager 2]"
-                  connectionManagerRefId="Package.ConnectionManagers[Excel Connection Manager 2]"
-                  description="The OLE DB runtime connection used to access the database."
-                  name="OleDbConnection" />
-              </connections>
-              <outputs>
-                <output
-                  refId="Package\Stage Target_CRS\Excel Source.Outputs[Excel Source Output]"
-                  name="Excel Source Output">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\Stage Target_CRS\Excel Source.Outputs[Excel Source Output].Columns[Year]"
-                      dataType="r8"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Stage Target_CRS\Excel Source.Outputs[Excel Source Output].ExternalColumns[Year]"
-                      lineageId="Package\Stage Target_CRS\Excel Source.Outputs[Excel Source Output].Columns[Year]"
-                      name="Year"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Stage Target_CRS\Excel Source.Outputs[Excel Source Output].Columns[ChannelName]"
-                      dataType="wstr"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Stage Target_CRS\Excel Source.Outputs[Excel Source Output].ExternalColumns[ChannelName]"
-                      length="255"
-                      lineageId="Package\Stage Target_CRS\Excel Source.Outputs[Excel Source Output].Columns[ChannelName]"
-                      name="ChannelName"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Stage Target_CRS\Excel Source.Outputs[Excel Source Output].Columns[TargetName]"
-                      dataType="wstr"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Stage Target_CRS\Excel Source.Outputs[Excel Source Output].ExternalColumns[TargetName]"
-                      length="255"
-                      lineageId="Package\Stage Target_CRS\Excel Source.Outputs[Excel Source Output].Columns[TargetName]"
-                      name="TargetName"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Stage Target_CRS\Excel Source.Outputs[Excel Source Output].Columns[ TargetSalesAmount ]"
-                      dataType="r8"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Stage Target_CRS\Excel Source.Outputs[Excel Source Output].ExternalColumns[ TargetSalesAmount ]"
-                      lineageId="Package\Stage Target_CRS\Excel Source.Outputs[Excel Source Output].Columns[ TargetSalesAmount ]"
-                      name=" TargetSalesAmount "
-                      truncationRowDisposition="FailComponent" />
-                  </outputColumns>
-                  <externalMetadataColumns
-                    isUsed="True">
-                    <externalMetadataColumn
-                      refId="Package\Stage Target_CRS\Excel Source.Outputs[Excel Source Output].ExternalColumns[Year]"
-                      dataType="r8"
-                      name="Year" />
-                    <externalMetadataColumn
-                      refId="Package\Stage Target_CRS\Excel Source.Outputs[Excel Source Output].ExternalColumns[ChannelName]"
-                      dataType="wstr"
-                      length="255"
-                      name="ChannelName" />
-                    <externalMetadataColumn
-                      refId="Package\Stage Target_CRS\Excel Source.Outputs[Excel Source Output].ExternalColumns[TargetName]"
-                      dataType="wstr"
-                      length="255"
-                      name="TargetName" />
-                    <externalMetadataColumn
-                      refId="Package\Stage Target_CRS\Excel Source.Outputs[Excel Source Output].ExternalColumns[ TargetSalesAmount ]"
-                      dataType="r8"
-                      name=" TargetSalesAmount " />
-                  </externalMetadataColumns>
-                </output>
-                <output
-                  refId="Package\Stage Target_CRS\Excel Source.Outputs[Excel Source Error Output]"
-                  isErrorOut="true"
-                  name="Excel Source Error Output">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\Stage Target_CRS\Excel Source.Outputs[Excel Source Error Output].Columns[Year]"
-                      dataType="r8"
-                      lineageId="Package\Stage Target_CRS\Excel Source.Outputs[Excel Source Error Output].Columns[Year]"
-                      name="Year" />
-                    <outputColumn
-                      refId="Package\Stage Target_CRS\Excel Source.Outputs[Excel Source Error Output].Columns[ChannelName]"
-                      dataType="wstr"
-                      length="255"
-                      lineageId="Package\Stage Target_CRS\Excel Source.Outputs[Excel Source Error Output].Columns[ChannelName]"
-                      name="ChannelName" />
-                    <outputColumn
-                      refId="Package\Stage Target_CRS\Excel Source.Outputs[Excel Source Error Output].Columns[TargetName]"
-                      dataType="wstr"
-                      length="255"
-                      lineageId="Package\Stage Target_CRS\Excel Source.Outputs[Excel Source Error Output].Columns[TargetName]"
-                      name="TargetName" />
-                    <outputColumn
-                      refId="Package\Stage Target_CRS\Excel Source.Outputs[Excel Source Error Output].Columns[ TargetSalesAmount ]"
-                      dataType="r8"
-                      lineageId="Package\Stage Target_CRS\Excel Source.Outputs[Excel Source Error Output].Columns[ TargetSalesAmount ]"
-                      name=" TargetSalesAmount " />
-                    <outputColumn
-                      refId="Package\Stage Target_CRS\Excel Source.Outputs[Excel Source Error Output].Columns[ErrorCode]"
-                      dataType="i4"
-                      lineageId="Package\Stage Target_CRS\Excel Source.Outputs[Excel Source Error Output].Columns[ErrorCode]"
-                      name="ErrorCode"
-                      specialFlags="1" />
-                    <outputColumn
-                      refId="Package\Stage Target_CRS\Excel Source.Outputs[Excel Source Error Output].Columns[ErrorColumn]"
-                      dataType="i4"
-                      lineageId="Package\Stage Target_CRS\Excel Source.Outputs[Excel Source Error Output].Columns[ErrorColumn]"
-                      name="ErrorColumn"
-                      specialFlags="2" />
-                  </outputColumns>
-                  <externalMetadataColumns />
-                </output>
-              </outputs>
-            </component>
-            <component
-              refId="Package\Stage Target_CRS\Stage Target_CRS"
+              refId="Package\Stage TargetCRS\Destination StageTargetCRS"
               componentClassID="Microsoft.OLEDBDestination"
               contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
               description="OLE DB Destination"
-              name="Stage Target_CRS"
+              name="Destination StageTargetCRS"
               usesDispositions="true"
               version="4">
               <properties>
@@ -5720,7 +5592,7 @@
               </properties>
               <connections>
                 <connection
-                  refId="Package\Stage Target_CRS\Stage Target_CRS.Connections[OleDbConnection]"
+                  refId="Package\Stage TargetCRS\Destination StageTargetCRS.Connections[OleDbConnection]"
                   connectionManagerID="{C9C3DF5F-10B2-43AC-A852-12C5C1E847F9}:external"
                   connectionManagerRefId="Project.ConnectionManagers[ML-RefVm-765087.DestinationSystem.sa]"
                   description="The OLE DB runtime connection used to access the database."
@@ -5728,80 +5600,74 @@
               </connections>
               <inputs>
                 <input
-                  refId="Package\Stage Target_CRS\Stage Target_CRS.Inputs[OLE DB Destination Input]"
+                  refId="Package\Stage TargetCRS\Destination StageTargetCRS.Inputs[OLE DB Destination Input]"
                   errorOrTruncationOperation="Insert"
                   errorRowDisposition="FailComponent"
                   hasSideEffects="true"
                   name="OLE DB Destination Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Stage Target_CRS\Stage Target_CRS.Inputs[OLE DB Destination Input].Columns[Year]"
+                      refId="Package\Stage TargetCRS\Destination StageTargetCRS.Inputs[OLE DB Destination Input].Columns[Year]"
                       cachedDataType="r8"
                       cachedName="Year"
-                      externalMetadataColumnId="Package\Stage Target_CRS\Stage Target_CRS.Inputs[OLE DB Destination Input].ExternalColumns[Year]"
-                      lineageId="Package\Stage Target_CRS\Excel Source.Outputs[Excel Source Output].Columns[Year]" />
+                      externalMetadataColumnId="Package\Stage TargetCRS\Destination StageTargetCRS.Inputs[OLE DB Destination Input].ExternalColumns[Year]"
+                      lineageId="Package\Stage TargetCRS\Excel Source - CRS.Outputs[Excel Source Output].Columns[Year]" />
                     <inputColumn
-                      refId="Package\Stage Target_CRS\Stage Target_CRS.Inputs[OLE DB Destination Input].Columns[ChannelName]"
+                      refId="Package\Stage TargetCRS\Destination StageTargetCRS.Inputs[OLE DB Destination Input].Columns[ChannelName]"
                       cachedDataType="wstr"
                       cachedLength="255"
                       cachedName="ChannelName"
-                      externalMetadataColumnId="Package\Stage Target_CRS\Stage Target_CRS.Inputs[OLE DB Destination Input].ExternalColumns[ChannelName]"
-                      lineageId="Package\Stage Target_CRS\Excel Source.Outputs[Excel Source Output].Columns[ChannelName]" />
+                      externalMetadataColumnId="Package\Stage TargetCRS\Destination StageTargetCRS.Inputs[OLE DB Destination Input].ExternalColumns[ChannelName]"
+                      lineageId="Package\Stage TargetCRS\Excel Source - CRS.Outputs[Excel Source Output].Columns[ChannelName]" />
                     <inputColumn
-                      refId="Package\Stage Target_CRS\Stage Target_CRS.Inputs[OLE DB Destination Input].Columns[TargetName]"
+                      refId="Package\Stage TargetCRS\Destination StageTargetCRS.Inputs[OLE DB Destination Input].Columns[TargetName]"
                       cachedDataType="wstr"
                       cachedLength="255"
                       cachedName="TargetName"
-                      externalMetadataColumnId="Package\Stage Target_CRS\Stage Target_CRS.Inputs[OLE DB Destination Input].ExternalColumns[TargetName]"
-                      lineageId="Package\Stage Target_CRS\Excel Source.Outputs[Excel Source Output].Columns[TargetName]" />
-                    <inputColumn
-                      refId="Package\Stage Target_CRS\Stage Target_CRS.Inputs[OLE DB Destination Input].Columns[ TargetSalesAmount ]"
-                      cachedDataType="r8"
-                      cachedName=" TargetSalesAmount "
-                      externalMetadataColumnId="Package\Stage Target_CRS\Stage Target_CRS.Inputs[OLE DB Destination Input].ExternalColumns[ TargetSalesAmount ]"
-                      lineageId="Package\Stage Target_CRS\Excel Source.Outputs[Excel Source Output].Columns[ TargetSalesAmount ]" />
+                      externalMetadataColumnId="Package\Stage TargetCRS\Destination StageTargetCRS.Inputs[OLE DB Destination Input].ExternalColumns[TargetName]"
+                      lineageId="Package\Stage TargetCRS\Excel Source - CRS.Outputs[Excel Source Output].Columns[TargetName]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\Stage Target_CRS\Stage Target_CRS.Inputs[OLE DB Destination Input].ExternalColumns[Year]"
+                      refId="Package\Stage TargetCRS\Destination StageTargetCRS.Inputs[OLE DB Destination Input].ExternalColumns[Year]"
                       dataType="r8"
                       name="Year" />
                     <externalMetadataColumn
-                      refId="Package\Stage Target_CRS\Stage Target_CRS.Inputs[OLE DB Destination Input].ExternalColumns[ChannelName]"
+                      refId="Package\Stage TargetCRS\Destination StageTargetCRS.Inputs[OLE DB Destination Input].ExternalColumns[ChannelName]"
                       dataType="wstr"
                       length="255"
                       name="ChannelName" />
                     <externalMetadataColumn
-                      refId="Package\Stage Target_CRS\Stage Target_CRS.Inputs[OLE DB Destination Input].ExternalColumns[TargetName]"
+                      refId="Package\Stage TargetCRS\Destination StageTargetCRS.Inputs[OLE DB Destination Input].ExternalColumns[TargetName]"
                       dataType="wstr"
                       length="255"
                       name="TargetName" />
                     <externalMetadataColumn
-                      refId="Package\Stage Target_CRS\Stage Target_CRS.Inputs[OLE DB Destination Input].ExternalColumns[ TargetSalesAmount ]"
+                      refId="Package\Stage TargetCRS\Destination StageTargetCRS.Inputs[OLE DB Destination Input].ExternalColumns[TargetSalesAmount]"
                       dataType="r8"
-                      name=" TargetSalesAmount " />
+                      name="TargetSalesAmount" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
               <outputs>
                 <output
-                  refId="Package\Stage Target_CRS\Stage Target_CRS.Outputs[OLE DB Destination Error Output]"
+                  refId="Package\Stage TargetCRS\Destination StageTargetCRS.Outputs[OLE DB Destination Error Output]"
                   exclusionGroup="1"
                   isErrorOut="true"
                   name="OLE DB Destination Error Output"
-                  synchronousInputId="Package\Stage Target_CRS\Stage Target_CRS.Inputs[OLE DB Destination Input]">
+                  synchronousInputId="Package\Stage TargetCRS\Destination StageTargetCRS.Inputs[OLE DB Destination Input]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Stage Target_CRS\Stage Target_CRS.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      refId="Package\Stage TargetCRS\Destination StageTargetCRS.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\Stage Target_CRS\Stage Target_CRS.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      lineageId="Package\Stage TargetCRS\Destination StageTargetCRS.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\Stage Target_CRS\Stage Target_CRS.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      refId="Package\Stage TargetCRS\Destination StageTargetCRS.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\Stage Target_CRS\Stage Target_CRS.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      lineageId="Package\Stage TargetCRS\Destination StageTargetCRS.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -5809,37 +5675,12 @@
                 </output>
               </outputs>
             </component>
-          </components>
-          <paths>
-            <path
-              refId="Package\Stage Target_CRS.Paths[Excel Source Output]"
-              endId="Package\Stage Target_CRS\Stage Target_CRS.Inputs[OLE DB Destination Input]"
-              name="Excel Source Output"
-              startId="Package\Stage Target_CRS\Excel Source.Outputs[Excel Source Output]" />
-          </paths>
-        </pipeline>
-      </DTS:ObjectData>
-    </DTS:Executable>
-    <DTS:Executable
-      DTS:refId="Package\Staget Target_Product"
-      DTS:CreationName="Microsoft.Pipeline"
-      DTS:Description="Data Flow Task"
-      DTS:DTSID="{7A9B26A6-5923-4963-8633-32CB60C01BEE}"
-      DTS:ExecutableType="Microsoft.Pipeline"
-      DTS:LocaleID="-1"
-      DTS:ObjectName="Staget Target_Product"
-      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
-      <DTS:Variables />
-      <DTS:ObjectData>
-        <pipeline
-          version="1">
-          <components>
             <component
-              refId="Package\Staget Target_Product\Excel Source"
+              refId="Package\Stage TargetCRS\Excel Source - CRS"
               componentClassID="Microsoft.ExcelSource"
               contactInfo="Excel Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
               description="Excel Source"
-              name="Excel Source"
+              name="Excel Source - CRS"
               usesDispositions="true"
               version="1">
               <properties>
@@ -5850,7 +5691,7 @@
                 <property
                   dataType="System.String"
                   description="Specifies the name of the database object used to open a rowset."
-                  name="OpenRowset">'Target Data - Product$'</property>
+                  name="OpenRowset">'Target Data - Channel Reseller $'</property>
                 <property
                   dataType="System.String"
                   description="Specifies the variable that contains the name of the database object used to open a rowset."
@@ -5876,112 +5717,115 @@
               </properties>
               <connections>
                 <connection
-                  refId="Package\Staget Target_Product\Excel Source.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[Excel Connection Manager 1]"
-                  connectionManagerRefId="Package.ConnectionManagers[Excel Connection Manager 1]"
+                  refId="Package\Stage TargetCRS\Excel Source - CRS.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[Excel Connection Manager]"
+                  connectionManagerRefId="Package.ConnectionManagers[Excel Connection Manager]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
               <outputs>
                 <output
-                  refId="Package\Staget Target_Product\Excel Source.Outputs[Excel Source Output]"
+                  refId="Package\Stage TargetCRS\Excel Source - CRS.Outputs[Excel Source Output]"
                   name="Excel Source Output">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Staget Target_Product\Excel Source.Outputs[Excel Source Output].Columns[ProductID]"
+                      refId="Package\Stage TargetCRS\Excel Source - CRS.Outputs[Excel Source Output].Columns[Year]"
                       dataType="r8"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Staget Target_Product\Excel Source.Outputs[Excel Source Output].ExternalColumns[ProductID]"
-                      lineageId="Package\Staget Target_Product\Excel Source.Outputs[Excel Source Output].Columns[ProductID]"
-                      name="ProductID"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Staget Target_Product\Excel Source.Outputs[Excel Source Output].Columns[Product]"
-                      dataType="wstr"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Staget Target_Product\Excel Source.Outputs[Excel Source Output].ExternalColumns[Product]"
-                      length="255"
-                      lineageId="Package\Staget Target_Product\Excel Source.Outputs[Excel Source Output].Columns[Product]"
-                      name="Product"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Staget Target_Product\Excel Source.Outputs[Excel Source Output].Columns[Year]"
-                      dataType="r8"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Staget Target_Product\Excel Source.Outputs[Excel Source Output].ExternalColumns[Year]"
-                      lineageId="Package\Staget Target_Product\Excel Source.Outputs[Excel Source Output].Columns[Year]"
+                      externalMetadataColumnId="Package\Stage TargetCRS\Excel Source - CRS.Outputs[Excel Source Output].ExternalColumns[Year]"
+                      lineageId="Package\Stage TargetCRS\Excel Source - CRS.Outputs[Excel Source Output].Columns[Year]"
                       name="Year"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Staget Target_Product\Excel Source.Outputs[Excel Source Output].Columns[ SalesQuantityTarget ]"
+                      refId="Package\Stage TargetCRS\Excel Source - CRS.Outputs[Excel Source Output].Columns[ChannelName]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Stage TargetCRS\Excel Source - CRS.Outputs[Excel Source Output].ExternalColumns[ChannelName]"
+                      length="255"
+                      lineageId="Package\Stage TargetCRS\Excel Source - CRS.Outputs[Excel Source Output].Columns[ChannelName]"
+                      name="ChannelName"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Stage TargetCRS\Excel Source - CRS.Outputs[Excel Source Output].Columns[TargetName]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Stage TargetCRS\Excel Source - CRS.Outputs[Excel Source Output].ExternalColumns[TargetName]"
+                      length="255"
+                      lineageId="Package\Stage TargetCRS\Excel Source - CRS.Outputs[Excel Source Output].Columns[TargetName]"
+                      name="TargetName"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Stage TargetCRS\Excel Source - CRS.Outputs[Excel Source Output].Columns[ TargetSalesAmount ]"
                       dataType="r8"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Staget Target_Product\Excel Source.Outputs[Excel Source Output].ExternalColumns[ SalesQuantityTarget ]"
-                      lineageId="Package\Staget Target_Product\Excel Source.Outputs[Excel Source Output].Columns[ SalesQuantityTarget ]"
-                      name=" SalesQuantityTarget "
+                      externalMetadataColumnId="Package\Stage TargetCRS\Excel Source - CRS.Outputs[Excel Source Output].ExternalColumns[ TargetSalesAmount ]"
+                      lineageId="Package\Stage TargetCRS\Excel Source - CRS.Outputs[Excel Source Output].Columns[ TargetSalesAmount ]"
+                      name=" TargetSalesAmount "
                       truncationRowDisposition="FailComponent" />
                   </outputColumns>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\Staget Target_Product\Excel Source.Outputs[Excel Source Output].ExternalColumns[ProductID]"
-                      dataType="r8"
-                      name="ProductID" />
-                    <externalMetadataColumn
-                      refId="Package\Staget Target_Product\Excel Source.Outputs[Excel Source Output].ExternalColumns[Product]"
-                      dataType="wstr"
-                      length="255"
-                      name="Product" />
-                    <externalMetadataColumn
-                      refId="Package\Staget Target_Product\Excel Source.Outputs[Excel Source Output].ExternalColumns[Year]"
+                      refId="Package\Stage TargetCRS\Excel Source - CRS.Outputs[Excel Source Output].ExternalColumns[Year]"
                       dataType="r8"
                       name="Year" />
                     <externalMetadataColumn
-                      refId="Package\Staget Target_Product\Excel Source.Outputs[Excel Source Output].ExternalColumns[ SalesQuantityTarget ]"
+                      refId="Package\Stage TargetCRS\Excel Source - CRS.Outputs[Excel Source Output].ExternalColumns[ChannelName]"
+                      dataType="wstr"
+                      length="255"
+                      name="ChannelName" />
+                    <externalMetadataColumn
+                      refId="Package\Stage TargetCRS\Excel Source - CRS.Outputs[Excel Source Output].ExternalColumns[TargetName]"
+                      dataType="wstr"
+                      length="255"
+                      name="TargetName" />
+                    <externalMetadataColumn
+                      refId="Package\Stage TargetCRS\Excel Source - CRS.Outputs[Excel Source Output].ExternalColumns[ TargetSalesAmount ]"
                       dataType="r8"
-                      name=" SalesQuantityTarget " />
+                      name=" TargetSalesAmount " />
                   </externalMetadataColumns>
                 </output>
                 <output
-                  refId="Package\Staget Target_Product\Excel Source.Outputs[Excel Source Error Output]"
+                  refId="Package\Stage TargetCRS\Excel Source - CRS.Outputs[Excel Source Error Output]"
                   isErrorOut="true"
                   name="Excel Source Error Output">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Staget Target_Product\Excel Source.Outputs[Excel Source Error Output].Columns[ProductID]"
+                      refId="Package\Stage TargetCRS\Excel Source - CRS.Outputs[Excel Source Error Output].Columns[Year]"
                       dataType="r8"
-                      lineageId="Package\Staget Target_Product\Excel Source.Outputs[Excel Source Error Output].Columns[ProductID]"
-                      name="ProductID" />
-                    <outputColumn
-                      refId="Package\Staget Target_Product\Excel Source.Outputs[Excel Source Error Output].Columns[Product]"
-                      dataType="wstr"
-                      length="255"
-                      lineageId="Package\Staget Target_Product\Excel Source.Outputs[Excel Source Error Output].Columns[Product]"
-                      name="Product" />
-                    <outputColumn
-                      refId="Package\Staget Target_Product\Excel Source.Outputs[Excel Source Error Output].Columns[Year]"
-                      dataType="r8"
-                      lineageId="Package\Staget Target_Product\Excel Source.Outputs[Excel Source Error Output].Columns[Year]"
+                      lineageId="Package\Stage TargetCRS\Excel Source - CRS.Outputs[Excel Source Error Output].Columns[Year]"
                       name="Year" />
                     <outputColumn
-                      refId="Package\Staget Target_Product\Excel Source.Outputs[Excel Source Error Output].Columns[ SalesQuantityTarget ]"
-                      dataType="r8"
-                      lineageId="Package\Staget Target_Product\Excel Source.Outputs[Excel Source Error Output].Columns[ SalesQuantityTarget ]"
-                      name=" SalesQuantityTarget " />
+                      refId="Package\Stage TargetCRS\Excel Source - CRS.Outputs[Excel Source Error Output].Columns[ChannelName]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\Stage TargetCRS\Excel Source - CRS.Outputs[Excel Source Error Output].Columns[ChannelName]"
+                      name="ChannelName" />
                     <outputColumn
-                      refId="Package\Staget Target_Product\Excel Source.Outputs[Excel Source Error Output].Columns[ErrorCode]"
+                      refId="Package\Stage TargetCRS\Excel Source - CRS.Outputs[Excel Source Error Output].Columns[TargetName]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\Stage TargetCRS\Excel Source - CRS.Outputs[Excel Source Error Output].Columns[TargetName]"
+                      name="TargetName" />
+                    <outputColumn
+                      refId="Package\Stage TargetCRS\Excel Source - CRS.Outputs[Excel Source Error Output].Columns[ TargetSalesAmount ]"
+                      dataType="r8"
+                      lineageId="Package\Stage TargetCRS\Excel Source - CRS.Outputs[Excel Source Error Output].Columns[ TargetSalesAmount ]"
+                      name=" TargetSalesAmount " />
+                    <outputColumn
+                      refId="Package\Stage TargetCRS\Excel Source - CRS.Outputs[Excel Source Error Output].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\Staget Target_Product\Excel Source.Outputs[Excel Source Error Output].Columns[ErrorCode]"
+                      lineageId="Package\Stage TargetCRS\Excel Source - CRS.Outputs[Excel Source Error Output].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\Staget Target_Product\Excel Source.Outputs[Excel Source Error Output].Columns[ErrorColumn]"
+                      refId="Package\Stage TargetCRS\Excel Source - CRS.Outputs[Excel Source Error Output].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\Staget Target_Product\Excel Source.Outputs[Excel Source Error Output].Columns[ErrorColumn]"
+                      lineageId="Package\Stage TargetCRS\Excel Source - CRS.Outputs[Excel Source Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -5989,12 +5833,37 @@
                 </output>
               </outputs>
             </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\Stage TargetCRS.Paths[Excel Source Output]"
+              endId="Package\Stage TargetCRS\Destination StageTargetCRS.Inputs[OLE DB Destination Input]"
+              name="Excel Source Output"
+              startId="Package\Stage TargetCRS\Excel Source - CRS.Outputs[Excel Source Output]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Stage TargetProduct"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Data Flow Task"
+      DTS:DTSID="{5FC0B8AE-3BCA-48E0-ADB7-70836832C840}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Stage TargetProduct"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
             <component
-              refId="Package\Staget Target_Product\Stage Target_Product"
+              refId="Package\Stage TargetProduct\Destination StageTargetProduct"
               componentClassID="Microsoft.OLEDBDestination"
               contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
               description="OLE DB Destination"
-              name="Stage Target_Product"
+              name="Destination StageTargetProduct"
               usesDispositions="true"
               version="4">
               <properties>
@@ -6047,7 +5916,7 @@
               </properties>
               <connections>
                 <connection
-                  refId="Package\Staget Target_Product\Stage Target_Product.Connections[OleDbConnection]"
+                  refId="Package\Stage TargetProduct\Destination StageTargetProduct.Connections[OleDbConnection]"
                   connectionManagerID="{C9C3DF5F-10B2-43AC-A852-12C5C1E847F9}:external"
                   connectionManagerRefId="Project.ConnectionManagers[ML-RefVm-765087.DestinationSystem.sa]"
                   description="The OLE DB runtime connection used to access the database."
@@ -6055,78 +5924,227 @@
               </connections>
               <inputs>
                 <input
-                  refId="Package\Staget Target_Product\Stage Target_Product.Inputs[OLE DB Destination Input]"
+                  refId="Package\Stage TargetProduct\Destination StageTargetProduct.Inputs[OLE DB Destination Input]"
                   errorOrTruncationOperation="Insert"
                   errorRowDisposition="FailComponent"
                   hasSideEffects="true"
                   name="OLE DB Destination Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Staget Target_Product\Stage Target_Product.Inputs[OLE DB Destination Input].Columns[ProductID]"
+                      refId="Package\Stage TargetProduct\Destination StageTargetProduct.Inputs[OLE DB Destination Input].Columns[ProductID]"
                       cachedDataType="r8"
                       cachedName="ProductID"
-                      externalMetadataColumnId="Package\Staget Target_Product\Stage Target_Product.Inputs[OLE DB Destination Input].ExternalColumns[ProductID]"
-                      lineageId="Package\Staget Target_Product\Excel Source.Outputs[Excel Source Output].Columns[ProductID]" />
+                      externalMetadataColumnId="Package\Stage TargetProduct\Destination StageTargetProduct.Inputs[OLE DB Destination Input].ExternalColumns[ProductID]"
+                      lineageId="Package\Stage TargetProduct\Excel Source Product.Outputs[Excel Source Output].Columns[ProductID]" />
                     <inputColumn
-                      refId="Package\Staget Target_Product\Stage Target_Product.Inputs[OLE DB Destination Input].Columns[Product]"
+                      refId="Package\Stage TargetProduct\Destination StageTargetProduct.Inputs[OLE DB Destination Input].Columns[Product]"
                       cachedDataType="wstr"
                       cachedLength="255"
                       cachedName="Product"
-                      externalMetadataColumnId="Package\Staget Target_Product\Stage Target_Product.Inputs[OLE DB Destination Input].ExternalColumns[Product]"
-                      lineageId="Package\Staget Target_Product\Excel Source.Outputs[Excel Source Output].Columns[Product]" />
+                      externalMetadataColumnId="Package\Stage TargetProduct\Destination StageTargetProduct.Inputs[OLE DB Destination Input].ExternalColumns[Product]"
+                      lineageId="Package\Stage TargetProduct\Excel Source Product.Outputs[Excel Source Output].Columns[Product]" />
                     <inputColumn
-                      refId="Package\Staget Target_Product\Stage Target_Product.Inputs[OLE DB Destination Input].Columns[Year]"
+                      refId="Package\Stage TargetProduct\Destination StageTargetProduct.Inputs[OLE DB Destination Input].Columns[Year]"
                       cachedDataType="r8"
                       cachedName="Year"
-                      externalMetadataColumnId="Package\Staget Target_Product\Stage Target_Product.Inputs[OLE DB Destination Input].ExternalColumns[Year]"
-                      lineageId="Package\Staget Target_Product\Excel Source.Outputs[Excel Source Output].Columns[Year]" />
-                    <inputColumn
-                      refId="Package\Staget Target_Product\Stage Target_Product.Inputs[OLE DB Destination Input].Columns[ SalesQuantityTarget ]"
-                      cachedDataType="r8"
-                      cachedName=" SalesQuantityTarget "
-                      externalMetadataColumnId="Package\Staget Target_Product\Stage Target_Product.Inputs[OLE DB Destination Input].ExternalColumns[ SalesQuantityTarget ]"
-                      lineageId="Package\Staget Target_Product\Excel Source.Outputs[Excel Source Output].Columns[ SalesQuantityTarget ]" />
+                      externalMetadataColumnId="Package\Stage TargetProduct\Destination StageTargetProduct.Inputs[OLE DB Destination Input].ExternalColumns[Year]"
+                      lineageId="Package\Stage TargetProduct\Excel Source Product.Outputs[Excel Source Output].Columns[Year]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\Staget Target_Product\Stage Target_Product.Inputs[OLE DB Destination Input].ExternalColumns[ProductID]"
+                      refId="Package\Stage TargetProduct\Destination StageTargetProduct.Inputs[OLE DB Destination Input].ExternalColumns[ProductID]"
                       dataType="r8"
                       name="ProductID" />
                     <externalMetadataColumn
-                      refId="Package\Staget Target_Product\Stage Target_Product.Inputs[OLE DB Destination Input].ExternalColumns[Product]"
+                      refId="Package\Stage TargetProduct\Destination StageTargetProduct.Inputs[OLE DB Destination Input].ExternalColumns[Product]"
                       dataType="wstr"
                       length="255"
                       name="Product" />
                     <externalMetadataColumn
-                      refId="Package\Staget Target_Product\Stage Target_Product.Inputs[OLE DB Destination Input].ExternalColumns[Year]"
+                      refId="Package\Stage TargetProduct\Destination StageTargetProduct.Inputs[OLE DB Destination Input].ExternalColumns[Year]"
                       dataType="r8"
                       name="Year" />
                     <externalMetadataColumn
-                      refId="Package\Staget Target_Product\Stage Target_Product.Inputs[OLE DB Destination Input].ExternalColumns[ SalesQuantityTarget ]"
+                      refId="Package\Stage TargetProduct\Destination StageTargetProduct.Inputs[OLE DB Destination Input].ExternalColumns[SalesQuantityTarget]"
                       dataType="r8"
-                      name=" SalesQuantityTarget " />
+                      name="SalesQuantityTarget" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
               <outputs>
                 <output
-                  refId="Package\Staget Target_Product\Stage Target_Product.Outputs[OLE DB Destination Error Output]"
+                  refId="Package\Stage TargetProduct\Destination StageTargetProduct.Outputs[OLE DB Destination Error Output]"
                   exclusionGroup="1"
                   isErrorOut="true"
                   name="OLE DB Destination Error Output"
-                  synchronousInputId="Package\Staget Target_Product\Stage Target_Product.Inputs[OLE DB Destination Input]">
+                  synchronousInputId="Package\Stage TargetProduct\Destination StageTargetProduct.Inputs[OLE DB Destination Input]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Staget Target_Product\Stage Target_Product.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      refId="Package\Stage TargetProduct\Destination StageTargetProduct.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\Staget Target_Product\Stage Target_Product.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      lineageId="Package\Stage TargetProduct\Destination StageTargetProduct.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\Staget Target_Product\Stage Target_Product.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      refId="Package\Stage TargetProduct\Destination StageTargetProduct.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\Staget Target_Product\Stage Target_Product.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      lineageId="Package\Stage TargetProduct\Destination StageTargetProduct.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Stage TargetProduct\Excel Source Product"
+              componentClassID="Microsoft.ExcelSource"
+              contactInfo="Excel Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Excel Source"
+              name="Excel Source Product"
+              usesDispositions="true"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset">'Target Data - Product$'</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.String"
+                  description="The variable that contains the SQL command to be executed."
+                  name="SqlCommandVariable"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">0</property>
+                <property
+                  dataType="System.String"
+                  description="The mapping from parameters in the SQL command to variables."
+                  name="ParameterMapping"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Stage TargetProduct\Excel Source Product.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[Excel Connection Manager 1]"
+                  connectionManagerRefId="Package.ConnectionManagers[Excel Connection Manager 1]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Stage TargetProduct\Excel Source Product.Outputs[Excel Source Output]"
+                  name="Excel Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Stage TargetProduct\Excel Source Product.Outputs[Excel Source Output].Columns[ProductID]"
+                      dataType="r8"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Stage TargetProduct\Excel Source Product.Outputs[Excel Source Output].ExternalColumns[ProductID]"
+                      lineageId="Package\Stage TargetProduct\Excel Source Product.Outputs[Excel Source Output].Columns[ProductID]"
+                      name="ProductID"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Stage TargetProduct\Excel Source Product.Outputs[Excel Source Output].Columns[Product]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Stage TargetProduct\Excel Source Product.Outputs[Excel Source Output].ExternalColumns[Product]"
+                      length="255"
+                      lineageId="Package\Stage TargetProduct\Excel Source Product.Outputs[Excel Source Output].Columns[Product]"
+                      name="Product"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Stage TargetProduct\Excel Source Product.Outputs[Excel Source Output].Columns[Year]"
+                      dataType="r8"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Stage TargetProduct\Excel Source Product.Outputs[Excel Source Output].ExternalColumns[Year]"
+                      lineageId="Package\Stage TargetProduct\Excel Source Product.Outputs[Excel Source Output].Columns[Year]"
+                      name="Year"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Stage TargetProduct\Excel Source Product.Outputs[Excel Source Output].Columns[ SalesQuantityTarget ]"
+                      dataType="r8"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Stage TargetProduct\Excel Source Product.Outputs[Excel Source Output].ExternalColumns[ SalesQuantityTarget ]"
+                      lineageId="Package\Stage TargetProduct\Excel Source Product.Outputs[Excel Source Output].Columns[ SalesQuantityTarget ]"
+                      name=" SalesQuantityTarget "
+                      truncationRowDisposition="FailComponent" />
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Stage TargetProduct\Excel Source Product.Outputs[Excel Source Output].ExternalColumns[ProductID]"
+                      dataType="r8"
+                      name="ProductID" />
+                    <externalMetadataColumn
+                      refId="Package\Stage TargetProduct\Excel Source Product.Outputs[Excel Source Output].ExternalColumns[Product]"
+                      dataType="wstr"
+                      length="255"
+                      name="Product" />
+                    <externalMetadataColumn
+                      refId="Package\Stage TargetProduct\Excel Source Product.Outputs[Excel Source Output].ExternalColumns[Year]"
+                      dataType="r8"
+                      name="Year" />
+                    <externalMetadataColumn
+                      refId="Package\Stage TargetProduct\Excel Source Product.Outputs[Excel Source Output].ExternalColumns[ SalesQuantityTarget ]"
+                      dataType="r8"
+                      name=" SalesQuantityTarget " />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Stage TargetProduct\Excel Source Product.Outputs[Excel Source Error Output]"
+                  isErrorOut="true"
+                  name="Excel Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Stage TargetProduct\Excel Source Product.Outputs[Excel Source Error Output].Columns[ProductID]"
+                      dataType="r8"
+                      lineageId="Package\Stage TargetProduct\Excel Source Product.Outputs[Excel Source Error Output].Columns[ProductID]"
+                      name="ProductID" />
+                    <outputColumn
+                      refId="Package\Stage TargetProduct\Excel Source Product.Outputs[Excel Source Error Output].Columns[Product]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\Stage TargetProduct\Excel Source Product.Outputs[Excel Source Error Output].Columns[Product]"
+                      name="Product" />
+                    <outputColumn
+                      refId="Package\Stage TargetProduct\Excel Source Product.Outputs[Excel Source Error Output].Columns[Year]"
+                      dataType="r8"
+                      lineageId="Package\Stage TargetProduct\Excel Source Product.Outputs[Excel Source Error Output].Columns[Year]"
+                      name="Year" />
+                    <outputColumn
+                      refId="Package\Stage TargetProduct\Excel Source Product.Outputs[Excel Source Error Output].Columns[ SalesQuantityTarget ]"
+                      dataType="r8"
+                      lineageId="Package\Stage TargetProduct\Excel Source Product.Outputs[Excel Source Error Output].Columns[ SalesQuantityTarget ]"
+                      name=" SalesQuantityTarget " />
+                    <outputColumn
+                      refId="Package\Stage TargetProduct\Excel Source Product.Outputs[Excel Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Stage TargetProduct\Excel Source Product.Outputs[Excel Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Stage TargetProduct\Excel Source Product.Outputs[Excel Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Stage TargetProduct\Excel Source Product.Outputs[Excel Source Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -6137,10 +6155,10 @@
           </components>
           <paths>
             <path
-              refId="Package\Staget Target_Product.Paths[Excel Source Output]"
-              endId="Package\Staget Target_Product\Stage Target_Product.Inputs[OLE DB Destination Input]"
+              refId="Package\Stage TargetProduct.Paths[Excel Source Output]"
+              endId="Package\Stage TargetProduct\Destination StageTargetProduct.Inputs[OLE DB Destination Input]"
               name="Excel Source Output"
-              startId="Package\Staget Target_Product\Excel Source.Outputs[Excel Source Output]" />
+              startId="Package\Stage TargetProduct\Excel Source Product.Outputs[Excel Source Output]" />
           </paths>
         </pipeline>
       </DTS:ObjectData>
@@ -6154,7 +6172,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="Truncate Channel"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="1">
+      DTS:ThreadHint="0">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -6171,7 +6189,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="Truncate ChannelCategory"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="4">
+      DTS:ThreadHint="3">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -6188,7 +6206,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="Truncate Customer"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="3">
+      DTS:ThreadHint="4">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -6239,7 +6257,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="Truncate ProductType"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="8">
+      DTS:ThreadHint="2">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -6256,7 +6274,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="Truncate Reseller"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="12">
+      DTS:ThreadHint="8">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -6273,7 +6291,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="Truncate SalesDetail"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="9">
+      DTS:ThreadHint="7">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -6290,7 +6308,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="Truncate SalesHeader"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="10">
+      DTS:ThreadHint="9">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -6307,7 +6325,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="Truncate Store"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="11">
+      DTS:ThreadHint="10">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -6324,7 +6342,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="Truncate Target-CRS"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="0">
+      DTS:ThreadHint="12">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -6341,7 +6359,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="Truncate TargetProduct"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="7">
+      DTS:ThreadHint="11">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -6370,19 +6388,19 @@
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 10]"
       DTS:CreationName=""
-      DTS:DTSID="{77484B66-C1A8-4693-84E7-A08C43DAFFF2}"
-      DTS:From="Package\Truncate TargetProduct"
-      DTS:LogicalAnd="True"
-      DTS:ObjectName="Constraint 10"
-      DTS:To="Package\Staget Target_Product" />
-    <DTS:PrecedenceConstraint
-      DTS:refId="Package.PrecedenceConstraints[Constraint 12]"
-      DTS:CreationName=""
-      DTS:DTSID="{047EB8FE-D01D-44C3-9C7C-88DC356421A3}"
+      DTS:DTSID="{D1A8E6E8-7580-4DA6-8888-97DF5462F244}"
       DTS:From="Package\Truncate Target-CRS"
       DTS:LogicalAnd="True"
-      DTS:ObjectName="Constraint 12"
-      DTS:To="Package\Stage Target_CRS" />
+      DTS:ObjectName="Constraint 10"
+      DTS:To="Package\Stage TargetCRS" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 11]"
+      DTS:CreationName=""
+      DTS:DTSID="{0C2B6CD4-041A-4DA1-ACDA-68891136CF7B}"
+      DTS:From="Package\Truncate TargetProduct"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 11"
+      DTS:To="Package\Stage TargetProduct" />
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 2]"
       DTS:CreationName=""
@@ -6505,14 +6523,6 @@
           Id="Package\Stage Store"
           TopLeft="647,838" />
         <NodeLayout
-          Size="172,42"
-          Id="Package\Stage Target_CRS"
-          TopLeft="277,1070" />
-        <NodeLayout
-          Size="184,42"
-          Id="Package\Staget Target_Product"
-          TopLeft="688.5,1095.2083314473" />
-        <NodeLayout
           Size="166,42"
           Id="Package\Truncate Channel"
           TopLeft="281,94" />
@@ -6555,11 +6565,11 @@
         <NodeLayout
           Size="179,42"
           Id="Package\Truncate Target-CRS"
-          TopLeft="90,1010" />
+          TopLeft="101,917" />
         <NodeLayout
           Size="190,42"
           Id="Package\Truncate TargetProduct"
-          TopLeft="504.5,1016.99999841799" />
+          TopLeft="506.5,930.99999841799" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
           TopLeft="364,136">
@@ -6620,68 +6630,6 @@
                     Point3="14.5,32" />
                   <mssgle:LineSegment
                     End="14.5,48.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package.PrecedenceConstraints[Constraint 10]"
-          TopLeft="599.5,1058.99999841799">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="181,36.2083330293101"
-              Start="0,0"
-              End="181,28.7083330293101">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,14.104166514655" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,14.104166514655"
-                    Point2="0,18.104166514655"
-                    Point3="4,18.104166514655" />
-                  <mssgle:LineSegment
-                    End="177,18.104166514655" />
-                  <mssgle:CubicBezierSegment
-                    Point1="177,18.104166514655"
-                    Point2="181,18.104166514655"
-                    Point3="181,22.104166514655" />
-                  <mssgle:LineSegment
-                    End="181,28.7083330293101" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package.PrecedenceConstraints[Constraint 12]"
-          TopLeft="269,1031">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="94,39"
-              Start="0,0"
-              End="94,31.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="90,0" />
-                  <mssgle:CubicBezierSegment
-                    Point1="90,0"
-                    Point2="94,0"
-                    Point3="94,4" />
-                  <mssgle:LineSegment
-                    End="94,31.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -6956,6 +6904,82 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <NodeLayout
+          Size="166,42"
+          Id="Package\Stage TargetCRS"
+          TopLeft="225,996" />
+        <NodeLayout
+          Size="180,42"
+          Id="Package\Stage TargetProduct"
+          TopLeft="586,1007" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 10]"
+          TopLeft="190.5,959">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="117.5,37"
+              Start="0,0"
+              End="117.5,29.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,14.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,14.5"
+                    Point2="0,18.5"
+                    Point3="4,18.5" />
+                  <mssgle:LineSegment
+                    End="113.5,18.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="113.5,18.5"
+                    Point2="117.5,18.5"
+                    Point3="117.5,22.5" />
+                  <mssgle:LineSegment
+                    End="117.5,29.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 11]"
+          TopLeft="601.5,972.99999841799">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="74.5,34.0000015820101"
+              Start="0,0"
+              End="74.5,26.5000015820101">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,13.000000791005" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,13.000000791005"
+                    Point2="0,17.0000007910051"
+                    Point3="4,17.0000007910051" />
+                  <mssgle:LineSegment
+                    End="70.5,17.0000007910051" />
+                  <mssgle:CubicBezierSegment
+                    Point1="70.5,17.0000007910051"
+                    Point2="74.5,17.0000007910051"
+                    Point3="74.5,21.0000007910051" />
+                  <mssgle:LineSegment
+                    End="74.5,26.5000015820101" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </Package>
@@ -6963,7 +6987,7 @@
     design-time-name="Package\Stage Channel">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="158,42"
           Id="Package\Stage Channel\Source Channel"
@@ -7003,7 +7027,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -7039,7 +7065,7 @@
     design-time-name="Package\Stage ChannelCategory">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="202,42"
           Id="Package\Stage ChannelCategory\Source ChannelCategory"
@@ -7079,7 +7105,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -7115,7 +7143,7 @@
     design-time-name="Package\Stage Customer">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="164,42"
           Id="Package\Stage Customer\Source Customer"
@@ -7155,7 +7183,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -7191,7 +7221,7 @@
     design-time-name="Package\Stage Product">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="155,42"
           Id="Package\Stage Product\Source Product"
@@ -7231,7 +7261,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -7267,7 +7299,7 @@
     design-time-name="Package\Stage ProductCategory">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="199,42"
           Id="Package\Stage ProductCategory\Source ProductCategory"
@@ -7307,7 +7339,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -7343,7 +7377,7 @@
     design-time-name="Package\Stage ProductType">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="179,42"
           Id="Package\Stage ProductType\Source ProductType"
@@ -7383,7 +7417,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -7419,7 +7455,7 @@
     design-time-name="Package\Stage Reseller">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="157,42"
           Id="Package\Stage Reseller\Source Reseller"
@@ -7459,7 +7495,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -7495,7 +7533,7 @@
     design-time-name="Package\Stage SalesDetail">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="173,42"
           Id="Package\Stage SalesDetail\Source SalesDetail"
@@ -7535,7 +7573,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -7571,7 +7611,7 @@
     design-time-name="Package\Stage SalesHeader">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="180,42"
           Id="Package\Stage SalesHeader\Source SalesHeader"
@@ -7611,7 +7651,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -7647,7 +7689,7 @@
     design-time-name="Package\Stage Store">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="143,42"
           Id="Package\Stage Store\Source Store"
@@ -7687,7 +7729,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -7720,44 +7764,44 @@
     </Properties>
   </PipelineComponentMetadata>
   <TaskHost
-    design-time-name="Package\Stage Target_CRS">
+    design-time-name="Package\Stage TargetCRS">
     <LayoutInfo>
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="168,42"
-          Id="Package\Stage Target_CRS\Stage Target_CRS"
-          TopLeft="347.857142857143,225" />
+          Size="176,42"
+          Id="Package\Stage TargetCRS\Excel Source - CRS"
+          TopLeft="119,65" />
         <NodeLayout
-          Size="141,42"
-          Id="Package\Stage Target_CRS\Excel Source"
-          TopLeft="164.285714285714,131.428571428571" />
+          Size="221,42"
+          Id="Package\Stage TargetCRS\Destination StageTargetCRS"
+          TopLeft="217,186" />
         <EdgeLayout
-          Id="Package\Stage Target_CRS.Paths[Excel Source Output]"
-          TopLeft="234.785714285714,173.428571428571">
+          Id="Package\Stage TargetCRS.Paths[Excel Source Output]"
+          TopLeft="207,107">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="196.821428571429,51.5714285714286"
+              EndConnector="120.5,79"
               Start="0,0"
-              End="196.821428571429,44.0714285714286">
+              End="120.5,71.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,21.7857142857143" />
+                    End="0,35.5" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,21.7857142857143"
-                    Point2="0,25.7857142857143"
-                    Point3="4,25.7857142857143" />
+                    Point1="0,35.5"
+                    Point2="0,39.5"
+                    Point3="4,39.5" />
                   <mssgle:LineSegment
-                    End="192.821428571429,25.7857142857143" />
+                    End="116.5,39.5" />
                   <mssgle:CubicBezierSegment
-                    Point1="192.821428571429,25.7857142857143"
-                    Point2="196.821428571429,25.7857142857143"
-                    Point3="196.821428571429,29.7857142857143" />
+                    Point1="116.5,39.5"
+                    Point2="120.5,39.5"
+                    Point3="120.5,43.5" />
                   <mssgle:LineSegment
-                    End="196.821428571429,44.0714285714286" />
+                    End="120.5,71.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -7770,7 +7814,7 @@
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Stage Target_CRS\Excel Source">
+    design-time-name="Package\Stage TargetCRS\Excel Source - CRS">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -7783,7 +7827,7 @@
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Stage Target_CRS\Stage Target_CRS">
+    design-time-name="Package\Stage TargetCRS\Destination StageTargetCRS">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -7796,44 +7840,44 @@
     </Properties>
   </PipelineComponentMetadata>
   <TaskHost
-    design-time-name="Package\Staget Target_Product">
+    design-time-name="Package\Stage TargetProduct">
     <LayoutInfo>
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="182,42"
-          Id="Package\Staget Target_Product\Stage Target_Product"
-          TopLeft="415,229" />
+          Size="185,42"
+          Id="Package\Stage TargetProduct\Excel Source Product"
+          TopLeft="171,98" />
         <NodeLayout
-          Size="141,42"
-          Id="Package\Staget Target_Product\Excel Source"
-          TopLeft="194,152" />
+          Size="236,42"
+          Id="Package\Stage TargetProduct\Destination StageTargetProduct"
+          TopLeft="264,219" />
         <EdgeLayout
-          Id="Package\Staget Target_Product.Paths[Excel Source Output]"
-          TopLeft="264.5,194">
+          Id="Package\Stage TargetProduct.Paths[Excel Source Output]"
+          TopLeft="263.5,140">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="241.25,35"
+              EndConnector="118.5,79"
               Start="0,0"
-              End="241.25,27.5">
+              End="118.5,71.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,13.5" />
+                    End="0,35.5" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,13.5"
-                    Point2="0,17.5"
-                    Point3="4,17.5" />
+                    Point1="0,35.5"
+                    Point2="0,39.5"
+                    Point3="4,39.5" />
                   <mssgle:LineSegment
-                    End="237.25,17.5" />
+                    End="114.5,39.5" />
                   <mssgle:CubicBezierSegment
-                    Point1="237.25,17.5"
-                    Point2="241.25,17.5"
-                    Point3="241.25,21.5" />
+                    Point1="114.5,39.5"
+                    Point2="118.5,39.5"
+                    Point3="118.5,43.5" />
                   <mssgle:LineSegment
-                    End="241.25,27.5" />
+                    End="118.5,71.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -7846,7 +7890,7 @@
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Staget Target_Product\Excel Source">
+    design-time-name="Package\Stage TargetProduct\Excel Source Product">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -7859,7 +7903,7 @@
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Staget Target_Product\Stage Target_Product">
+    design-time-name="Package\Stage TargetProduct\Destination StageTargetProduct">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
