@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="66"
-  DTS:VersionGUID="{45561C77-5FAA-4C8A-A8E6-23E2E40E8A0E}">
+  DTS:VersionBuild="79"
+  DTS:VersionGUID="{9DAAC285-70A5-4A03-A352-0AFD4CF5BDDC}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -139,7 +139,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAB5rgLdD1AlT+1UVR82/XAQkqRgGJIQ2Q5brrb7fL8niAAAAAAOgAAAAAIAACAAAAAf7eWPgOWDQFslzUTEcDZlVfUyJyXruBLy7dyntLqf8TAAAABQMLXr3F8LazSq9/B6WQT1/XGBkReiNCH33Tuw2tgkOPSNfzYO3MDLISX+WyU1imxAAAAApFub8S1Jk8bUs02aVaoexQiScfGcTKhxHmBdFZ7OXKg+j2MYczS8yA1NoonOpGdvwdNm0ePmAlrkE3DG6OLpUA</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAyILdzWThu3L4Gh4bYAYOuLk1DyZkdrzR+Y+tTua9iogAAAAAOgAAAAAIAACAAAACPsI3v0lpqDpFGYhmOJH5CZiEza1EhPZX+pccRcTDrFDAAAAAy257p9nrfVIkgvsDlXbC5/QVB3FabeShpSwugjTGHHT3R3WEq0G3mGXG1nULQSkBAAAAAO2BhgCUhKhPjsWD/krDt7IhTwPIlVapXwb63xKI3FbcDGPq9N8fJe0YD/+f8u9wntm/gj3BqvTNUXW0rGfX0AQ</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -154,7 +154,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAB+870zcBpcJIEaUYphSdK2E/C+0GEFFtiEkESPhmNZZAAAAAAOgAAAAAIAACAAAADLtcMcSN+oO0yKql1WZESGHY5EF+q8k3z1I14ZyCGD6jAAAADVuYkzzcxM2MZfF9Mv8UDnM4rnqT5cYiy/twDttcKoOv3A4yvGiwL3qJxKoBmKlLJAAAAAFQgMPUBcrWXPYe/AOqW+gWoC52V7I6TPE8whNfBUlLpyYf1LH62M8A2/Ekz/MDQvd8VuYG77xW8tX7YN4M/4Bw</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAB30QQrRmY4CtQIB7WfaEV8L/Ksv5a2Vy5zGVEYQy2gBwAAAAAOgAAAAAIAACAAAABjeR55ax+HVkeJZiL6YBmf2/h45D4VDcy5DzwYk6x7cjAAAAC/UIGHoiOMCIMvmmc8LfIS3U62MtXh3t+A8HZqb53CN+AGrI2bxJTad65K5PSUAi9AAAAAVCDO8G1SBlnZmlbeqGWh6Ir817CkSCV6ynDhUdkyKjDrNN6ruSG9hN//uUkwC1g+fo3o2KtUFyqeNCrPo2qNAg</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -169,7 +169,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAA7eY/nPHYOB/lc9RPV3aFlc4N2ugpcz2ujZ6p30ybKfgAAAAAOgAAAAAIAACAAAAB30wGW3+DnWAnUQeWnOPXeAkycuwfrdYuXcBlLTVAozTAAAADp2h3Mttow4zr6BFuJLuXb0f9wTpZB3CERlve+6rXgkqpOXoLj3/xELwFEuZjRARJAAAAAsvCPCsR8AiNPAR3DDe4xfZb9kykTfVC5GizfaESBPL3pDyAjgkdqbMFx/ZedgHqfkWZvPgKPvoZfF4Y8a/7zgA</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAvO56voY13mwRBrAbt/zneVwGo1C7avwa88junb0g8CgAAAAAOgAAAAAIAACAAAAA8ZOYahrDqFaG8mNlhQKbK2J/kY0iHRa8lm0fFpALRQDAAAAD4PiAMaR0rHZR+DEeZ0u3U0BubsSHFxojKPgbuv/kGKRltbnzhMXfkdpgX0kQrud5AAAAAZkHfsSzOIWvxhDDnbxDPFPuIQ0bTwiSOUhsUuPtIysTbRCcMyeOZuW4VAZXtrtLj/8PkCrLhzE1Qx+ZtUroj7A</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -184,7 +184,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABN83mIthhxpHL9z9ykDSL3PRGj1ybzLSukHk+faBnDcQAAAAAOgAAAAAIAACAAAACuc/s3FjDTsLWdVTSfxWPoOEiwFnxbYvggka0H4bOESjAAAADEOBaB2Af8EAIAR+BGjNYiq8NjqSzORt7yb6uEl25ajvbZxDT7718mwgCVN7Tf4udAAAAAz40SX5dj9vznIH/rP+fp7fEjJS6q9sUXvS9n5wq/4xkFp++G62jtPnVffd5QyPR1u8/atXWJjTkFizdtgmSigg</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAf0E3UO7Tfi4BzbaNeMQyB28OgcVbju3QVHokSjow07gAAAAAOgAAAAAIAACAAAACrbcZZHHr4W/yLFmdRtVHxagHEaJhsllH3DP/ipiLBdzAAAAAW+JKwBregb/GVMLEqT2T2Gre8Ziuiiwcoe8d6rCuREdbZSjKyP4jAwuwW0Z/SDMJAAAAAJX9av4n3KeEWnuWH92c2pwG1vPeD+MNNsUUn9lnvBDlXtQF6nV+Xv/oyAQr5VaIHckmbE2yChiFzNvv3rJQ8Ig</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -199,7 +199,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABZQLepyl5MXKtoIDGKtKxyvIzxSBRQAEqzFnheb2DuBwAAAAAOgAAAAAIAACAAAADdGaj/P7DYl9Tu0yOwMrlf8hGjASNtTNchhMoDLmMVRTAAAABciPNUfEd4FCeC5Algs7ZvCUXDof93AVFMKT7fN5E2CAgMzORg56RHA85St9SnsK5AAAAA2oKfILdRGNHSsjaH1eyn4tIAECP4lieNGK3QT/o8pTArqwKqSV3aNAUQRUCecKjXNnYSgfeDZCoJPN8uCSf90w</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACK3WcI2xabbGXvnLqSeK4xSavvxcqochhNf7UkCM6RkAAAAAAOgAAAAAIAACAAAADU/uvF8pvZogzZjm5VE44rYcxW3KNjh2wziVbU5gIakTAAAACm4sfW0Zorc6H4igDmYwbmLA5VkSPKU1js/w8NrJcrIH3mlkDs0u5cAr58xHzRQ2xAAAAAJpofgWM1Lv1T2C/U1LYh7xxSWa6QtCPtmPoOq/m15dMJBREm8X4FzVwLM/0Zq8PJNdBysXLBLAc7lDewZGHuGw</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -214,7 +214,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADu7FAyYKtUJOn5eJx/W8RedW3HW7dqd5pmwbD7syL8+QAAAAAOgAAAAAIAACAAAACiOrH5TVsQqctNn0zveyZLhmEzbPunpC+uX/Jpf8uSoTAAAAB8UScYblpQFIZ5zF60x3/4yQNpJ8qJspIPhM6BD+ra2wpPRtPl/zJ4D0Z9Mi452StAAAAAjrGRt9G97rw4NtXDL5At0DO1RjGB0ulw1U7IAmWoHOqcR4z0DlZHCoapuEEZDRiknAaCf0GJuSFD5nXnuIjLig</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACdA4DcPEmlK1KOYywzXg5t1UsYv+HQ4VazEEA+AlwKQwAAAAAOgAAAAAIAACAAAADiFTqu7mZ6NjkJkcvw41DFHAubdGbDARVqt2P04EZolzAAAAAi2nOcxkji5D3zKTyUmMYHnmrI6T8lheyyl7SBT9gSNtfHZ9J5obOR8ZC/eSEyDHpAAAAAfLbP5HtaRiswivlCtO2HL0hyfrxkt+v+765KXwhRzbqinowC6BUig40KgnEJ3rj+m8RSSm+wO/1i1b6G8xtbxA</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -229,7 +229,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAmKXsfjq7zaTdU40P4L1c9VYvu8F81v+B6/cGTe1/z2QAAAAAOgAAAAAIAACAAAADzITNFbUv8XedD57NusZtfh2O1YIQ3NdGGOPKbGVA12jAAAACUDpQ0y1oM7z7UhWq38huejyttu77+BDJQ2LoOjLCRy/JAfYVg2nWM0H/Jp5ZqNgtAAAAAA5YLtdcVtO3SDp+sHzArt44XmuVor84ncDZCXWVOOGczz40pDRvvM3aowsYzFa4m4AjjAXjbEt+xk1fwqECG+A</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACE6gx96eQArhX5DXm8iAer+vXXKNJQw0NcqGo86KxgnAAAAAAOgAAAAAIAACAAAAAFxuWK7UG9WRXxaYgiYESwIWAqCvai3ql5QbbADWWQLjAAAADfWriDDMkdysvaGHU5hM7OvizAmUpM85uHtMEoMEC0kkyIF6UTGIy9rz0Ef3GAv6ZAAAAAvyGZrLt2w201rQ44E088o9oxAbzL90T9RT8746/RHnHmfLF2Az9vGG0b0Aw16VGS2F9bhXTcnA+2C8yOg8g1Pw</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -244,7 +244,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABvsed/sti1pcjxBBkyuVRuY+uKzlPeP1UOMKT7kh9r8gAAAAAOgAAAAAIAACAAAADj2q8kh1J9hCx7bPiyvcNoINBGUphuvxOH/jCeUDnUZTAAAAAXjvLm+ZBYveoODnkec6q8n/9jvJYum1k5SMU3cclyak4nQKx+mUlKOcALpl+/RWdAAAAA9YU7rM5i7tFj3GZTyjHO7eE6Pb/rxoI9ywXSDXbZD0NvYLbVYhnu5t1xZJKDPnYRc8nUgcb3Gx+RtJajw499bg</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADS8lA9IEhbg/L27JhG2oPA1/v/JgKoh7V7b4NZ9mwjmQAAAAAOgAAAAAIAACAAAAD4/3Lr1/0cEI+SAuIJbCSqLOx1CXPvIP7DfQ5p8dMf3DAAAAA3kO/uuLlNmZHiiKAdSOIr7POL/WC9SQomG7YlREQnb3f65nEO8ogawWEMSnGmOdlAAAAAyk4kIF/0z8wWfg8MBPtjau0g6c4rAPEsGh+TNFZr8amiDiQEeMZZDhdcr65KkTpWlcET2x87eTx6ZZcxrP0YKg</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -259,7 +259,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAA48aCTc2fJlGMkat0ftai496DNELUo34LOhFzeyrPVOAAAAAAOgAAAAAIAACAAAAAJk6dVi67afEt617Ecds510zToZYq2xMWR9V7lucnnAzAAAABAhcMjktaMfrYBZKFJuGY+vg8d3MvL9v9lIW1S225VHCCf+39ECWlIi887fXKtnelAAAAARl8IgFapMn9HMGR/BhMPiL/0S2gLHSdWayiyzrRtGoIDM4BUmDmikce7ZIPi4XKkn3Vc9VqfJ2EZygg5GjBU2w</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAHYvqOEkUpzkU78bduxD1arsw4vtChSofzjHxercOshQAAAAAOgAAAAAIAACAAAACricG7cwQ37ISXlOYDNFxSS8jri1yveNZrIKLWnu2MLzAAAABXqTQfhKY7B8OqPtIewDu3FCaZa6m8K0+OMXobx0qgHrIdV7z5NL7m0gc2IcrPrBtAAAAAbmn+BuRAtLNJEyZwYKUT2/nLdNtAuZFib/YO0bZzBbgaglavM7mWJi2/De6N620vKcS7WhGUg7f65Scq/2IBgw</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -274,7 +274,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADAq9a5twTiYfVeYcVZ4HQQeIGBYa5zjk2YM/BZkwpcKwAAAAAOgAAAAAIAACAAAACH8olgF7QxlzDRHXk4rqo5y6992aLAMgR4c16TgR3PFTAAAAAmvH3S4eSRURChkiQg3GKyKMjD/eD/zLVYcF451kpfgLehtP5GT1AtjcOZNPb1+vRAAAAAw6ck4iOcOwt8Hv56KfbTrL089xFtCKoMukopwl/+WWCSTlsnKNV9KVxUmJ+YvqK/mkZzccEQ2xIc02dMOEGkbg</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACFH8a+b2YIIQOjMg99itlmwbGfx4tqaelToOk/ppETtgAAAAAOgAAAAAIAACAAAAAzhwQHI40M/ABkLQK2rBqZcw6zcSrDHkN518zGayyt2jAAAAD4kwCKwvJtLsQw1P7s7W60bHWCHHW+8hFJbZ6UMklZxypwC27T37B5LZr5VYrrmAxAAAAAbhtWdcQSk8dHTxpkg73AoxtRG9UEA/NGEvewrzL/P9A517KymBFmFR88dw1R/p7R/FiS5mJqnl5mC4i+0McH1g</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -289,7 +289,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACIKPfax/4vnWdb1IzZ4EL9YqtdXM8zYHTWWuNA4/Ti4AAAAAAOgAAAAAIAACAAAADDo71838gLBmDDxAx9/fJYWoIlEzwxNcwbT6mQxukvnDAAAADoL/MGfa8rnqqfAbgNKzjF7oYZhvSjP1l3vs4goO/eXQmLiPlRDjoZ45g2b/QNINhAAAAArCLoz80IDFv6Iblv7PkJzju0eoLHH8ZGsJGq4RhlxxOML4WsLstkZ612Mzy7Ju9TT2Xa6vm638GpGbF2EVpgsw</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACbOTEswedNZNKUdWrtvDvV2YjERUGAa/+MjnC8m8vVjwAAAAAOgAAAAAIAACAAAABxA3q2oXojkSpBwZQeiYckfVa7pJzLi0ApWBTxscCKDTAAAAA3X5fFWfbHJpKEm2BwEt3kKr1Bs0OLiOK8gZ4X6uWghmpJnRcydkcnCoKSYldtdFVAAAAAD8UOp6a+WDsl5rZ39hDtx0sraDxv87YIku827Jal7qmzxjZkL0bzZajpxHLBdNyECZ0TbARmsA4KRUyVt0YmFw</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -304,7 +304,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADYMlNLx4AGLYB7Hra9lFVPePEbRe3olQ88pXySflBoXQAAAAAOgAAAAAIAACAAAABBXvq7qa5TszGgCUqabFPrBnqeupEnexJQzb74MwuB6DAAAABzoN3lCP5DAYhhVpQTBPcok51x6J/GuWY+0+6wm79RXOoO7w0Oenxrs/e7LaJKfoVAAAAAhu6PVxq9WzfCNYWxDRM/KawZGy+c4fseUWNzgHMKhjSalyf8ZO4Bwmz2b+nbTJQlnLQ1xy3sGiQgXJJWkRy+zw</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACxF/M3kvv/Ste3nC+zLByBG5JTuPMOa3DYk5EPpb9P6gAAAAAOgAAAAAIAACAAAAC9kfuKsc10cSJQkKBFdIDPlv5iCVp5VCgjeLypykPS5TAAAABjhGYGaQhzC4wUa0oCemPGNhcqr643OMHddZBmL0eFRalGnBAkNhdTKEqICFYQ0ixAAAAA64A5RSGTo0Z1jnyfh69KKfwq/DZ8H7b0bCJXtJWPcdvEn0Eu47rHdJQE5NEYfAGHUtO1FiJl5t2ZwdF34tVXLQ</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -319,7 +319,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADAgrnlzLf8RTPIYeII9H/rOmXxoDkUg+Kk24xCNK/XhwAAAAAOgAAAAAIAACAAAAAfYthmwFd3x3Bb9WD8eAoOegIShKiQI5Q/bHn7PSb4ETAAAAC0RPZdJYEPcYvWOKXw+BcYIuU3ziW+fg3MdKKiU2FCJiBdQxxuEp9qAZ34XyKYu2VAAAAAoarCyy4IMvwMAoSPo3mnLdQU08+xfWsvFY4m/q6ieM/Co+ZyTGo8pnJ/JxJNRyAnPVIuhTFmVCX0y7SxclE9Jw</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACOlk2HiqvdVu8G7RWkITZkhC4rBD3YBRE4enVBjfpibAAAAAAOgAAAAAIAACAAAACh4do8VVvNJDHp44fti5osKcXkXJz38XoCSDuv0nbMRzAAAAAm7OmehvLyDjgGsVDZPfSIhk9AXY33QJM7sn8fK8Suvd3ZhND/0CzxmvjX/vWwEthAAAAAR2WgCyA2tnEGGWHF/UsGbv6Ag216punkIRFPGZoCPpl+OvzGWFs39Nr87CjALVjx6rMCTCkFf5c6L7tlgJvyUg</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -334,7 +334,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADJVPB0PqMi+DoxJl5Jo2TqGt8NJs9TY1kq0kCKh3Vj0QAAAAAOgAAAAAIAACAAAAAk/wQBq21Wfth1EYsEcUJDrJ1LEtIpHn1cn2tdboKfSzAAAAAjavmqoK8iNDgeGNBNfVq/Frpq65JRfr7LxuMYikwFDiiQDjtpk+pVZbR7tGACSO5AAAAAkEnVucgl+4+XxNChyod8DKeTW3aEH1PyiWst+ujL8jRATQApCIbFw/usKE4sl40p5ImzmODywrtESjIZ2sIqAA</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAB85/4ZklHX8WaS7BR08iC77kPAMEmo59NxT+BssVkvkwAAAAAOgAAAAAIAACAAAADoyomS4zoM0mhZXxLVdN9TZCxhtq7CrklGyPYv0bafwzAAAABG6EvhaO8SWnV5no/StkzrXLRx0G4Q0hy/kcEUdPf0sC7Faa+C5mZlfkk+Lx86x79AAAAA5o08ncZCFN31/Q3igXzn97ccq8YvjOMw2G4DQaCs1TYJuYNAxVuSgk2ne90F8K4B+dZPt8hO+JfZHyvtU2RbTg</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -342,26 +342,253 @@
   <DTS:Variables />
   <DTS:Executables>
     <DTS:Executable
+      DTS:refId="Package\Begin Dimension Table ETL Here"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:Disabled="True"
+      DTS:DTSID="{A589C1B0-84C7-46C4-B3AE-F8AAFE177CB6}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Begin Dimension Table ETL Here"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="3">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
       DTS:refId="Package\Create Destination Database Schema and Tables"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
+      DTS:Disabled="True"
       DTS:DTSID="{3FC62C29-3842-44D9-A423-090EAB9B89C5}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
       DTS:ObjectName="Create Destination Database Schema and Tables"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="8">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{C9C3DF5F-10B2-43AC-A852-12C5C1E847F9}"
+          SQLTask:SqlStatementSource="IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'StageChannel')&#xA;BEGIN&#xA;&#x9;DROP TABLE dbo.StageChannel;&#xA;END&#xA;GO&#xA;&#xA;CREATE TABLE [dbo].[StageChannel] (&#xA;    [ChannelID] int,&#xA;    [ChannelCategoryID] int,&#xA;    [Channel] nvarchar(50),&#xA;    [CreatedDate] datetime,&#xA;    [CreatedBy] nvarchar(255),&#xA;    [ModifiedDate] datetime,&#xA;    [ModifiedBy] nvarchar(255)&#xA;)&#xA;GO&#xA;&#xA;IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'StageChannelCategory')&#xA;BEGIN&#xA;&#x9;DROP TABLE dbo.StageChannelCategory;&#xA;END&#xA;GO&#xA;&#xA;CREATE TABLE [dbo].[StageChannelCategory] (&#xA;    [ChannelCategoryID] int,&#xA;    [ChannelCategory] nvarchar(50),&#xA;    [CreatedDate] datetime,&#xA;    [CreatedBy] nvarchar(255),&#xA;    [ModifiedDate] datetime,&#xA;    [ModifiedBy] nvarchar(255)&#xA;)&#xA;GO&#xA;&#xA;IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'StageCustomer')&#xA;BEGIN&#xA;&#x9;DROP TABLE dbo.StageCustomer;&#xA;END&#xA;GO&#xA;&#xA;CREATE TABLE [dbo].[StageCustomer] (&#xA;    [CustomerID] uniqueidentifier,&#xA;    [SubSegmentID] int,&#xA;    [FirstName] nvarchar(255),&#xA;    [LastName] nvarchar(255),&#xA;    [Gender] nvarchar(1),&#xA;    [EmailAddress] nvarchar(255),&#xA;    [Address] nvarchar(255),&#xA;    [City] nvarchar(255),&#xA;    [StateProvince] nvarchar(255),&#xA;    [Country] nvarchar(255),&#xA;    [PostalCode] nvarchar(255),&#xA;    [PhoneNumber] nvarchar(20),&#xA;    [CreatedDate] datetime,&#xA;    [CreatedBy] nvarchar(255),&#xA;    [ModifiedDate] datetime,&#xA;    [ModifiedBy] nvarchar(255)&#xA;)&#xA;GO&#xA;&#xA;IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'StageProduct')&#xA;BEGIN&#xA;&#x9;DROP TABLE dbo.StageProduct;&#xA;END&#xA;GO&#xA;&#xA;CREATE TABLE [dbo].[StageProduct] (&#xA;    [ProductID] int,&#xA;    [ProductTypeID] int,&#xA;    [Product] nvarchar(50),&#xA;    [Color] nvarchar(50),&#xA;    [Style] nvarchar(50),&#xA;    [UnitofMeasureID] int,&#xA;    [Weight] numeric(18,4),&#xA;    [Price] numeric(18,2),&#xA;    [Cost] numeric(18,2),&#xA;    [CreatedDate] datetime,&#xA;    [CreatedBy] nvarchar(255),&#xA;    [ModifiedDate] datetime,&#xA;    [ModifiedBy] nvarchar(255),&#xA;    [WholesalePrice] numeric(18,2)&#xA;)&#xA;GO&#xA;&#xA;IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'StageProductCategory')&#xA;BEGIN&#xA;&#x9;DROP TABLE dbo.StageProductCategory;&#xA;END&#xA;GO&#xA;&#xA;CREATE TABLE [dbo].[StageProductCategory] (&#xA;    [ProductCategoryID] int,&#xA;    [ProductCategory] nvarchar(50),&#xA;    [CreatedDate] datetime,&#xA;    [CreatedBy] nvarchar(255),&#xA;    [ModifiedDate] datetime,&#xA;    [ModifiedBy] nvarchar(255)&#xA;)&#xA;&#xA;&#xA;&#xA;&#xA;CREATE TABLE [StageProductType] (&#xA;    [ProductTypeID] int,&#xA;    [ProductCategoryID] int,&#xA;    [ProductType] nvarchar(50),&#xA;    [CreatedDate] datetime,&#xA;    [CreatedBy] nvarchar(255),&#xA;    [ModifiedDate] datetime,&#xA;    [ModifiedBy] nvarchar(255)&#xA;)&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;CREATE TABLE [dbo].[StageReseller] (&#xA;    [ResellerID] uniqueidentifier,&#xA;    [Contact] nvarchar(255),&#xA;    [EmailAddress] nvarchar(255),&#xA;    [Address] nvarchar(255),&#xA;    [City] nvarchar(255),&#xA;    [StateProvince] nvarchar(255),&#xA;    [Country] nvarchar(255),&#xA;    [PostalCode] nvarchar(255),&#xA;    [PhoneNumber] nvarchar(20),&#xA;    [CreatedDate] datetime,&#xA;    [CreatedBy] nvarchar(255),&#xA;    [ModifiedDate] datetime,&#xA;    [ModifiedBy] nvarchar(255),&#xA;    [ResellerName] nvarchar(255)&#xA;)&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;CREATE TABLE [dbo].[StageSalesDetail] (&#xA;    [SalesDetailID] int,&#xA;    [SalesHeaderID] int,&#xA;    [ProductID] int,&#xA;    [SalesQuantity] int,&#xA;    [SalesAmount] numeric(18,2),&#xA;    [CreatedDate] datetime,&#xA;    [CreatedBy] nvarchar(255),&#xA;    [ModifiedDate] datetime,&#xA;    [ModifiedBy] nvarchar(255)&#xA;)&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;CREATE TABLE [dbo].[StageSalesHeader] (&#xA;    [SalesHeaderID] int,&#xA;    [Date] date,&#xA;    [ChannelID] int,&#xA;    [StoreID] int,&#xA;    [CustomerID] uniqueidentifier,&#xA;    [ResellerID] uniqueidentifier,&#xA;    [CreatedDate] datetime,&#xA;    [CreatedBy] nvarchar(255),&#xA;    [ModifiedDate] datetime,&#xA;    [ModifiedBy] nvarchar(255)&#xA;)&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;CREATE TABLE [dbo].[StageStore] (&#xA;    [StoreID] int,&#xA;    [SubSegmentID] int,&#xA;    [StoreNumber] int,&#xA;    [StoreManager] nvarchar(255),&#xA;    [Address] nvarchar(255),&#xA;    [City] nvarchar(255),&#xA;    [StateProvince] nvarchar(255),&#xA;    [Country] nvarchar(255),&#xA;    [PostalCode] nvarchar(255),&#xA;    [PhoneNumber] nvarchar(20),&#xA;    [CreatedDate] datetime,&#xA;    [CreatedBy] nvarchar(255),&#xA;    [ModifiedDate] datetime,&#xA;    [ModifiedBy] nvarchar(255)&#xA;)&#xA;&#xA;&#xA;&#xA;&#xA;CREATE TABLE [dbo].[StageTargetCRS] (&#xA;    [Year] float,&#xA;    [ChannelName] nvarchar(255),&#xA;    [TargetName] nvarchar(255),&#xA;    [ TargetSalesAmount ] float&#xA;)&#xA;&#xA;&#xA;&#xA;CREATE TABLE [dbo].[StageTargetProduct] (&#xA;    [ProductID] float,&#xA;    [Product] nvarchar(255),&#xA;    [Year] float,&#xA;    [ SalesQuantityTarget ] float&#xA;)" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Create dimChannel"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{74FE8ABF-A76A-464B-81D3-6FBB2CD733C9}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Create dimChannel"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
       DTS:ThreadHint="1">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{C9C3DF5F-10B2-43AC-A852-12C5C1E847F9}"
-          SQLTask:SqlStatementSource="CREATE TABLE [dbo].[StageChannel] (&#xA;    [ChannelID] int,&#xA;    [ChannelCategoryID] int,&#xA;    [Channel] nvarchar(50),&#xA;    [CreatedDate] datetime,&#xA;    [CreatedBy] nvarchar(255),&#xA;    [ModifiedDate] datetime,&#xA;    [ModifiedBy] nvarchar(255)&#xA;)&#xA;&#xA;&#xA;&#xA;&#xA;CREATE TABLE [dbo].[StageChannelCategory] (&#xA;    [ChannelCategoryID] int,&#xA;    [ChannelCategory] nvarchar(50),&#xA;    [CreatedDate] datetime,&#xA;    [CreatedBy] nvarchar(255),&#xA;    [ModifiedDate] datetime,&#xA;    [ModifiedBy] nvarchar(255)&#xA;)&#xA;&#xA;&#xA;&#xA;&#xA;CREATE TABLE [dbo].[StageCustomer] (&#xA;    [CustomerID] uniqueidentifier,&#xA;    [SubSegmentID] int,&#xA;    [FirstName] nvarchar(255),&#xA;    [LastName] nvarchar(255),&#xA;    [Gender] nvarchar(1),&#xA;    [EmailAddress] nvarchar(255),&#xA;    [Address] nvarchar(255),&#xA;    [City] nvarchar(255),&#xA;    [StateProvince] nvarchar(255),&#xA;    [Country] nvarchar(255),&#xA;    [PostalCode] nvarchar(255),&#xA;    [PhoneNumber] nvarchar(20),&#xA;    [CreatedDate] datetime,&#xA;    [CreatedBy] nvarchar(255),&#xA;    [ModifiedDate] datetime,&#xA;    [ModifiedBy] nvarchar(255)&#xA;)&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;CREATE TABLE [dbo].[StageProduct] (&#xA;    [ProductID] int,&#xA;    [ProductTypeID] int,&#xA;    [Product] nvarchar(50),&#xA;    [Color] nvarchar(50),&#xA;    [Style] nvarchar(50),&#xA;    [UnitofMeasureID] int,&#xA;    [Weight] numeric(18,4),&#xA;    [Price] numeric(18,2),&#xA;    [Cost] numeric(18,2),&#xA;    [CreatedDate] datetime,&#xA;    [CreatedBy] nvarchar(255),&#xA;    [ModifiedDate] datetime,&#xA;    [ModifiedBy] nvarchar(255),&#xA;    [WholesalePrice] numeric(18,2)&#xA;)&#xA;&#xA;&#xA;&#xA;CREATE TABLE [dbo].[StageProductCategory] (&#xA;    [ProductCategoryID] int,&#xA;    [ProductCategory] nvarchar(50),&#xA;    [CreatedDate] datetime,&#xA;    [CreatedBy] nvarchar(255),&#xA;    [ModifiedDate] datetime,&#xA;    [ModifiedBy] nvarchar(255)&#xA;)&#xA;&#xA;&#xA;&#xA;&#xA;CREATE TABLE [StageProductType] (&#xA;    [ProductTypeID] int,&#xA;    [ProductCategoryID] int,&#xA;    [ProductType] nvarchar(50),&#xA;    [CreatedDate] datetime,&#xA;    [CreatedBy] nvarchar(255),&#xA;    [ModifiedDate] datetime,&#xA;    [ModifiedBy] nvarchar(255)&#xA;)&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;CREATE TABLE [dbo].[StageReseller] (&#xA;    [ResellerID] uniqueidentifier,&#xA;    [Contact] nvarchar(255),&#xA;    [EmailAddress] nvarchar(255),&#xA;    [Address] nvarchar(255),&#xA;    [City] nvarchar(255),&#xA;    [StateProvince] nvarchar(255),&#xA;    [Country] nvarchar(255),&#xA;    [PostalCode] nvarchar(255),&#xA;    [PhoneNumber] nvarchar(20),&#xA;    [CreatedDate] datetime,&#xA;    [CreatedBy] nvarchar(255),&#xA;    [ModifiedDate] datetime,&#xA;    [ModifiedBy] nvarchar(255),&#xA;    [ResellerName] nvarchar(255)&#xA;)&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;CREATE TABLE [dbo].[StageSalesDetail] (&#xA;    [SalesDetailID] int,&#xA;    [SalesHeaderID] int,&#xA;    [ProductID] int,&#xA;    [SalesQuantity] int,&#xA;    [SalesAmount] numeric(18,2),&#xA;    [CreatedDate] datetime,&#xA;    [CreatedBy] nvarchar(255),&#xA;    [ModifiedDate] datetime,&#xA;    [ModifiedBy] nvarchar(255)&#xA;)&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;CREATE TABLE [dbo].[StageSalesHeader] (&#xA;    [SalesHeaderID] int,&#xA;    [Date] date,&#xA;    [ChannelID] int,&#xA;    [StoreID] int,&#xA;    [CustomerID] uniqueidentifier,&#xA;    [ResellerID] uniqueidentifier,&#xA;    [CreatedDate] datetime,&#xA;    [CreatedBy] nvarchar(255),&#xA;    [ModifiedDate] datetime,&#xA;    [ModifiedBy] nvarchar(255)&#xA;)&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;CREATE TABLE [dbo].[StageStore] (&#xA;    [StoreID] int,&#xA;    [SubSegmentID] int,&#xA;    [StoreNumber] int,&#xA;    [StoreManager] nvarchar(255),&#xA;    [Address] nvarchar(255),&#xA;    [City] nvarchar(255),&#xA;    [StateProvince] nvarchar(255),&#xA;    [Country] nvarchar(255),&#xA;    [PostalCode] nvarchar(255),&#xA;    [PhoneNumber] nvarchar(20),&#xA;    [CreatedDate] datetime,&#xA;    [CreatedBy] nvarchar(255),&#xA;    [ModifiedDate] datetime,&#xA;    [ModifiedBy] nvarchar(255)&#xA;)&#xA;&#xA;&#xA;&#xA;&#xA;CREATE TABLE [dbo].[StageTargetCRS] (&#xA;    [Year] float,&#xA;    [ChannelName] nvarchar(255),&#xA;    [TargetName] nvarchar(255),&#xA;    [ TargetSalesAmount ] float&#xA;)&#xA;&#xA;&#xA;&#xA;CREATE TABLE [dbo].[StageTargetProduct] (&#xA;    [ProductID] float,&#xA;    [Product] nvarchar(255),&#xA;    [Year] float,&#xA;    [ SalesQuantityTarget ] float&#xA;)" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="IF NOT EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'dimChannel')&#xA;BEGIN&#xA;&#x9;CREATE TABLE dbo.dimChannel&#xA;&#x9;(&#xA;&#x9;dimChannelID INT IDENTITY(1,1) CONSTRAINT PK_dimChannel PRIMARY KEY CLUSTERED NOT NULL, -- SurrogateKey&#xA;&#x9;dimSourceChannelID INT NOT NUll, --Natural Key&#xA;&#x9;dimSourceCategoryID INT NOT NUll, --Natural Key&#xA;&#x9;dimChannelCategoryName VARCHAR(50) NOT NULL,&#xA;&#x9;dimChannelName VARCHAR(50) NOT NULL&#xA;&#x9;);&#xA;END&#xA;GO" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Create DimDate"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{D391D4EB-770F-46E5-9835-5A1B116C22E3}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Create DimDate"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{C9C3DF5F-10B2-43AC-A852-12C5C1E847F9}"
+          SQLTask:SqlStatementSource="CREATE TABLE dbo.DimDate&#xA;(&#xA;DimDateID INT IDENTITY(1,1) NOT NULL CONSTRAINT PK_DimDate PRIMARY KEY,&#xA;FullDate [date] NOT NULL,&#xA;DayNumberOfWeek [tinyint] NOT NULL,&#xA;DayNameOfWeek [varchar] (9) NOT NULL,&#xA;DayNumberOfMonth [tinyint] NOT NULL,&#xA;DayNumberOfYear [int] NOT NULL,&#xA;WeekdayFlag [int] NOT NULL,&#xA;WeekNumberOfYear [tinyint] NOT NULL,&#xA;[MonthName] [varchar](9) NOT NULL,&#xA;MonthNumberOfYear [tinyint] NOT NULL,&#xA;CalendarQuarter [tinyint] NOT NULL,&#xA;CalendarYear [int] NOT NULL,&#xA;CalendarSemester [tinyint] NOT NULL,&#xA;CreatedDate DATETIME NOT NULL&#xA;,CreatedBy NVARCHAR(255) NOT NULL&#xA;,ModifiedDate DATETIME NULL&#xA;,ModifiedBy NVARCHAR(255) NULL&#xA;);&#xA;GO" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Delete dimChannel"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{8DF2DFF0-9EFB-4036-907E-E16F0C9A68AC}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Delete dimChannel"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{C9C3DF5F-10B2-43AC-A852-12C5C1E847F9}"
+          SQLTask:SqlStatementSource="IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'dimChannel')&#xA;BEGIN&#xA;&#x9;DROP TABLE  dbo.dimChannel;&#xA;END&#xA;GO" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Delete dimCustomer"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:Disabled="True"
+      DTS:DTSID="{1790BDA3-5A71-47C5-89C0-318DA194C3FE}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Delete dimCustomer"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="6">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{C9C3DF5F-10B2-43AC-A852-12C5C1E847F9}"
+          SQLTask:SqlStatementSource="IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'dimCustomer')&#xA;BEGIN&#xA;&#x9;DELETE FROM dbo.dimCustomer;&#xA;END&#xA;GO" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Delete DimDate"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{6F3CE291-3C71-44CC-AC2A-272889877CBB}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Delete DimDate"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{C9C3DF5F-10B2-43AC-A852-12C5C1E847F9}"
+          SQLTask:SqlStatementSource="IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'DimDate')&#xA;BEGIN&#xA;&#x9;DROP TABLE dbo.DimDate;&#xA;END&#xA;GO" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Delete dimLocation"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:Disabled="True"
+      DTS:DTSID="{9BAF532E-B044-44F2-91F4-C35D4CA1C38C}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Delete dimLocation"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="7">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{C9C3DF5F-10B2-43AC-A852-12C5C1E847F9}"
+          SQLTask:SqlStatementSource="IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'dimLocation')&#xA;BEGIN&#xA;&#x9;DELETE FROM dbo.dimLocation;&#xA;END&#xA;GO" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Delete dimProduct"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:Disabled="True"
+      DTS:DTSID="{FB8FDD00-786B-4710-AE47-CBEB31EAB5B7}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Delete dimProduct"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="5">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{C9C3DF5F-10B2-43AC-A852-12C5C1E847F9}"
+          SQLTask:SqlStatementSource="IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'dimProduct')&#xA;BEGIN&#xA;&#x9;DELETE FROM dbo.dimProduct;&#xA;END&#xA;GO" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Delete dimReseller"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:Disabled="True"
+      DTS:DTSID="{2DF51801-7390-4260-A834-174EEE53506E}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Delete dimReseller"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="4">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{C9C3DF5F-10B2-43AC-A852-12C5C1E847F9}"
+          SQLTask:SqlStatementSource="IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'dimReseller')&#xA;BEGIN&#xA;&#x9;DELETE FROM dbo.dimReseller;&#xA;END&#xA;GO" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Delete dimStore"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:Disabled="True"
+      DTS:DTSID="{67AE680D-8C8E-4C36-B8EE-F0408AE2A46E}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Delete dimStore"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{C9C3DF5F-10B2-43AC-A852-12C5C1E847F9}"
+          SQLTask:SqlStatementSource="IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'dimStore')&#xA;BEGIN&#xA;&#x9;DELETE FROM dbo.dimStore;&#xA;END&#xA;GO" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Load dimChannel"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{2A1B3D56-7A99-4FD3-B8FE-E61F61239781}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Load dimChannel"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{C9C3DF5F-10B2-43AC-A852-12C5C1E847F9}"
+          SQLTask:SqlStatementSource="IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'dimChannel')&#xA;BEGIN&#xA;&#x9;-- ====================================&#xA;&#x9;-- Load dimChannel table&#xA;&#x9;-- ====================================&#xA;&#xA;&#x9;INSERT INTO dbo.dimChannel&#xA;&#x9;(&#xA;&#x9;dimSourceChannelID&#xA;&#x9;,dimSourceCategoryID&#xA;&#x9;,dimChannelCategoryName&#xA;&#x9;,dimChannelName&#xA;&#x9;)&#xA;&#x9;SELECT&#xA;&#x9;dbo.StageChannel.ChannelID AS dimSourceChannelID&#xA;&#x9;,dbo.StageChannel.ChannelCategoryID AS dimSourceChannelCategory&#xA;&#x9;,dbo.StageChannelCategory.ChannelCategory AS dimCategoryName&#xA;&#x9;,dbo.StageChannel.Channel AS dimChannelName&#xA;&#xA;&#x9;FROM StageChannel&#xA;&#x9;INNER JOIN StageChannelcategory&#xA;&#x9;ON StageChannel.ChannelCategoryID = StageChannelCategory.ChannelCategoryID;&#xA;END&#xA;GO" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Load dimChannel Unknown Member"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{D7C507D9-3A5E-442C-BAB1-2BF385B5D0A3}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Load dimChannel Unknown Member"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{C9C3DF5F-10B2-43AC-A852-12C5C1E847F9}"
+          SQLTask:SqlStatementSource="-- =============================&#xA;-- Begin load of unknown member&#xA;-- =============================&#xA;&#xA;SET IDENTITY_INSERT dbo.dimChannel ON;&#xA;&#xA;INSERT INTO dbo.dimChannel&#xA;(&#xA;dimChannelID&#xA;,dimSourceChannelID&#xA;,dimSourceCategoryID&#xA;,dimChannelCategoryName&#xA;,dimChannelName&#xA;)&#xA;VALUES&#xA;(&#xA;-1&#xA;,-1&#xA;,-1&#xA;,'Unknown'&#xA;,'Unknown'&#xA;);&#xA;-- Turn the identity insert to OFF so new rows auto assign identities&#xA;SET IDENTITY_INSERT dbo.dimChannel OFF;&#xA;GO" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Load DimDate"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{0A3A576D-8F26-4BAD-ACE1-E7C5156109C0}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Load DimDate"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{C9C3DF5F-10B2-43AC-A852-12C5C1E847F9}"
+          SQLTask:SqlStatementSource="-- =========================================================================&#xA;-- Create Stored Proceudre InsDimDateyearly to load one year of data&#xA;-- =========================================================================&#xA;&#xA;IF EXISTS (SELECT name FROM sys.procedures WHERE name = 'InsDimDateYearly')&#xA;BEGIN&#xA;&#x9;DROP PROCEDURE dbo.InsDimDateYearly;&#xA;END&#xA;GO&#xA;&#xA;CREATE PROC [dbo].[InsDimDateYearly]&#xA;( &#xA;&#x9;@Year INT=NULL&#xA;)&#xA;AS&#xA;SET NOCOUNT ON;&#xA;&#xA;DECLARE @Date DATE, @FirstDate Date, @LastDate Date;&#xA;&#xA;SELECT @Year=COALESCE(@Year,YEAR(DATEADD(d,1,MAX(DimDateID)))) FROM dbo.DimDate;&#xA;&#xA;SET @FirstDate=DATEFROMPARTS(COALESCE(@Year,YEAR(GETDATE())-1), 01, 01); -- First Day of the Year&#xA;SET @LastDate=DATEFROMPARTS(COALESCE(@Year,YEAR(GETDATE())-1), 12, 31); -- Last Day of the Year&#xA;&#xA;SET @Date=@FirstDate;&#xA;-- create CTE with all dates needed for load&#xA;;WITH DateCTE AS&#xA;(&#xA;SELECT @FirstDate AS StartDate -- earliest date to load in table&#xA;UNION ALL&#xA;SELECT DATEADD(day, 1, StartDate)&#xA;FROM DateCTE -- recursively select the date + 1 over and over&#xA;WHERE DATEADD(day, 1, StartDate) &lt;= @LastDate -- last date to load in table&#xA;)&#xA;&#xA;-- load date dimension table with all dates&#xA;INSERT INTO dbo.DimDate &#xA;&#x9;(&#xA;&#x9;FullDate &#xA;&#x9;,DayNumberOfWeek &#xA;&#x9;,DayNameOfWeek &#xA;&#x9;,DayNumberOfMonth &#xA;&#x9;,DayNumberOfYear &#xA;&#x9;,WeekdayFlag&#xA;&#x9;,WeekNumberOfYear &#xA;&#x9;,[MonthName] &#xA;&#x9;,MonthNumberOfYear &#xA;&#x9;,CalendarQuarter &#xA;&#x9;,CalendarYear &#xA;&#x9;,CalendarSemester&#xA;&#x9;,CreatedDate&#xA;&#x9;,CreatedBy&#xA;&#x9;,ModifiedDate&#xA;&#x9;,ModifiedBy &#xA;&#x9;)&#xA;SELECT &#xA;&#x9; CAST(StartDate AS DATE) AS FullDate&#xA;&#x9;,DATEPART(dw, StartDate) AS DayNumberOfWeek&#xA;&#x9;,DATENAME(dw, StartDate) AS DayNameOfWeek&#xA;&#x9;,DAY(StartDate) AS DayNumberOfMonth&#xA;&#x9;,DATEPART(dy, StartDate) AS DayNumberOfYear&#xA;&#x9;,CASE DATENAME(dw, StartDate) WHEN 'Saturday' THEN 0 WHEN 'Sunday' THEN 0 ELSE 1 END AS WeekdayFlag&#xA;&#x9;,DATEPART(wk, StartDate) AS WeekNumberOfYear&#xA;&#x9;,DATENAME(mm, StartDate) AS [MonthName]&#xA;&#x9;,MONTH(StartDate) AS MonthNumberOfYear&#xA;&#x9;,DATEPART(qq, StartDate) AS CalendarQuarter&#xA;&#x9;,YEAR(StartDate) AS CalendarYear&#xA;&#x9;,(CASE WHEN MONTH(StartDate)&gt;=1 AND MONTH(StartDate) &lt;=6 THEN 1 ELSE 2 END) AS CalendarSemester&#xA;&#x9;,DATEADD(dd,DATEDIFF(dd,GETDATE(), '2013-01-01'),GETDATE()) AS CreatedDate&#xA;&#x9;,'company\SQLServerServiceAccount' AS CreatedBy&#xA;&#x9;,NULL AS ModifiedDate&#xA;&#x9;,NULL AS ModifiedBy&#xA;FROM DateCTE&#xA;OPTION (MAXRECURSION 0);-- prevents infinate loop from running more than once&#xA;GO&#xA;&#xA;-- ========================================================================&#xA;-- Execute the procedure for 2013 and 2014 (those are the years you need)&#xA;-- ========================================================================&#xA;EXEC InsDimDateYearly 2013&#xA;&#xA;EXEC InsDimDateYearly 2014" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
       DTS:refId="Package\Stage Channel"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
+      DTS:Disabled="True"
       DTS:DTSID="{0D36F089-1E53-420F-9FA8-5B9956E58017}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -789,6 +1016,7 @@
       DTS:refId="Package\Stage ChannelCategory"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
+      DTS:Disabled="True"
       DTS:DTSID="{4CEF6C75-0B27-46F4-9021-3801E7C9E04F}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -1188,6 +1416,7 @@
       DTS:refId="Package\Stage Customer"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
+      DTS:Disabled="True"
       DTS:DTSID="{04BF2B89-3DD1-4129-AF9C-8D72426D2993}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -1912,6 +2141,7 @@
       DTS:refId="Package\Stage Product"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
+      DTS:Disabled="True"
       DTS:DTSID="{AAE3E29A-0D9C-4DE0-A12A-078BE029A913}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -2585,6 +2815,7 @@
       DTS:refId="Package\Stage ProductCategory"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
+      DTS:Disabled="True"
       DTS:DTSID="{FB59A59E-949A-45AF-AE57-C3ABA2E91385}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -2984,6 +3215,7 @@
       DTS:refId="Package\Stage ProductType"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
+      DTS:Disabled="True"
       DTS:DTSID="{1A4A9CD7-780B-4236-8EDF-FDAD242806B1}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -3411,6 +3643,7 @@
       DTS:refId="Package\Stage Reseller"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
+      DTS:Disabled="True"
       DTS:DTSID="{FDB8570D-178A-44FD-8147-A80C0AF7BFE2}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -4074,6 +4307,7 @@
       DTS:refId="Package\Stage SalesDetail"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
+      DTS:Disabled="True"
       DTS:DTSID="{38387F5E-7EF4-4C93-9262-ACB87063E170}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -4562,6 +4796,7 @@
       DTS:refId="Package\Stage SalesHeader"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
+      DTS:Disabled="True"
       DTS:DTSID="{08722279-03AA-43DD-8EC3-E9CF6A087F05}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -5068,6 +5303,7 @@
       DTS:refId="Package\Stage Store"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
+      DTS:Disabled="True"
       DTS:DTSID="{1758A833-A15A-41E2-932F-8399A67F88CF}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -5721,6 +5957,7 @@
       DTS:refId="Package\Stage TargetCRS"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
+      DTS:Disabled="True"
       DTS:DTSID="{54D5AFC4-EE4B-4180-B749-140D3200C027}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -6235,6 +6472,7 @@
       DTS:refId="Package\Starge TargetProduct"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
+      DTS:Disabled="True"
       DTS:DTSID="{428AA23B-9529-466B-B0CA-2E18CF539292}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -6743,9 +6981,26 @@
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
+      DTS:refId="Package\Transfer Data to Staging DB"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:Disabled="True"
+      DTS:DTSID="{7450DCE1-4A37-4332-BA3D-4454D980FA12}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Transfer Data to Staging DB"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="2">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
       DTS:refId="Package\Truncate Channel"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
+      DTS:Disabled="True"
       DTS:DTSID="{6AE41EA0-EB39-4FE9-92C3-43325ED308F3}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
@@ -6763,6 +7018,7 @@
       DTS:refId="Package\Truncate ChannelCategory"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
+      DTS:Disabled="True"
       DTS:DTSID="{8DA507EB-ADB8-4DAA-8581-35415D83C5C3}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
@@ -6780,6 +7036,7 @@
       DTS:refId="Package\Truncate Customer"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
+      DTS:Disabled="True"
       DTS:DTSID="{9D8ED1EE-E989-49A8-A1ED-AB6349193939}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
@@ -6797,6 +7054,7 @@
       DTS:refId="Package\Truncate Product"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
+      DTS:Disabled="True"
       DTS:DTSID="{EACD0A04-A0BD-4B98-A381-F51BBB036380}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
@@ -6814,6 +7072,7 @@
       DTS:refId="Package\Truncate ProductCategory"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
+      DTS:Disabled="True"
       DTS:DTSID="{80FF8A0D-F31D-4FEB-9752-623779DCE8F1}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
@@ -6831,6 +7090,7 @@
       DTS:refId="Package\Truncate ProductType"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
+      DTS:Disabled="True"
       DTS:DTSID="{8DE7D5B9-AA5C-4876-A301-73BD6BAD15E4}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
@@ -6848,6 +7108,7 @@
       DTS:refId="Package\Truncate Reseller"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
+      DTS:Disabled="True"
       DTS:DTSID="{26F670EA-A4A6-46D8-ACD4-E88F40EF7030}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
@@ -6865,6 +7126,7 @@
       DTS:refId="Package\Truncate SalesDetail"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
+      DTS:Disabled="True"
       DTS:DTSID="{5B332A7C-974A-4F1F-AA3F-C0E10B3343E5}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
@@ -6882,6 +7144,7 @@
       DTS:refId="Package\Truncate SalesHeader"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
+      DTS:Disabled="True"
       DTS:DTSID="{48C0121F-F6DE-4A78-B375-F0A8BC3327C6}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
@@ -6899,6 +7162,7 @@
       DTS:refId="Package\Truncate Store"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
+      DTS:Disabled="True"
       DTS:DTSID="{6B0C8672-98A6-47AC-89BE-90DD4AB62AA7}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
@@ -6916,6 +7180,7 @@
       DTS:refId="Package\Truncate Target-CRS"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
+      DTS:Disabled="True"
       DTS:DTSID="{0451079E-D670-4542-A2C7-FEB5E017C28C}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
@@ -6933,6 +7198,7 @@
       DTS:refId="Package\Truncate TargetProduct"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
+      DTS:Disabled="True"
       DTS:DTSID="{8B11DED2-1450-46DE-A1B7-4C936E9694C8}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
@@ -7077,6 +7343,62 @@
       DTS:ObjectName="Constraint 22"
       DTS:To="Package\Truncate TargetProduct" />
     <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 23]"
+      DTS:CreationName=""
+      DTS:DTSID="{8D2980D5-5390-4129-AA4A-888ABF4CBC58}"
+      DTS:From="Package\Delete dimChannel"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 23"
+      DTS:To="Package\Create dimChannel" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 24]"
+      DTS:CreationName=""
+      DTS:DTSID="{51D239EC-0A89-40C1-9F61-5BA02F67C55B}"
+      DTS:From="Package\Create dimChannel"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 24"
+      DTS:To="Package\Load dimChannel" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 25]"
+      DTS:CreationName=""
+      DTS:DTSID="{8F926517-38E0-4BCF-B599-AC35DB56B60D}"
+      DTS:From="Package\Load dimChannel"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 25"
+      DTS:To="Package\Load dimChannel Unknown Member" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 26]"
+      DTS:CreationName=""
+      DTS:DTSID="{5792A496-83AA-4DE0-A5CB-1E26BA4C62D0}"
+      DTS:From="Package\Delete DimDate"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 26"
+      DTS:To="Package\Create DimDate" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 27]"
+      DTS:CreationName=""
+      DTS:DTSID="{EDAD77BD-91FF-40FB-A0CE-7E7D0A3A5389}"
+      DTS:From="Package\Create DimDate"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 27"
+      DTS:To="Package\Load DimDate" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 28]"
+      DTS:CreationName=""
+      DTS:DTSID="{89A1D2FC-38E1-4569-AEA5-7476D6F2D5D5}"
+      DTS:From="Package\Load DimDate"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 28"
+      DTS:To="Package\Delete dimChannel" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 29]"
+      DTS:CreationName=""
+      DTS:DTSID="{20B0AD61-4B76-4DA7-B107-F6CCA3EFB172}"
+      DTS:From="Package\Load dimChannel Unknown Member"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 29"
+      DTS:To="Package\Delete dimStore" />
+    <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 3]"
       DTS:CreationName=""
       DTS:DTSID="{2EF298FD-B7F2-4AFE-A43B-801FCB4B40A4}"
@@ -7144,7 +7466,7 @@
     design-time-name="Package">
     <LayoutInfo>
       <GraphLayout
-        Capacity="64" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="128" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="321,42"
           Id="Package\Create Destination Database Schema and Tables"
@@ -7189,6 +7511,14 @@
           Size="137,42"
           Id="Package\Stage Store"
           TopLeft="461,352" />
+        <NodeLayout
+          Size="166,42"
+          Id="Package\Stage TargetCRS"
+          TopLeft="46,531" />
+        <NodeLayout
+          Size="184,42"
+          Id="Package\Starge TargetProduct"
+          TopLeft="253,525" />
         <NodeLayout
           Size="166,42"
           Id="Package\Truncate Channel"
@@ -7282,186 +7612,6 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package.PrecedenceConstraints[Constraint 2]"
-          TopLeft="133.75,315">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,38"
-              Start="0,0"
-              End="0,30.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,30.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package.PrecedenceConstraints[Constraint 3]"
-          TopLeft="579.5,139">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,44"
-              Start="0,0"
-              End="0,36.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,36.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package.PrecedenceConstraints[Constraint 4]"
-          TopLeft="796.25,140">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,42"
-              Start="0,0"
-              End="0,34.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,34.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package.PrecedenceConstraints[Constraint 5]"
-          TopLeft="1021.75,141">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,40"
-              Start="0,0"
-              End="0,32.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,32.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package.PrecedenceConstraints[Constraint 6]"
-          TopLeft="338.75,318">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,37"
-              Start="0,0"
-              End="0,29.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,29.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package.PrecedenceConstraints[Constraint 7]"
-          TopLeft="942.25,318">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,38"
-              Start="0,0"
-              End="0,30.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,30.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package.PrecedenceConstraints[Constraint 8]"
-          TopLeft="732.75,319">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,39"
-              Start="0,0"
-              End="0,31.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,31.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package.PrecedenceConstraints[Constraint 9]"
-          TopLeft="530.25,318">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,34"
-              Start="0,0"
-              End="0,26.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,26.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="166,42"
-          Id="Package\Stage TargetCRS"
-          TopLeft="46,531" />
-        <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 10]"
           TopLeft="129.75,486">
           <EdgeLayout.Curve>
@@ -7483,10 +7633,6 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="184,42"
-          Id="Package\Starge TargetProduct"
-          TopLeft="253,525" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 11]"
           TopLeft="343.75,483.99999841799">
@@ -7782,6 +7928,28 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 2]"
+          TopLeft="133.75,315">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,38"
+              Start="0,0"
+              End="0,30.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,30.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 20]"
           TopLeft="758.666666666667,358">
           <EdgeLayout.Curve>
@@ -7883,6 +8051,394 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 3]"
+          TopLeft="579.5,139">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,44"
+              Start="0,0"
+              End="0,36.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,36.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 4]"
+          TopLeft="796.25,140">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,42"
+              Start="0,0"
+              End="0,34.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,34.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 5]"
+          TopLeft="1021.75,141">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,40"
+              Start="0,0"
+              End="0,32.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,32.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 6]"
+          TopLeft="338.75,318">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,37"
+              Start="0,0"
+              End="0,29.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,29.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 7]"
+          TopLeft="942.25,318">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,38"
+              Start="0,0"
+              End="0,30.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,30.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 8]"
+          TopLeft="732.75,319">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,39"
+              Start="0,0"
+              End="0,31.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,31.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 9]"
+          TopLeft="530.25,318">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,34"
+              Start="0,0"
+              End="0,26.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,26.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="173,42"
+          Id="Package\Delete dimChannel"
+          TopLeft="48.8055555555555,755.388888888889" />
+        <NodeLayout
+          Size="243,42"
+          Id="Package\Begin Dimension Table ETL Here"
+          TopLeft="447,604" />
+        <NodeLayout
+          Size="174,42"
+          Id="Package\Create dimChannel"
+          TopLeft="286.805555555556,755.388888888889" />
+        <NodeLayout
+          Size="165,42"
+          Id="Package\Load dimChannel"
+          TopLeft="512.805555555556,756.388888888889" />
+        <NodeLayout
+          Size="257,42"
+          Id="Package\Load dimChannel Unknown Member"
+          TopLeft="721.805555555556,757.388888888889" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 23]"
+          TopLeft="221.805555555556,776.388888888889">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="65,0"
+              Start="0,0"
+              End="57.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="57.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 24]"
+          TopLeft="460.805555555556,776.888888888889">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="52,0"
+              Start="0,0"
+              End="44.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="44.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 25]"
+          TopLeft="677.805555555556,777.888888888889">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="44,0"
+              Start="0,0"
+              End="36.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="36.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="217,42"
+          Id="Package\Transfer Data to Staging DB"
+          TopLeft="476,32" />
+        <NodeLayout
+          Size="158,42"
+          Id="Package\Delete dimStore"
+          TopLeft="54.9166666666667,829.055555555556" />
+        <NodeLayout
+          Size="172,42"
+          Id="Package\Delete dimReseller"
+          TopLeft="55.9166666666667,901.5" />
+        <NodeLayout
+          Size="179,42"
+          Id="Package\Delete dimCustomer"
+          TopLeft="54.9166666666667,970.388888888889" />
+        <NodeLayout
+          Size="173,42"
+          Id="Package\Delete dimLocation"
+          TopLeft="56.9166666666667,1037.5" />
+        <NodeLayout
+          Size="169,42"
+          Id="Package\Delete dimProduct"
+          TopLeft="55.25,1101.5" />
+        <NodeLayout
+          Size="157,42"
+          Id="Package\Delete DimDate"
+          TopLeft="51.8418803418803,675.814102564103" />
+        <NodeLayout
+          Size="158,42"
+          Id="Package\Create DimDate"
+          TopLeft="275.726495726496,675.641025641026" />
+        <NodeLayout
+          Size="149,42"
+          Id="Package\Load DimDate"
+          TopLeft="510.34188034188,678.717948717949" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 26]"
+          TopLeft="208.84188034188,696.727564102564">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="66.8846153846155,0"
+              Start="0,0"
+              End="59.3846153846155,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="59.3846153846155,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 27]"
+          TopLeft="433.726495726496,698.179487179487">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="76.6153846153845,0"
+              Start="0,0"
+              End="69.1153846153845,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="69.1153846153845,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 28]"
+          TopLeft="584.84188034188,720.717948717949">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-449.536324786325,34.6709401709402"
+              Start="0,0"
+              End="-449.536324786325,27.1709401709402">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,13.3354700854701" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,13.3354700854701"
+                    Point2="0,17.3354700854701"
+                    Point3="-4,17.3354700854701" />
+                  <mssgle:LineSegment
+                    End="-445.536324786325,17.3354700854701" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-445.536324786325,17.3354700854701"
+                    Point2="-449.536324786325,17.3354700854701"
+                    Point3="-449.536324786325,21.3354700854701" />
+                  <mssgle:LineSegment
+                    End="-449.536324786325,27.1709401709402" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 29]"
+          TopLeft="850.305555555556,799.388888888889">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-716.388888888889,29.6666666666666"
+              Start="0,0"
+              End="-716.388888888889,22.1666666666666">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,10.8333333333333" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,10.8333333333333"
+                    Point2="0,14.8333333333333"
+                    Point3="-4,14.8333333333333" />
+                  <mssgle:LineSegment
+                    End="-712.388888888889,14.8333333333333" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-712.388888888889,14.8333333333333"
+                    Point2="-716.388888888889,14.8333333333333"
+                    Point3="-716.388888888889,18.8333333333333" />
+                  <mssgle:LineSegment
+                    End="-716.388888888889,22.1666666666666" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </Package>
@@ -7890,7 +8446,7 @@
     design-time-name="Package\Stage Channel">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="158,42"
           Id="Package\Stage Channel\Source Channel"
@@ -7930,9 +8486,7 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -8280,7 +8834,7 @@
     design-time-name="Package\Stage ProductType">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="179,42"
           Id="Package\Stage ProductType\Source ProductType"
@@ -8320,7 +8874,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -8512,7 +9068,7 @@
     design-time-name="Package\Stage SalesHeader">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="180,42"
           Id="Package\Stage SalesHeader\Source SalesHeader"
@@ -8552,7 +9108,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -8668,10 +9226,6 @@
       <GraphLayout
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="189,42"
-          Id="Package\Stage TargetCRS\Flat File Source - CRS"
-          TopLeft="190,110" />
-        <NodeLayout
           Size="221,42"
           Id="Package\Stage TargetCRS\Destination StageTargetCRS"
           TopLeft="378,372" />
@@ -8679,6 +9233,10 @@
           Size="161,42"
           Id="Package\Stage TargetCRS\Data Conversion"
           TopLeft="376,217" />
+        <NodeLayout
+          Size="189,42"
+          Id="Package\Stage TargetCRS\Flat File Source - CRS"
+          TopLeft="190,110" />
         <EdgeLayout
           Id="Package\Stage TargetCRS.Paths[Flat File Source Output]"
           TopLeft="284.5,152">
@@ -8767,15 +9325,19 @@
     design-time-name="Package\Starge TargetProduct">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="203,42"
-          Id="Package\Starge TargetProduct\Flat File Source - Product"
-          TopLeft="141,81" />
+          Size="236,42"
+          Id="Package\Starge TargetProduct\Destination StageTargetProduct"
+          TopLeft="320,340" />
         <NodeLayout
           Size="161,42"
           Id="Package\Starge TargetProduct\Data Conversion"
           TopLeft="263,234" />
+        <NodeLayout
+          Size="203,42"
+          Id="Package\Starge TargetProduct\Flat File Source - Product"
+          TopLeft="141,81" />
         <EdgeLayout
           Id="Package\Starge TargetProduct.Paths[Flat File Source Output]"
           TopLeft="242.5,123">
@@ -8807,13 +9369,11 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="236,42"
-          Id="Package\Starge TargetProduct\Destination StageTargetProduct"
-          TopLeft="320,340" />
         <EdgeLayout
           Id="Package\Starge TargetProduct.Paths[Data Conversion Output]"
           TopLeft="343.5,276">
@@ -8845,7 +9405,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
