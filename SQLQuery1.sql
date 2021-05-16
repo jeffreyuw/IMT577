@@ -4,48 +4,37 @@ SELECT * FROM dbo.StageChannel
 SELECT * FROM dbo.dimChannel
 SELECT * FROm dbo.DimDate
 
-IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'StageChannel')
-BEGIN
-	DROP TABLE dbo.StageChannel;
-END
-GO
 
-CREATE TABLE [dbo].[StageChannel] (
-    [ChannelID] int,
-    [ChannelCategoryID] int,
-    [Channel] nvarchar(50),
-    [CreatedDate] datetime,
-    [CreatedBy] nvarchar(255),
-    [ModifiedDate] datetime,
-    [ModifiedBy] nvarchar(255)
-)
-GO
-
+-- ====================================
+-- Delete dimChannel table
+-- ====================================
 IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'dimChannel')
 BEGIN
 	DROP TABLE  dbo.dimChannel;
 END
 GO
 
+-- ====================================
+-- Create dimChannel table
+-- ====================================
 IF NOT EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'dimChannel')
 BEGIN
 	CREATE TABLE dbo.dimChannel
 	(
 	dimChannelKey INT IDENTITY(1,1) CONSTRAINT PK_dimChannel PRIMARY KEY CLUSTERED NOT NULL, -- SurrogateKey
-	dimSourceChannelID INT NOT NUll, --Natural Key
-	dimSourceCategoryID INT NOT NUll, --Natural Key
+	dimSourceChannelID INT NOT NULL, --Natural Key
+	dimSourceCategoryID INT NOT NULL, --Natural Key
 	dimChannelCategoryName VARCHAR(50) NOT NULL,
 	dimChannelName VARCHAR(50) NOT NULL
 	);
 END
 GO
 
+-- ====================================
+-- Load dimChannel table
+-- ====================================
 IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'dimChannel')
 BEGIN
-	-- ====================================
-	-- Load dimChannel table
-	-- ====================================
-
 	INSERT INTO dbo.dimChannel
 	(
 	dimSourceChannelID
@@ -66,14 +55,13 @@ END
 GO
 
 -- =============================
--- Begin load of unknown member
+-- Begin load of unknown member for dimChannel
 -- =============================
-
 SET IDENTITY_INSERT dbo.dimChannel ON;
 
 INSERT INTO dbo.dimChannel
 (
-dimChannelID
+dimChannelKey
 ,dimSourceChannelID
 ,dimSourceCategoryID
 ,dimChannelCategoryName
@@ -91,29 +79,34 @@ VALUES
 SET IDENTITY_INSERT dbo.dimChannel OFF;
 GO
 
---==========================
--- CREATE dimLocation TABLE
---==========================
+-- ====================================
+-- Delete dimLocation table
+-- ====================================
 IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'dimLocation')
 BEGIN
 	DROP TABLE dbo.dimLocation;
 END
 GO
-
-IF NOT EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'dimReseller')
+-- ====================================
+-- Create dimLocation table
+-- ====================================
+IF NOT EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'dimLocation')
 BEGIN
 	CREATE TABLE dbo.dimLocation
 	(
 	dimLocationKey INT IDENTITY(1,1) CONSTRAINT PK_dimLocation PRIMARY KEY CLUSTERED NOT NULL, -- SurrogateKey
-	dimAddress NVARCHAR(255) NOT NUll, --Natural Key
-	dimCity NVARCHAR(255) NOT NUll, --Natural Key
-	dimPostalCode NVARCHAR(255) NOT NULL,
-	dimStateProvince NVARCHAR(255) NOT NULL,
-	dimCountry NVARCHAR(255) NOT NULL
+	[Address] NVARCHAR(255) NOT NULL,
+	City NVARCHAR(255) NOT NULL,
+	PostalCode NVARCHAR(255) NOT NULL,
+	StateProvince NVARCHAR(255) NOT NULL,
+	Country NVARCHAR(255) NOT NULL
 	);
 END
 GO
 
+-- ====================================
+-- Load dimLocation table - IN PROCESS!!!!!!!!
+-- ====================================
 INSERT INTO dbo.dimLocation
 (
 dimAddress
@@ -125,6 +118,32 @@ SELECT
 
 );
 GO
+
+-- =============================
+-- Begin load of unknown member for dimLocation
+-- =============================
+SET IDENTITY_INSERT dbo.dimLocation ON;
+
+INSERT INTO dbo.dimLocation
+(
+dimLocationKey
+, dimAddress
+,dimSourceCategoryID
+,dimChannelCategoryName
+,dimChannelName
+)
+VALUES
+(
+-1
+,-1
+,-1
+,'Unknown'
+,'Unknown'
+);
+-- Turn the identity insert to OFF so new rows auto assign identities
+SET IDENTITY_INSERT dbo.dimChannel OFF;
+GO
+
 
 --==========================
 --CREATE dimReseller Table
