@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="79"
-  DTS:VersionGUID="{9DAAC285-70A5-4A03-A352-0AFD4CF5BDDC}">
+  DTS:VersionBuild="81"
+  DTS:VersionGUID="{6EAD62D3-905C-4D29-A446-59786DB1BFD0}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -139,7 +139,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAyILdzWThu3L4Gh4bYAYOuLk1DyZkdrzR+Y+tTua9iogAAAAAOgAAAAAIAACAAAACPsI3v0lpqDpFGYhmOJH5CZiEza1EhPZX+pccRcTDrFDAAAAAy257p9nrfVIkgvsDlXbC5/QVB3FabeShpSwugjTGHHT3R3WEq0G3mGXG1nULQSkBAAAAAO2BhgCUhKhPjsWD/krDt7IhTwPIlVapXwb63xKI3FbcDGPq9N8fJe0YD/+f8u9wntm/gj3BqvTNUXW0rGfX0AQ</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAA2GY/Z4eefVmOrEAOJa4bSftjgLQ8ORftyMyAADN227wAAAAAOgAAAAAIAACAAAAAgqlrcirH4fUdbfSMFZxFeXNcJNMvtH2j42K/wZy30IjAAAAAF5I75IodbkuSy8KsgxFrRG4uMvv8zxfrwK4MiI3tSUo5rW88zPhXnWTPXVo7LSrxAAAAAjWr2LPybrcTyXNMBSe+lMdg1lu0Xl8D3K9ux7+tEtwTGgT3pAsRlr+KvlTpr/o7dKrwUIfR2aRaKyKZEnsCPlw</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -154,7 +154,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAB30QQrRmY4CtQIB7WfaEV8L/Ksv5a2Vy5zGVEYQy2gBwAAAAAOgAAAAAIAACAAAABjeR55ax+HVkeJZiL6YBmf2/h45D4VDcy5DzwYk6x7cjAAAAC/UIGHoiOMCIMvmmc8LfIS3U62MtXh3t+A8HZqb53CN+AGrI2bxJTad65K5PSUAi9AAAAAVCDO8G1SBlnZmlbeqGWh6Ir817CkSCV6ynDhUdkyKjDrNN6ruSG9hN//uUkwC1g+fo3o2KtUFyqeNCrPo2qNAg</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAxe4gSYpnYMuyoprtGeYEzImJpB+9/M/zd0hWEdv3QFwAAAAAOgAAAAAIAACAAAADJdvsV0obZYTXRcKndDUH1HJLpwYpfbYrCgv8HLvzbEzAAAACSMlZzOGJZmX/rSell9N1Up2HeGhNGmfXTDh8mR+pzORgNalkx6iUUUVfXJ+k6Qs1AAAAAzeR5NNq1meXDQRMF6J/juqFPhGNgkb5kXruj8AKYDF+uhWUiWRSPtk4b9vfiBx54w7/ss7GUZv9T8i7H/lhl7g</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -169,7 +169,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAvO56voY13mwRBrAbt/zneVwGo1C7avwa88junb0g8CgAAAAAOgAAAAAIAACAAAAA8ZOYahrDqFaG8mNlhQKbK2J/kY0iHRa8lm0fFpALRQDAAAAD4PiAMaR0rHZR+DEeZ0u3U0BubsSHFxojKPgbuv/kGKRltbnzhMXfkdpgX0kQrud5AAAAAZkHfsSzOIWvxhDDnbxDPFPuIQ0bTwiSOUhsUuPtIysTbRCcMyeOZuW4VAZXtrtLj/8PkCrLhzE1Qx+ZtUroj7A</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABc6XbPgpp/lXW33zAIMQpultrT42976YwK4/Rxx+Ye9wAAAAAOgAAAAAIAACAAAAA+IyknHdC2AGNU982ohzoqQOiA+1iF75OF4/CqsQtMnjAAAAD/GSlPuzQXuT50UeZUkMBX6+LF5BwlroAAtS4OQKby/kZ2M1P+IvlyyxYUClDZiIBAAAAA0g/B+rJ4wMoTYUWfFvwfcmkE+kyX/YZ2HcpYnjdbBW7y5qYR742U7mpM2O1EMvhlSZYVbUckmseFpdw4FDLUXA</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -184,7 +184,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAf0E3UO7Tfi4BzbaNeMQyB28OgcVbju3QVHokSjow07gAAAAAOgAAAAAIAACAAAACrbcZZHHr4W/yLFmdRtVHxagHEaJhsllH3DP/ipiLBdzAAAAAW+JKwBregb/GVMLEqT2T2Gre8Ziuiiwcoe8d6rCuREdbZSjKyP4jAwuwW0Z/SDMJAAAAAJX9av4n3KeEWnuWH92c2pwG1vPeD+MNNsUUn9lnvBDlXtQF6nV+Xv/oyAQr5VaIHckmbE2yChiFzNvv3rJQ8Ig</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADbIQD37cEeMDL9SgJLLHUj116j80bN/luqbMY0K+MNMgAAAAAOgAAAAAIAACAAAADrwP/G99IUq9gvAML4SKtt9b1W0RUXd/65a3PG0Jl1fjAAAAAdSCpAdViXn4efml9caYDUA8TzS4TyVCGnWDylSLBX95VXKC3+DsDbpapYr8SNmhJAAAAAVCHwF5aoaV2/Q4PpeD9Ix2t1vARo4ds9qgPyWEGuM2K/byEKkXvlnYIu1hXuD42gnhi7uQ5S2KOSNHyc0ZEHZg</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -199,7 +199,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACK3WcI2xabbGXvnLqSeK4xSavvxcqochhNf7UkCM6RkAAAAAAOgAAAAAIAACAAAADU/uvF8pvZogzZjm5VE44rYcxW3KNjh2wziVbU5gIakTAAAACm4sfW0Zorc6H4igDmYwbmLA5VkSPKU1js/w8NrJcrIH3mlkDs0u5cAr58xHzRQ2xAAAAAJpofgWM1Lv1T2C/U1LYh7xxSWa6QtCPtmPoOq/m15dMJBREm8X4FzVwLM/0Zq8PJNdBysXLBLAc7lDewZGHuGw</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADHIdtNaCgAkRBXSrYc9JRbThBWTXU4ScgGdQjvL95ahQAAAAAOgAAAAAIAACAAAABcgQDZu7lwzByjmRCt6IFyUYESvYmXWbfykA8FrreKyTAAAAA0c6gMEt8hLD3OA6FyBRid85uDSzNO9NMOsNGlv3Od0wSRRIWSoXhT4DCIqw9vAkNAAAAAZOJI5DUI/XY3VG5m/46bty+1dcgbyW4TKWaCeUQ2SGiT29oEVrMq8Qb1zdnEv/gLUG0GJZaOwkAz4X2CxFC0cg</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -214,7 +214,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACdA4DcPEmlK1KOYywzXg5t1UsYv+HQ4VazEEA+AlwKQwAAAAAOgAAAAAIAACAAAADiFTqu7mZ6NjkJkcvw41DFHAubdGbDARVqt2P04EZolzAAAAAi2nOcxkji5D3zKTyUmMYHnmrI6T8lheyyl7SBT9gSNtfHZ9J5obOR8ZC/eSEyDHpAAAAAfLbP5HtaRiswivlCtO2HL0hyfrxkt+v+765KXwhRzbqinowC6BUig40KgnEJ3rj+m8RSSm+wO/1i1b6G8xtbxA</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABLN3E4FlQfBmgxONbuJKHTeExx7B6XcGf3pgLZPGfE5QAAAAAOgAAAAAIAACAAAADRl2WvKgl7JKBjzuIQ+GfzA0+QwasrIvPP+vye/gu9NTAAAAA7cNCooP7emQlNLd3zu2wwBCFAOdlcYWZsvh1re38daNxev6Dvio3ueQ8SMwgESutAAAAAQ9/gVI9uMcDzs6et5M4AUE+SRvnRGsEs3wrvFDY1UJzGIN7eTES4nEq4uhEAVHYeR30pdc7ZWIv4GjCHk63BWg</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -229,7 +229,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACE6gx96eQArhX5DXm8iAer+vXXKNJQw0NcqGo86KxgnAAAAAAOgAAAAAIAACAAAAAFxuWK7UG9WRXxaYgiYESwIWAqCvai3ql5QbbADWWQLjAAAADfWriDDMkdysvaGHU5hM7OvizAmUpM85uHtMEoMEC0kkyIF6UTGIy9rz0Ef3GAv6ZAAAAAvyGZrLt2w201rQ44E088o9oxAbzL90T9RT8746/RHnHmfLF2Az9vGG0b0Aw16VGS2F9bhXTcnA+2C8yOg8g1Pw</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAeoXz+4N9gtO0snAlXst6EkrJAC2UBdJzRLdwPZKS7yAAAAAAOgAAAAAIAACAAAABmU5XW0zyM0a7LfURczpbWMu2nUDKjkwnUmFiOtBW9eTAAAADNBkVwPaqwCMWGlUL66B9EWOgz5qg4XQS54pCM7jCpOorKeMsP8InbwXstciDBFh9AAAAAhvpdYk+P2Ly8coWSnnjcMaTGlBBTvVQCM2CuHUHWUwXLLzrVmr9ni6ahq/zDYPTHX7pXbhY8Gj74BmHFuW0t/Q</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -244,7 +244,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADS8lA9IEhbg/L27JhG2oPA1/v/JgKoh7V7b4NZ9mwjmQAAAAAOgAAAAAIAACAAAAD4/3Lr1/0cEI+SAuIJbCSqLOx1CXPvIP7DfQ5p8dMf3DAAAAA3kO/uuLlNmZHiiKAdSOIr7POL/WC9SQomG7YlREQnb3f65nEO8ogawWEMSnGmOdlAAAAAyk4kIF/0z8wWfg8MBPtjau0g6c4rAPEsGh+TNFZr8amiDiQEeMZZDhdcr65KkTpWlcET2x87eTx6ZZcxrP0YKg</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAASxNi5m3Fo7FINfBKwOOl2wngN2znKJnu0cmYQ4+vpnwAAAAAOgAAAAAIAACAAAAB+i1L5QkkHejVwvCvk9s6a7hD7cWDgjlTSD/d2RcBNyzAAAAA/zizClHbxOXQ7gO1Zx0/QqokzUayc/VVJfltC6Gm7hbakKhinhMg3jbSOsxCBtapAAAAAepVmxq79cmh5Yj4xxl7qz3w9HadMm5Gr54bDdjT5NVmhQtJO4aHhMBmCiAX46AQhOdjPuaGx7egB6Yb/B9tQRg</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -259,7 +259,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAHYvqOEkUpzkU78bduxD1arsw4vtChSofzjHxercOshQAAAAAOgAAAAAIAACAAAACricG7cwQ37ISXlOYDNFxSS8jri1yveNZrIKLWnu2MLzAAAABXqTQfhKY7B8OqPtIewDu3FCaZa6m8K0+OMXobx0qgHrIdV7z5NL7m0gc2IcrPrBtAAAAAbmn+BuRAtLNJEyZwYKUT2/nLdNtAuZFib/YO0bZzBbgaglavM7mWJi2/De6N620vKcS7WhGUg7f65Scq/2IBgw</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAbUnwoINpJ0v0kb+rMbV6aTrH6g9Sbu6gvv09KapO6/gAAAAAOgAAAAAIAACAAAACzFMxuP/rZDQ5QEojeyzmjqIkk09pQysPUdhxA6fE81DAAAAAgsT5WUlBWugpPCX9sF3Al9m/F8jd8//+BYYAo0c/V7QUko3rHskQ0Jwif1XNKP+xAAAAAPu9Ugp7YtkeGbXAVq7GoVJ1vWiHsqJVdpceBIsepfPjzS36IrFN2Yl0lJq+tGjkKhIzrClbszlvrgwERoTdlkw</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -274,7 +274,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACFH8a+b2YIIQOjMg99itlmwbGfx4tqaelToOk/ppETtgAAAAAOgAAAAAIAACAAAAAzhwQHI40M/ABkLQK2rBqZcw6zcSrDHkN518zGayyt2jAAAAD4kwCKwvJtLsQw1P7s7W60bHWCHHW+8hFJbZ6UMklZxypwC27T37B5LZr5VYrrmAxAAAAAbhtWdcQSk8dHTxpkg73AoxtRG9UEA/NGEvewrzL/P9A517KymBFmFR88dw1R/p7R/FiS5mJqnl5mC4i+0McH1g</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABbV8scGAtU9zNIYXYRFsIRdES6D6Qq6Ku+i89YmoHPkAAAAAAOgAAAAAIAACAAAABtUq5mstn+9+z8ia9hQyAqILOjrug0ja84W7kj3tP5HzAAAADIdvACTKRmAZL75BC+zFqKBISEfFCKbOth8umy3ia3QqwbgQAtSBC6iW14WgtWOPNAAAAA+lXiVW1gqe+fRpPFOVxG/f5KLZI3K6yhapb3o8KzG85dtrTPvifEVen81G1GvZcZbPG2n6k3oqkYGBdNYQpc7g</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -289,7 +289,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACbOTEswedNZNKUdWrtvDvV2YjERUGAa/+MjnC8m8vVjwAAAAAOgAAAAAIAACAAAABxA3q2oXojkSpBwZQeiYckfVa7pJzLi0ApWBTxscCKDTAAAAA3X5fFWfbHJpKEm2BwEt3kKr1Bs0OLiOK8gZ4X6uWghmpJnRcydkcnCoKSYldtdFVAAAAAD8UOp6a+WDsl5rZ39hDtx0sraDxv87YIku827Jal7qmzxjZkL0bzZajpxHLBdNyECZ0TbARmsA4KRUyVt0YmFw</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAwGDHOgOc2uWFMO8kfihHOibuPgCIPSofQsaIVtDE6dAAAAAAOgAAAAAIAACAAAAC8HvptuYaHdt1oXARDot7TQC69/ASlQEOD6kMb8sIXwzAAAAC3E6kpN4d/VB50s5fYIOqvy5lkZmF7f833mC7//bg7kE7l+y5PzY/QoPQ2lFV7aatAAAAAfJ06zVd9n0q0GNWyjEIwmaCCXQ3FImNpDL+5relwGlCaaLqlEqCtNzfr4qPbSmReIeY585hxaGqnH3D1M6mhgQ</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -304,7 +304,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACxF/M3kvv/Ste3nC+zLByBG5JTuPMOa3DYk5EPpb9P6gAAAAAOgAAAAAIAACAAAAC9kfuKsc10cSJQkKBFdIDPlv5iCVp5VCgjeLypykPS5TAAAABjhGYGaQhzC4wUa0oCemPGNhcqr643OMHddZBmL0eFRalGnBAkNhdTKEqICFYQ0ixAAAAA64A5RSGTo0Z1jnyfh69KKfwq/DZ8H7b0bCJXtJWPcdvEn0Eu47rHdJQE5NEYfAGHUtO1FiJl5t2ZwdF34tVXLQ</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADmmrrRtZiu35619YpewCb8X53kLiNmQhbUPCvxwIJ8SAAAAAAOgAAAAAIAACAAAAAbefizsxyLH3P05HH7zBEtDereWZlYRahce+LvvwBZATAAAABUaGnY7taU56ke/iu6UgiwsjUXGgF8a52mSEmOsIe/u34b1T1dgfqiD1FNl/V1dttAAAAAuQgI1+y2rtDY16N0LQpF/0y6KxwWZUOZCD/8ysirIAMFLSzADH/TZSCmFbQk6+Lpfqd1YMRQtZgSEI8eY9cBGQ</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -319,7 +319,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACOlk2HiqvdVu8G7RWkITZkhC4rBD3YBRE4enVBjfpibAAAAAAOgAAAAAIAACAAAACh4do8VVvNJDHp44fti5osKcXkXJz38XoCSDuv0nbMRzAAAAAm7OmehvLyDjgGsVDZPfSIhk9AXY33QJM7sn8fK8Suvd3ZhND/0CzxmvjX/vWwEthAAAAAR2WgCyA2tnEGGWHF/UsGbv6Ag216punkIRFPGZoCPpl+OvzGWFs39Nr87CjALVjx6rMCTCkFf5c6L7tlgJvyUg</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAjnFyowN0T+4Qz93RTjRzcqnkN24nb3boFDUgRi3hKyQAAAAAOgAAAAAIAACAAAADy1NQruAseZP7/PIcPPhwZ+cdBorn4o1XFh3JVN+khLzAAAAC/pET5gE48qwGGhHZwIaflE9rtZ6dLlFduFfHHZ05UGQr/Zh7xPnNsJ6wL/jCHgJlAAAAAGhEx77f4114WLjUvrq1eJromUh0HridcA+kTgiIGnyqwl2uyMhWJTEJw9GJ/bvdZbWdnV0xmyUEhcHdSRVZllw</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -334,7 +334,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAB85/4ZklHX8WaS7BR08iC77kPAMEmo59NxT+BssVkvkwAAAAAOgAAAAAIAACAAAADoyomS4zoM0mhZXxLVdN9TZCxhtq7CrklGyPYv0bafwzAAAABG6EvhaO8SWnV5no/StkzrXLRx0G4Q0hy/kcEUdPf0sC7Faa+C5mZlfkk+Lx86x79AAAAA5o08ncZCFN31/Q3igXzn97ccq8YvjOMw2G4DQaCs1TYJuYNAxVuSgk2ne90F8K4B+dZPt8hO+JfZHyvtU2RbTg</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADRLvIzV9N52lSFDRlUaAkoNb5BxbEDSLFtzvgF29gRJQAAAAAOgAAAAAIAACAAAAARvTqlePHEfZEkJ+aW7jp86nW++iAjVWF0NFPiiATTujAAAADnNUUnGAXidYL1MAHd2VZ3qu0tMd+1/Pm5BHZaXRhCDn9UL61fEmWV0vFbTx/a0PlAAAAArnvCWhSKze+WVfF/FvYZ7h/o6B6uSukeAyVnbtV2/Tcnxx24IdjGZ06we1+FZgdhYEc+BGOWsm9oweR/XXHbrA</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -361,7 +361,6 @@
       DTS:refId="Package\Create Destination Database Schema and Tables"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
-      DTS:Disabled="True"
       DTS:DTSID="{3FC62C29-3842-44D9-A423-090EAB9B89C5}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
@@ -372,7 +371,7 @@
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{C9C3DF5F-10B2-43AC-A852-12C5C1E847F9}"
-          SQLTask:SqlStatementSource="IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'StageChannel')&#xA;BEGIN&#xA;&#x9;DROP TABLE dbo.StageChannel;&#xA;END&#xA;GO&#xA;&#xA;CREATE TABLE [dbo].[StageChannel] (&#xA;    [ChannelID] int,&#xA;    [ChannelCategoryID] int,&#xA;    [Channel] nvarchar(50),&#xA;    [CreatedDate] datetime,&#xA;    [CreatedBy] nvarchar(255),&#xA;    [ModifiedDate] datetime,&#xA;    [ModifiedBy] nvarchar(255)&#xA;)&#xA;GO&#xA;&#xA;IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'StageChannelCategory')&#xA;BEGIN&#xA;&#x9;DROP TABLE dbo.StageChannelCategory;&#xA;END&#xA;GO&#xA;&#xA;CREATE TABLE [dbo].[StageChannelCategory] (&#xA;    [ChannelCategoryID] int,&#xA;    [ChannelCategory] nvarchar(50),&#xA;    [CreatedDate] datetime,&#xA;    [CreatedBy] nvarchar(255),&#xA;    [ModifiedDate] datetime,&#xA;    [ModifiedBy] nvarchar(255)&#xA;)&#xA;GO&#xA;&#xA;IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'StageCustomer')&#xA;BEGIN&#xA;&#x9;DROP TABLE dbo.StageCustomer;&#xA;END&#xA;GO&#xA;&#xA;CREATE TABLE [dbo].[StageCustomer] (&#xA;    [CustomerID] uniqueidentifier,&#xA;    [SubSegmentID] int,&#xA;    [FirstName] nvarchar(255),&#xA;    [LastName] nvarchar(255),&#xA;    [Gender] nvarchar(1),&#xA;    [EmailAddress] nvarchar(255),&#xA;    [Address] nvarchar(255),&#xA;    [City] nvarchar(255),&#xA;    [StateProvince] nvarchar(255),&#xA;    [Country] nvarchar(255),&#xA;    [PostalCode] nvarchar(255),&#xA;    [PhoneNumber] nvarchar(20),&#xA;    [CreatedDate] datetime,&#xA;    [CreatedBy] nvarchar(255),&#xA;    [ModifiedDate] datetime,&#xA;    [ModifiedBy] nvarchar(255)&#xA;)&#xA;GO&#xA;&#xA;IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'StageProduct')&#xA;BEGIN&#xA;&#x9;DROP TABLE dbo.StageProduct;&#xA;END&#xA;GO&#xA;&#xA;CREATE TABLE [dbo].[StageProduct] (&#xA;    [ProductID] int,&#xA;    [ProductTypeID] int,&#xA;    [Product] nvarchar(50),&#xA;    [Color] nvarchar(50),&#xA;    [Style] nvarchar(50),&#xA;    [UnitofMeasureID] int,&#xA;    [Weight] numeric(18,4),&#xA;    [Price] numeric(18,2),&#xA;    [Cost] numeric(18,2),&#xA;    [CreatedDate] datetime,&#xA;    [CreatedBy] nvarchar(255),&#xA;    [ModifiedDate] datetime,&#xA;    [ModifiedBy] nvarchar(255),&#xA;    [WholesalePrice] numeric(18,2)&#xA;)&#xA;GO&#xA;&#xA;IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'StageProductCategory')&#xA;BEGIN&#xA;&#x9;DROP TABLE dbo.StageProductCategory;&#xA;END&#xA;GO&#xA;&#xA;CREATE TABLE [dbo].[StageProductCategory] (&#xA;    [ProductCategoryID] int,&#xA;    [ProductCategory] nvarchar(50),&#xA;    [CreatedDate] datetime,&#xA;    [CreatedBy] nvarchar(255),&#xA;    [ModifiedDate] datetime,&#xA;    [ModifiedBy] nvarchar(255)&#xA;)&#xA;&#xA;&#xA;&#xA;&#xA;CREATE TABLE [StageProductType] (&#xA;    [ProductTypeID] int,&#xA;    [ProductCategoryID] int,&#xA;    [ProductType] nvarchar(50),&#xA;    [CreatedDate] datetime,&#xA;    [CreatedBy] nvarchar(255),&#xA;    [ModifiedDate] datetime,&#xA;    [ModifiedBy] nvarchar(255)&#xA;)&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;CREATE TABLE [dbo].[StageReseller] (&#xA;    [ResellerID] uniqueidentifier,&#xA;    [Contact] nvarchar(255),&#xA;    [EmailAddress] nvarchar(255),&#xA;    [Address] nvarchar(255),&#xA;    [City] nvarchar(255),&#xA;    [StateProvince] nvarchar(255),&#xA;    [Country] nvarchar(255),&#xA;    [PostalCode] nvarchar(255),&#xA;    [PhoneNumber] nvarchar(20),&#xA;    [CreatedDate] datetime,&#xA;    [CreatedBy] nvarchar(255),&#xA;    [ModifiedDate] datetime,&#xA;    [ModifiedBy] nvarchar(255),&#xA;    [ResellerName] nvarchar(255)&#xA;)&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;CREATE TABLE [dbo].[StageSalesDetail] (&#xA;    [SalesDetailID] int,&#xA;    [SalesHeaderID] int,&#xA;    [ProductID] int,&#xA;    [SalesQuantity] int,&#xA;    [SalesAmount] numeric(18,2),&#xA;    [CreatedDate] datetime,&#xA;    [CreatedBy] nvarchar(255),&#xA;    [ModifiedDate] datetime,&#xA;    [ModifiedBy] nvarchar(255)&#xA;)&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;CREATE TABLE [dbo].[StageSalesHeader] (&#xA;    [SalesHeaderID] int,&#xA;    [Date] date,&#xA;    [ChannelID] int,&#xA;    [StoreID] int,&#xA;    [CustomerID] uniqueidentifier,&#xA;    [ResellerID] uniqueidentifier,&#xA;    [CreatedDate] datetime,&#xA;    [CreatedBy] nvarchar(255),&#xA;    [ModifiedDate] datetime,&#xA;    [ModifiedBy] nvarchar(255)&#xA;)&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;CREATE TABLE [dbo].[StageStore] (&#xA;    [StoreID] int,&#xA;    [SubSegmentID] int,&#xA;    [StoreNumber] int,&#xA;    [StoreManager] nvarchar(255),&#xA;    [Address] nvarchar(255),&#xA;    [City] nvarchar(255),&#xA;    [StateProvince] nvarchar(255),&#xA;    [Country] nvarchar(255),&#xA;    [PostalCode] nvarchar(255),&#xA;    [PhoneNumber] nvarchar(20),&#xA;    [CreatedDate] datetime,&#xA;    [CreatedBy] nvarchar(255),&#xA;    [ModifiedDate] datetime,&#xA;    [ModifiedBy] nvarchar(255)&#xA;)&#xA;&#xA;&#xA;&#xA;&#xA;CREATE TABLE [dbo].[StageTargetCRS] (&#xA;    [Year] float,&#xA;    [ChannelName] nvarchar(255),&#xA;    [TargetName] nvarchar(255),&#xA;    [ TargetSalesAmount ] float&#xA;)&#xA;&#xA;&#xA;&#xA;CREATE TABLE [dbo].[StageTargetProduct] (&#xA;    [ProductID] float,&#xA;    [Product] nvarchar(255),&#xA;    [Year] float,&#xA;    [ SalesQuantityTarget ] float&#xA;)" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'StageChannel')&#xA;BEGIN&#xA;&#x9;DROP TABLE dbo.StageChannel;&#xA;END&#xA;GO&#xA;&#xA;CREATE TABLE [dbo].[StageChannel] (&#xA;    [ChannelID] int,&#xA;    [ChannelCategoryID] int,&#xA;    [Channel] nvarchar(50),&#xA;    [CreatedDate] datetime,&#xA;    [CreatedBy] nvarchar(255),&#xA;    [ModifiedDate] datetime,&#xA;    [ModifiedBy] nvarchar(255)&#xA;)&#xA;GO&#xA;&#xA;&#xA;IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'StageChannelCategory')&#xA;BEGIN&#xA;&#x9;DROP TABLE dbo.StageChannelCategory;&#xA;END&#xA;GO&#xA;&#xA;CREATE TABLE [dbo].[StageChannelCategory] (&#xA;    [ChannelCategoryID] int,&#xA;    [ChannelCategory] nvarchar(50),&#xA;    [CreatedDate] datetime,&#xA;    [CreatedBy] nvarchar(255),&#xA;    [ModifiedDate] datetime,&#xA;    [ModifiedBy] nvarchar(255)&#xA;)&#xA;GO&#xA;&#xA;&#xA;IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'StageCustomer')&#xA;BEGIN&#xA;&#x9;DROP TABLE dbo.StageCustomer;&#xA;END&#xA;GO&#xA;&#xA;CREATE TABLE [dbo].[StageCustomer] (&#xA;    [CustomerID] uniqueidentifier,&#xA;    [SubSegmentID] int,&#xA;    [FirstName] nvarchar(255),&#xA;    [LastName] nvarchar(255),&#xA;    [Gender] nvarchar(1),&#xA;    [EmailAddress] nvarchar(255),&#xA;    [Address] nvarchar(255),&#xA;    [City] nvarchar(255),&#xA;    [StateProvince] nvarchar(255),&#xA;    [Country] nvarchar(255),&#xA;    [PostalCode] nvarchar(255),&#xA;    [PhoneNumber] nvarchar(20),&#xA;    [CreatedDate] datetime,&#xA;    [CreatedBy] nvarchar(255),&#xA;    [ModifiedDate] datetime,&#xA;    [ModifiedBy] nvarchar(255)&#xA;)&#xA;GO&#xA;&#xA;&#xA;IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'StageProduct')&#xA;BEGIN&#xA;&#x9;DROP TABLE dbo.StageProduct;&#xA;END&#xA;GO&#xA;&#xA;CREATE TABLE [dbo].[StageProduct] (&#xA;    [ProductID] int,&#xA;    [ProductTypeID] int,&#xA;    [Product] nvarchar(50),&#xA;    [Color] nvarchar(50),&#xA;    [Style] nvarchar(50),&#xA;    [UnitofMeasureID] int,&#xA;    [Weight] numeric(18,4),&#xA;    [Price] numeric(18,2),&#xA;    [Cost] numeric(18,2),&#xA;    [CreatedDate] datetime,&#xA;    [CreatedBy] nvarchar(255),&#xA;    [ModifiedDate] datetime,&#xA;    [ModifiedBy] nvarchar(255),&#xA;    [WholesalePrice] numeric(18,2)&#xA;)&#xA;GO&#xA;&#xA;&#xA;IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'StageProductCategory')&#xA;BEGIN&#xA;&#x9;DROP TABLE dbo.StageProductCategory;&#xA;END&#xA;GO&#xA;&#xA;CREATE TABLE [dbo].[StageProductCategory] (&#xA;    [ProductCategoryID] int,&#xA;    [ProductCategory] nvarchar(50),&#xA;    [CreatedDate] datetime,&#xA;    [CreatedBy] nvarchar(255),&#xA;    [ModifiedDate] datetime,&#xA;    [ModifiedBy] nvarchar(255)&#xA;)&#xA;GO&#xA;&#xA;&#xA;IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'StageProductType')&#xA;BEGIN&#xA;&#x9;DROP TABLE dbo.StageProductType;&#xA;END&#xA;GO&#xA;&#xA;CREATE TABLE [StageProductType] (&#xA;    [ProductTypeID] int,&#xA;    [ProductCategoryID] int,&#xA;    [ProductType] nvarchar(50),&#xA;    [CreatedDate] datetime,&#xA;    [CreatedBy] nvarchar(255),&#xA;    [ModifiedDate] datetime,&#xA;    [ModifiedBy] nvarchar(255)&#xA;)&#xA;GO&#xA;&#xA;&#xA;IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'StageReseller')&#xA;BEGIN&#xA;&#x9;DROP TABLE dbo.StageReseller;&#xA;END&#xA;GO&#xA;&#xA;CREATE TABLE [dbo].[StageReseller] (&#xA;    [ResellerID] uniqueidentifier,&#xA;    [Contact] nvarchar(255),&#xA;    [EmailAddress] nvarchar(255),&#xA;    [Address] nvarchar(255),&#xA;    [City] nvarchar(255),&#xA;    [StateProvince] nvarchar(255),&#xA;    [Country] nvarchar(255),&#xA;    [PostalCode] nvarchar(255),&#xA;    [PhoneNumber] nvarchar(20),&#xA;    [CreatedDate] datetime,&#xA;    [CreatedBy] nvarchar(255),&#xA;    [ModifiedDate] datetime,&#xA;    [ModifiedBy] nvarchar(255),&#xA;    [ResellerName] nvarchar(255)&#xA;)&#xA;GO&#xA;&#xA;&#xA;IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'StageSalesDetail')&#xA;BEGIN&#xA;&#x9;DROP TABLE dbo.StageSalesDetail;&#xA;END&#xA;GO&#xA;&#xA;CREATE TABLE [dbo].[StageSalesDetail] (&#xA;    [SalesDetailID] int,&#xA;    [SalesHeaderID] int,&#xA;    [ProductID] int,&#xA;    [SalesQuantity] int,&#xA;    [SalesAmount] numeric(18,2),&#xA;    [CreatedDate] datetime,&#xA;    [CreatedBy] nvarchar(255),&#xA;    [ModifiedDate] datetime,&#xA;    [ModifiedBy] nvarchar(255)&#xA;)&#xA;GO&#xA;&#xA;&#xA;IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'StageSalesHeader')&#xA;BEGIN&#xA;&#x9;DROP TABLE dbo.StageSalesHeader;&#xA;END&#xA;GO&#xA;&#xA;CREATE TABLE [dbo].[StageSalesHeader] (&#xA;    [SalesHeaderID] int,&#xA;    [Date] date,&#xA;    [ChannelID] int,&#xA;    [StoreID] int,&#xA;    [CustomerID] uniqueidentifier,&#xA;    [ResellerID] uniqueidentifier,&#xA;    [CreatedDate] datetime,&#xA;    [CreatedBy] nvarchar(255),&#xA;    [ModifiedDate] datetime,&#xA;    [ModifiedBy] nvarchar(255)&#xA;)&#xA;GO&#xA;&#xA;&#xA;IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'StageStore')&#xA;BEGIN&#xA;&#x9;DROP TABLE dbo.StageStore;&#xA;END&#xA;GO&#xA;&#xA;CREATE TABLE [dbo].[StageStore] (&#xA;    [StoreID] int,&#xA;    [SubSegmentID] int,&#xA;    [StoreNumber] int,&#xA;    [StoreManager] nvarchar(255),&#xA;    [Address] nvarchar(255),&#xA;    [City] nvarchar(255),&#xA;    [StateProvince] nvarchar(255),&#xA;    [Country] nvarchar(255),&#xA;    [PostalCode] nvarchar(255),&#xA;    [PhoneNumber] nvarchar(20),&#xA;    [CreatedDate] datetime,&#xA;    [CreatedBy] nvarchar(255),&#xA;    [ModifiedDate] datetime,&#xA;    [ModifiedBy] nvarchar(255)&#xA;)&#xA;GO&#xA;&#xA;&#xA;IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'StageTargetCRS')&#xA;BEGIN&#xA;&#x9;DROP TABLE dbo.StageTargetCRS;&#xA;END&#xA;GO&#xA;&#xA;CREATE TABLE [dbo].[StageTargetCRS] (&#xA;    [Year] float,&#xA;    [ChannelName] nvarchar(255),&#xA;    [TargetName] nvarchar(255),&#xA;    [TargetSalesAmount] float&#xA;)&#xA;GO&#xA;&#xA;&#xA;IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'StageTargetProduct')&#xA;BEGIN&#xA;&#x9;DROP TABLE dbo.StageTargetProduct;&#xA;END&#xA;GO&#xA;&#xA;CREATE TABLE [dbo].[StageTargetProduct] (&#xA;    [ProductID] float,&#xA;    [Product] nvarchar(255),&#xA;    [Year] float,&#xA;    [SalesQuantityTarget] float&#xA;)&#xA;GO" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
@@ -588,7 +587,6 @@
       DTS:refId="Package\Stage Channel"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:Disabled="True"
       DTS:DTSID="{0D36F089-1E53-420F-9FA8-5B9956E58017}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -1016,7 +1014,6 @@
       DTS:refId="Package\Stage ChannelCategory"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:Disabled="True"
       DTS:DTSID="{4CEF6C75-0B27-46F4-9021-3801E7C9E04F}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -1416,7 +1413,6 @@
       DTS:refId="Package\Stage Customer"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:Disabled="True"
       DTS:DTSID="{04BF2B89-3DD1-4129-AF9C-8D72426D2993}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -2141,7 +2137,6 @@
       DTS:refId="Package\Stage Product"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:Disabled="True"
       DTS:DTSID="{AAE3E29A-0D9C-4DE0-A12A-078BE029A913}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -2815,7 +2810,6 @@
       DTS:refId="Package\Stage ProductCategory"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:Disabled="True"
       DTS:DTSID="{FB59A59E-949A-45AF-AE57-C3ABA2E91385}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -3215,7 +3209,6 @@
       DTS:refId="Package\Stage ProductType"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:Disabled="True"
       DTS:DTSID="{1A4A9CD7-780B-4236-8EDF-FDAD242806B1}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -3643,7 +3636,6 @@
       DTS:refId="Package\Stage Reseller"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:Disabled="True"
       DTS:DTSID="{FDB8570D-178A-44FD-8147-A80C0AF7BFE2}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -4307,7 +4299,6 @@
       DTS:refId="Package\Stage SalesDetail"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:Disabled="True"
       DTS:DTSID="{38387F5E-7EF4-4C93-9262-ACB87063E170}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -4796,7 +4787,6 @@
       DTS:refId="Package\Stage SalesHeader"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:Disabled="True"
       DTS:DTSID="{08722279-03AA-43DD-8EC3-E9CF6A087F05}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -5303,7 +5293,6 @@
       DTS:refId="Package\Stage Store"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:Disabled="True"
       DTS:DTSID="{1758A833-A15A-41E2-932F-8399A67F88CF}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -5957,7 +5946,6 @@
       DTS:refId="Package\Stage TargetCRS"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:Disabled="True"
       DTS:DTSID="{54D5AFC4-EE4B-4180-B749-140D3200C027}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -6472,7 +6460,6 @@
       DTS:refId="Package\Starge TargetProduct"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:Disabled="True"
       DTS:DTSID="{428AA23B-9529-466B-B0CA-2E18CF539292}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -7000,7 +6987,6 @@
       DTS:refId="Package\Truncate Channel"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
-      DTS:Disabled="True"
       DTS:DTSID="{6AE41EA0-EB39-4FE9-92C3-43325ED308F3}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
@@ -7018,7 +7004,6 @@
       DTS:refId="Package\Truncate ChannelCategory"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
-      DTS:Disabled="True"
       DTS:DTSID="{8DA507EB-ADB8-4DAA-8581-35415D83C5C3}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
@@ -7036,7 +7021,6 @@
       DTS:refId="Package\Truncate Customer"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
-      DTS:Disabled="True"
       DTS:DTSID="{9D8ED1EE-E989-49A8-A1ED-AB6349193939}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
@@ -7054,7 +7038,6 @@
       DTS:refId="Package\Truncate Product"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
-      DTS:Disabled="True"
       DTS:DTSID="{EACD0A04-A0BD-4B98-A381-F51BBB036380}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
@@ -7072,7 +7055,6 @@
       DTS:refId="Package\Truncate ProductCategory"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
-      DTS:Disabled="True"
       DTS:DTSID="{80FF8A0D-F31D-4FEB-9752-623779DCE8F1}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
@@ -7090,7 +7072,6 @@
       DTS:refId="Package\Truncate ProductType"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
-      DTS:Disabled="True"
       DTS:DTSID="{8DE7D5B9-AA5C-4876-A301-73BD6BAD15E4}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
@@ -7108,7 +7089,6 @@
       DTS:refId="Package\Truncate Reseller"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
-      DTS:Disabled="True"
       DTS:DTSID="{26F670EA-A4A6-46D8-ACD4-E88F40EF7030}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
@@ -7126,7 +7106,6 @@
       DTS:refId="Package\Truncate SalesDetail"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
-      DTS:Disabled="True"
       DTS:DTSID="{5B332A7C-974A-4F1F-AA3F-C0E10B3343E5}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
@@ -7144,7 +7123,6 @@
       DTS:refId="Package\Truncate SalesHeader"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
-      DTS:Disabled="True"
       DTS:DTSID="{48C0121F-F6DE-4A78-B375-F0A8BC3327C6}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
@@ -7162,7 +7140,6 @@
       DTS:refId="Package\Truncate Store"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
-      DTS:Disabled="True"
       DTS:DTSID="{6B0C8672-98A6-47AC-89BE-90DD4AB62AA7}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
@@ -7180,7 +7157,6 @@
       DTS:refId="Package\Truncate Target-CRS"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
-      DTS:Disabled="True"
       DTS:DTSID="{0451079E-D670-4542-A2C7-FEB5E017C28C}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
@@ -7198,7 +7174,6 @@
       DTS:refId="Package\Truncate TargetProduct"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
-      DTS:Disabled="True"
       DTS:DTSID="{8B11DED2-1450-46DE-A1B7-4C936E9694C8}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
