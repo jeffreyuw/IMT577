@@ -147,7 +147,7 @@ BEGIN
 	[Address] NVARCHAR(255) NOT NULL,
 	City NVARCHAR(255) NOT NULL,
 	PostalCode NVARCHAR(255) NOT NULL,
-	StateProvince NVARCHAR(255) NOT NULL,
+	State_Province NVARCHAR(255) NOT NULL,
 	Country NVARCHAR(255) NOT NULL
 	);
 END
@@ -163,7 +163,7 @@ BEGIN
 	[Address]
 	, City
 	, PostalCode
-	, StateProvince
+	, State_Province
 	, Country
 	)
 	SELECT
@@ -180,7 +180,7 @@ BEGIN
 	[Address]
 	, City
 	, PostalCode
-	, StateProvince
+	, State_Province
 	, Country
 	)
 	SELECT
@@ -197,7 +197,7 @@ BEGIN
 	[Address]
 	, City
 	, PostalCode
-	, StateProvince
+	, State_Province
 	, Country
 	)
 	SELECT
@@ -221,7 +221,7 @@ dimLocationKey
 , [Address]
 , City
 , PostalCode
-, StateProvince
+, State_Province
 , Country
 )
 VALUES
@@ -262,7 +262,7 @@ BEGIN
 	ProductRetailPrice NUMERIC(18,2) NOT NULL,
 	ProductWholesalePrice NUMERIC(18,2) NOT NULL,
 	ProductCost NUMERIC(18,2) NOT NULL,
-	ProductRetailUnitProfit NUMERIC(18,2) NOT NULL,
+	ProductRetailProfit NUMERIC(18,2) NOT NULL,
 	ProductWholesaleUnitProfit NUMERIC(18,2) NOT NULL,
 	ProductProfitMarginUnitPercent NUMERIC(18,2) NOT NULL
 	);
@@ -284,7 +284,7 @@ BEGIN
 	, ProductRetailPrice
 	, ProductWholesalePrice
 	, ProductCost
-	, ProductRetailUnitProfit
+	, ProductRetailProfit
 	, ProductWholesaleUnitProfit
 	, ProductProfitMarginUnitPercent
 	)
@@ -323,7 +323,7 @@ dimProductKey
 , ProductRetailPrice
 , ProductWholesalePrice
 , ProductCost
-, ProductRetailUnitProfit
+, ProductRetailProfit
 , ProductWholesaleUnitProfit
 , ProductProfitMarginUnitPercent
 )
@@ -363,10 +363,7 @@ BEGIN
 	CREATE TABLE dbo.dimReseller
 	(
 	dimResellerKey INT IDENTITY(1,1) CONSTRAINT PK_dimReseller PRIMARY KEY CLUSTERED NOT NULL, -- SurrogateKey
-	-- diable this until dimLocation exists
-	-- dimLocationKey INT CONSTRAINT FK_ResellerLocation FOREIGN KEY REFERENCES dbo.dimLocation(dimLocationKey) NOT NUll,
-	-- once dimLocation exists, remove the next line
-	dimLocationKey INT NOT NULL,
+	dimLocationKey INT CONSTRAINT FK_ResellerLocation FOREIGN KEY REFERENCES dbo.dimLocation(dimLocationKey) NOT NUll,
 	ResellerID NVARCHAR(50) NOT NUll, --Natural Key
 	ResellerName NVARCHAR(255) NOT NULL,
 	ContactName NVARCHAR(255) NOT NULL,
@@ -521,10 +518,7 @@ BEGIN
 	CREATE TABLE dbo.dimCustomer
 	(
 	dimCustomerKey INT IDENTITY(1,1) CONSTRAINT PK_dimCustomer PRIMARY KEY CLUSTERED NOT NULL, -- SurrogateKey
-	-- diable this until dimLocation exists
-	-- dimLocationKey INT CONSTRAINT FK_CustomerLocation FOREIGN KEY REFERENCES dbo.dimLocation(dimLocationKey) NOT NUll,
-	-- once dimLocation exists, remove the next line
-	dimLocationKey INT NOT NULL,
+	dimLocationKey INT CONSTRAINT FK_CustomerLocation FOREIGN KEY REFERENCES dbo.dimLocation(dimLocationKey) NOT NUll,
 	CustomerID NVARCHAR(50) NOT NUll, --Natural Key
 	CustomerFullName NVARCHAR(255) NOT NULL,
 	CustomerFirstName NVARCHAR(255) NOT NULL,
@@ -589,35 +583,13 @@ VALUES
 SET IDENTITY_INSERT dbo.dimCustomer OFF;
 GO
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*
 --==========================
 --David's Reseller Table
 --==========================
-
 IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'dimReseller')
 BEGIN
-
- 
-
 DBCC CHECKIDENT (dimReseller, RESEED, 1)
-
- 
-
     INSERT INTO dbo.dimReseller
     (
     dimLocationKey 
@@ -637,6 +609,146 @@ DBCC CHECKIDENT (dimReseller, RESEED, 1)
     FROM dbo.StageReseller
         INNER JOIN dbo.dimLocation 
             ON StageReseller.Address = dimLocation.Address
-            AND StageReseller.PostalCode = dimLocation.PostalCode
-        
-    ;
+            AND StageReseller.PostalCode = dimLocation.PostalCode;
+END
+GO
+*/
+
+
+
+-- ====================================
+-- Fact tables!!!!
+-- ====================================
+/*
+USE DestinationSystem
+
+SELECT * FROM dbo.DimDate
+SELECT * FROM dbo.dimLocation
+SELECT * FROM dbo.dimChannel
+SELECT * FROM dbo.dimProduct
+SELECT * FROM dbo.dimReseller
+SELECT * FROM dbo.dimStore
+SELECT * FROM dbo.dimCustomer
+*/
+
+-- ====================================
+-- Delete factSalesActual table
+-- ====================================
+IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'factSalesActual')
+BEGIN
+	DROP TABLE dbo.factSalesActual;
+END
+GO
+-- ====================================
+-- Create factSalesActual table
+-- ====================================
+IF NOT EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'factSalesActual')
+BEGIN
+	CREATE TABLE dbo.factSalesActual
+	(
+	factSalesActualKey INT IDENTITY(1,1) CONSTRAINT PK_factSalesActual PRIMARY KEY CLUSTERED NOT NULL, -- SurrogateKey
+	dimProductKey INT CONSTRAINT FK_SalesActualProduct FOREIGN KEY REFERENCES dbo.dimProduct(dimProductKey) NOT NULL,
+	dimStoreKey INT CONSTRAINT FK_SalesActualStore FOREIGN KEY REFERENCES dbo.dimStore(dimStoreKey) NUll,
+	dimResellerKey INT CONSTRAINT FK_SalesActualReseller FOREIGN KEY REFERENCES dbo.dimReseller(dimResellerKey) NULL,
+	dimCustomerKey INT CONSTRAINT FK_SalesActualCustomer FOREIGN KEY REFERENCES dbo.dimCustomer(dimCustomerKey) NULL,
+	dimChannelKey INT CONSTRAINT FK_SalesActualChannel FOREIGN KEY REFERENCES dbo.dimChannel(dimChannelKey) NOT NULL,
+	dimSaleDateKey INT CONSTRAINT FK_SalesActualDate FOREIGN KEY REFERENCES dbo.DimDate(dimDateKey) NOT NULL,
+	dimLocationKey INT CONSTRAINT FK_SalesActualLocation FOREIGN KEY REFERENCES dbo.dimLocation(dimLocationKey) NOT NULL,
+	SalesHeaderID INT NOT NULL, -- Natural Key
+	SalesDetailID INT NOT NULL, -- Natural Key
+	SaleAmount NUMERIC(18,2) NOT NULL,
+	SaleQuantity INT NOT NULL,
+	SaleUnitPrice NUMERIC(18,2) NOT NULL,
+	SaleExtendedCost NUMERIC(18,2) NOT NULL,
+	SaleTotalProfit NUMERIC(18,2) NOT NULL
+	);
+END
+GO
+-- ====================================
+-- Load factSalesActual table
+-- ====================================
+IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'dimCustomer')
+BEGIN
+	INSERT INTO dbo.dimCustomer
+	(
+	dimLocationKey
+	, CustomerID
+	, CustomerFullName
+	, CustomerFirstName
+	, CustomerLastName
+	, CustomerGender
+	)
+	SELECT
+	L.dimLocationKey AS LocKey
+	, CAST(C.CustomerID AS NVARCHAR(50)) AS CustID
+	, C.FirstName + ' ' + C.LastName AS FullName
+	, C.FirstName AS [First]
+	, C.LastName AS [Last]
+	, C.Gender AS Gender
+	FROM dbo.StageCustomer AS C
+	INNER JOIN dbo.dimLocation AS L ON C.[Address] = L.[Address]
+	AND C.PostalCode = L.PostalCode; -- future-proofing against duplicates from large tables
+END
+GO
+SELECT * FROM factSalesActual
+
+
+-- ====================================
+-- Delete factSRCSalesTarget table
+-- ====================================
+IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'factSRCSalesTarget')
+BEGIN
+	DROP TABLE dbo.factSRCSalesTarget;
+END
+GO
+-- ====================================
+-- Create factSRCSalesTarget table
+-- ====================================
+IF NOT EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'factSRCSalesTarget')
+BEGIN
+	CREATE TABLE dbo.factSRCSalesTarget
+	(
+	factSalesTarget INT IDENTITY(1,1) CONSTRAINT PK_factSRCSalesTarget PRIMARY KEY CLUSTERED NOT NULL, -- SurrogateKey
+	dimStoreKey INT CONSTRAINT FK_SRCSalesTargetStore FOREIGN KEY REFERENCES dbo.dimStore(dimStoreKey) NUll,
+	dimResellerKey INT CONSTRAINT FK_SRCSalesTargetReseller FOREIGN KEY REFERENCES dbo.dimReseller(dimResellerKey) NULL,
+	dimChannelKey INT CONSTRAINT FK_SRCSalesTargetChannel FOREIGN KEY REFERENCES dbo.dimChannel(dimChannelKey) NOT NULL,
+	dimTargetDateKey INT CONSTRAINT FK_SRCSalesTargetDate FOREIGN KEY REFERENCES dbo.DimDate(dimDateKey) NOT NULL,
+	SalesTargetAmount NUMERIC(18,2) NOT NULL
+	);
+END
+GO
+-- ====================================
+-- Load factSRCSalesTarget table
+-- ====================================
+
+
+SELECT * FROM factSRCSalesTarget
+
+-- ====================================
+-- Delete factProductSalesTarget table
+-- ====================================
+IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'factProductSalesTarget')
+BEGIN
+	DROP TABLE dbo.factProductSalesTarget;
+END
+GO
+-- ====================================
+-- Create factProductSalesTarget table
+-- ====================================
+IF NOT EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'factProductSalesTarget')
+BEGIN
+	CREATE TABLE dbo.factProductSalesTarget
+	(
+	factSalesTargetKey INT IDENTITY(1,1) CONSTRAINT PK_factProductSalesTarget PRIMARY KEY CLUSTERED NOT NULL, -- SurrogateKey
+	dimProductKey INT CONSTRAINT FK_ProductSalesTargetProduct FOREIGN KEY REFERENCES dbo.dimProduct(dimProductKey) NOT NULL,
+	dimTargetDateKey INT CONSTRAINT FK_ProductSalesTargetDate FOREIGN KEY REFERENCES dbo.DimDate(dimDateKey) NOT NULL,
+	ProductTargetSalesQuanitity INT NOT NULL
+	);
+END
+GO
+-- ====================================
+-- Load factProductSalesTarget table
+-- ====================================
+
+
+SELECT * FROM factProductSalesTarget
