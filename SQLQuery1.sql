@@ -271,7 +271,36 @@ GO
 -- ====================================
 -- Load dimProduct table - IN PROCESS!!!!!!!!
 -- ====================================
-
+IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'dimProduct')
+BEGIN
+	INSERT INTO dbo.dimProduct
+	(
+	ProductID
+	, ProductTypeID
+	, ProductCategoryID
+	, ProductName
+	, ProductType
+	, ProductCategory
+	, ProductRetailPrice
+	, ProductWholesalePrice
+	, ProductCost
+	, ProductRetailUnitProfit
+	, ProductWholesaleUnitProfit
+	, ProductProfitMarginUnitPercent
+	)
+	SELECT
+	L.dimLocationKey AS LocKey
+	, CAST(R.ResellerID AS NVARCHAR(50)) AS CustID
+	, R.ResellerName AS [Name]
+	, R.Contact AS Contact
+	, R.PhoneNumber AS Phone
+	, R.EmailAddress AS Email
+	FROM dbo.StageProduct AS P
+	INNER JOIN dbo.StageProductType AS PT ON P.ProductTypeID = PT.ProductTypeID
+	INNER JOIN dbo.StageProductCategory AS PC ON PT.ProductCategoryID = PC.ProductCategoryID
+	AND R.PostalCode = L.PostalCode; -- future-proofing against duplicates from large tables
+END
+GO
 -- ====================================
 -- Begin load of unknown member for dimProduct
 -- ====================================
@@ -342,9 +371,31 @@ BEGIN
 END
 GO
 -- ====================================
--- Load dimReseller table - IN PROCESS!!!!!!!!
+-- Load dimReseller table
 -- ====================================
-
+IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'dimReseller')
+BEGIN
+	INSERT INTO dbo.dimReseller
+	(
+	dimLocationKey
+	, ResellerID
+	, ResellerName
+	, ContactName
+	, PhoneNumber
+	, Email
+	)
+	SELECT
+	L.dimLocationKey AS LocKey
+	, CAST(R.ResellerID AS NVARCHAR(50)) AS CustID
+	, R.ResellerName AS [Name]
+	, R.Contact AS Contact
+	, R.PhoneNumber AS Phone
+	, R.EmailAddress AS Email
+	FROM dbo.StageReseller AS R
+	INNER JOIN dbo.dimLocation AS L ON R.[Address] = L.[Address]
+	AND R.PostalCode = L.PostalCode; -- future-proofing against duplicates from large tables
+END
+GO
 -- ====================================
 -- Begin load of unknown member for dimReseller
 -- ====================================
@@ -390,11 +441,8 @@ BEGIN
 	CREATE TABLE dbo.dimStore
 	(
 	dimStoreKey INT IDENTITY(1,1) CONSTRAINT PK_dimStore PRIMARY KEY CLUSTERED NOT NULL, -- SurrogateKey
-	-- diable this until dimLocation exists
-	-- dimLocationKey INT CONSTRAINT FK_StoreLocation FOREIGN KEY REFERENCES dbo.dimLocation(dimLocationKey) NOT NUll,
-	-- once dimLocation exists, remove the next line
-	dimLocationKey INT NOT NULL,
-	StoreID INT NOT NUll, --Natural Key
+	dimLocationKey INT CONSTRAINT FK_StoreLocation FOREIGN KEY REFERENCES dbo.dimLocation(dimLocationKey) NOT NULL,
+	StoreID INT NOT NULL, --Natural Key
 	StoreName NVARCHAR(255) NOT NULL,
 	StoreNumber INT NOT NULL,
 	StoreManager NVARCHAR(255) NOT NULL
@@ -402,9 +450,29 @@ BEGIN
 END
 GO
 -- ====================================
--- Load dimStore table - IN PROCESS!!!!!!!!
+-- Load dimStore table
 -- ====================================
-
+IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'dimStore')
+BEGIN
+	INSERT INTO dbo.dimStore
+	(
+	dimLocationKey
+	, StoreID
+	, StoreName
+	, StoreNumber
+	, StoreManager
+	)
+	SELECT
+	L.dimLocationKey AS LocKey
+	, S.StoreID AS StoreID
+	, S.City + ' ' + CAST(S.StoreNumber AS nvarchar(10)) AS [Name]
+	, S.StoreNumber AS Number
+	, S.StoreManager AS Manager
+	FROM dbo.StageStore AS S
+	INNER JOIN dbo.dimLocation AS L ON S.[Address] = L.[Address]
+	AND S.PostalCode = L.PostalCode; -- future-proofing against duplicates from large tables
+END
+GO
 -- ====================================
 -- Begin load of unknown member for dimStore
 -- ====================================
@@ -461,8 +529,31 @@ BEGIN
 END
 GO
 -- ====================================
--- Load dimCustomer table - IN PROCESS!!!!!!!!
+-- Load dimCustomer table
 -- ====================================
+IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'dimCustomer')
+BEGIN
+	INSERT INTO dbo.dimCustomer
+	(
+	dimLocationKey
+	, CustomerID
+	, CustomerFullName
+	, CustomerFirstName
+	, CustomerLastName
+	, CustomerGender
+	)
+	SELECT
+	L.dimLocationKey AS LocKey
+	, CAST(C.CustomerID AS NVARCHAR(50)) AS CustID
+	, C.FirstName + ' ' + C.LastName AS FullName
+	, C.FirstName AS [First]
+	, C.LastName AS [Last]
+	, C.Gender AS Gender
+	FROM dbo.StageCustomer AS C
+	INNER JOIN dbo.dimLocation AS L ON C.[Address] = L.[Address]
+	AND C.PostalCode = L.PostalCode; -- future-proofing against duplicates from large tables
+END
+GO
 
 -- ====================================
 -- Begin load of unknown member for dimCustomer
