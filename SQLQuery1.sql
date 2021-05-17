@@ -1,16 +1,68 @@
 USE DestinationSystem
 
-SELECT * FROM dbo.StageChannel
+SELECT * FROM dbo.DimDate
+SELECT * FROM dbo.dimLocation
 SELECT * FROM dbo.dimChannel
-SELECT * FROm dbo.DimDate
+SELECT * FROM dbo.dimProduct
+SELECT * FROM dbo.dimReseller
+SELECT * FROM dbo.dimStore
+SELECT * FROM dbo.dimCustomer
 
+-- ====================================
+-- Begin load of unknown member for DimDate
+-- ====================================
+SET IDENTITY_INSERT dbo.DimDate ON;
+
+INSERT INTO dbo.DimDate
+(
+DimDateKey
+, FullDate
+, DayNumberOfWeek
+, DayNameOfWeek
+, DayNumberOfMonth
+, DayNumberOfYear
+, WeekdayFlag
+, WeekNumberOfYear
+, [MonthName]
+, MonthNumberOfYear
+, CalendarQuarter
+, CalendarYear
+, CalendarSemester
+, CreatedDate
+, CreatedBy
+, ModifiedDate
+, ModifiedBy
+)
+VALUES
+(
+-1
+, '1999-01-01'
+, 99
+, 'Unknown'
+, 99
+, -1
+, -1
+, 99
+, 'Unknown'
+, 99
+, 99
+, -1
+, 99
+, '1999-01-01'
+, 'Unknown'
+, '1999-01-01'
+, 'Unknown'
+);
+-- Turn the identity insert to OFF so new rows auto assign identities
+SET IDENTITY_INSERT dbo.DimDate OFF;
+GO
 
 -- ====================================
 -- Delete dimChannel table
 -- ====================================
 IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'dimChannel')
 BEGIN
-	DROP TABLE  dbo.dimChannel;
+	DROP TABLE dbo.dimChannel;
 END
 GO
 -- ====================================
@@ -103,18 +155,59 @@ GO
 -- ====================================
 -- Load dimLocation table - IN PROCESS!!!!!!!!
 -- ====================================
-IF NOT EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'dimLocation')
+IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'dimLocation')
 BEGIN
-INSERT INTO dbo.dimLocation
-(
-dimAddress
-,dimCity
-,dimPostalCode
-,dimStateProvince
-,dimCountry
-SELECT
-
-);
+	-- Load customer addresses
+	INSERT INTO dbo.dimLocation
+	(
+	[Address]
+	, City
+	, PostalCode
+	, StateProvince
+	, Country
+	)
+	SELECT
+	dbo.StageCustomer.[Address] AS CustStreet
+	, dbo.StageCustomer.City AS CustCity
+	, dbo.StageCustomer.PostalCode AS CustPC
+	, dbo.StageCustomer.StateProvince As CustState
+	, dbo.StageCustomer.Country AS CustCountry
+	FROM
+	dbo.StageCustomer;
+	-- Load store addresses
+	INSERT INTO dbo.dimLocation
+	(
+	[Address]
+	, City
+	, PostalCode
+	, StateProvince
+	, Country
+	)
+	SELECT
+	dbo.StageStore.[Address] AS StoreStreet
+	, dbo.StageStore.City AS StoreCity
+	, dbo.StageStore.PostalCode AS StorePC
+	, dbo.StageStore.StateProvince As StoreState
+	, dbo.StageStore.Country AS StoreCountry
+	FROM
+	dbo.StageStore;
+	-- Load reseller addresses
+	INSERT INTO dbo.dimLocation
+	(
+	[Address]
+	, City
+	, PostalCode
+	, StateProvince
+	, Country
+	)
+	SELECT
+	dbo.StageReseller.[Address] AS ResellStreet
+	, dbo.StageReseller.City AS ResellCity
+	, dbo.StageReseller.PostalCode AS ResellPC
+	, dbo.StageReseller.StateProvince As ResellState
+	, dbo.StageReseller.Country AS ResellCountry
+	FROM
+	dbo.StageReseller;
 END
 GO
 -- ====================================
@@ -236,7 +329,7 @@ BEGIN
 	CREATE TABLE dbo.dimReseller
 	(
 	dimResellerKey INT IDENTITY(1,1) CONSTRAINT PK_dimReseller PRIMARY KEY CLUSTERED NOT NULL, -- SurrogateKey
-	-- diable this until dimReller exists
+	-- diable this until dimLocation exists
 	-- dimLocationKey INT CONSTRAINT FK_ResellerLocation FOREIGN KEY REFERENCES dbo.dimLocation(dimLocationKey) NOT NUll,
 	-- once dimLocation exists, remove the next line
 	dimLocationKey INT NOT NULL,
@@ -297,7 +390,7 @@ BEGIN
 	CREATE TABLE dbo.dimStore
 	(
 	dimStoreKey INT IDENTITY(1,1) CONSTRAINT PK_dimStore PRIMARY KEY CLUSTERED NOT NULL, -- SurrogateKey
-	-- diable this until dimReseller exists
+	-- diable this until dimLocation exists
 	-- dimLocationKey INT CONSTRAINT FK_StoreLocation FOREIGN KEY REFERENCES dbo.dimLocation(dimLocationKey) NOT NUll,
 	-- once dimLocation exists, remove the next line
 	dimLocationKey INT NOT NULL,
@@ -308,6 +401,109 @@ BEGIN
 	);
 END
 GO
+-- ====================================
+-- Load dimStore table - IN PROCESS!!!!!!!!
+-- ====================================
+
+-- ====================================
+-- Begin load of unknown member for dimStore
+-- ====================================
+SET IDENTITY_INSERT dbo.dimStore ON;
+
+INSERT INTO dbo.dimStore
+(
+dimStoreKey
+, dimLocationKey
+, StoreID
+, StoreName
+, StoreNumber
+, StoreManager
+)
+VALUES
+(
+-1
+, -1
+, -1
+, 'Unknown'
+, -1
+, 'Unknown'
+);
+-- Turn the identity insert to OFF so new rows auto assign identities
+SET IDENTITY_INSERT dbo.dimStore OFF;
+GO
+
+-- ====================================
+-- Delete dimCustomer table
+-- ====================================
+IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'dimCustomer')
+BEGIN
+	DROP TABLE dbo.dimCustomer;
+END
+GO
+-- ====================================
+-- Create dimCustomer table
+-- ====================================
+IF NOT EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'dimCustomer')
+BEGIN
+	CREATE TABLE dbo.dimCustomer
+	(
+	dimCustomerKey INT IDENTITY(1,1) CONSTRAINT PK_dimCustomer PRIMARY KEY CLUSTERED NOT NULL, -- SurrogateKey
+	-- diable this until dimLocation exists
+	-- dimLocationKey INT CONSTRAINT FK_CustomerLocation FOREIGN KEY REFERENCES dbo.dimLocation(dimLocationKey) NOT NUll,
+	-- once dimLocation exists, remove the next line
+	dimLocationKey INT NOT NULL,
+	CustomerID NVARCHAR(50) NOT NUll, --Natural Key
+	CustomerFullName NVARCHAR(255) NOT NULL,
+	CustomerFirstName NVARCHAR(255) NOT NULL,
+	CustomerLastName NVARCHAR(255) NOT NULL,
+	CustomerGender NVARCHAR(1) NOT NULL
+	);
+END
+GO
+-- ====================================
+-- Load dimCustomer table - IN PROCESS!!!!!!!!
+-- ====================================
+
+-- ====================================
+-- Begin load of unknown member for dimCustomer
+-- ====================================
+SET IDENTITY_INSERT dbo.dimCustomer ON;
+
+INSERT INTO dbo.dimCustomer
+(
+dimCustomerKey
+, dimLocationKey
+, CustomerID
+, CustomerFullName
+, CustomerFirstName
+, CustomerLastName
+, CustomerGender
+)
+VALUES
+(
+-1
+, -1
+, 'Unknown'
+, 'Unknown'
+, 'Unknown'
+, 'Unknown'
+, '-'
+);
+-- Turn the identity insert to OFF so new rows auto assign identities
+SET IDENTITY_INSERT dbo.dimCustomer OFF;
+GO
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
