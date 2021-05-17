@@ -269,7 +269,7 @@ BEGIN
 END
 GO
 -- ====================================
--- Load dimProduct table - IN PROCESS!!!!!!!!
+-- Load dimProduct table
 -- ====================================
 IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'dimProduct')
 BEGIN
@@ -289,16 +289,21 @@ BEGIN
 	, ProductProfitMarginUnitPercent
 	)
 	SELECT
-	L.dimLocationKey AS LocKey
-	, CAST(R.ResellerID AS NVARCHAR(50)) AS CustID
-	, R.ResellerName AS [Name]
-	, R.Contact AS Contact
-	, R.PhoneNumber AS Phone
-	, R.EmailAddress AS Email
+	P.ProductID AS ProdID
+	, PT.ProductTypeID AS TypeID
+	, PC.ProductCategoryID AS CatID
+	, P.Product AS ProdName
+	, PT.ProductType AS TypeName
+	, PC.ProductCategory AS CatName
+	, P.Price AS RetailPrice
+	, P.WholesalePrice AS WholesalePrice
+	, P.Cost AS Cost
+	, P.Price-P.Cost AS RetailProfit
+	, P.WholesalePrice-P.Cost AS WholesaleProfit
+	, ((P.Price-P.Cost)/P.Price)*100 AS ProfitMargin
 	FROM dbo.StageProduct AS P
 	INNER JOIN dbo.StageProductType AS PT ON P.ProductTypeID = PT.ProductTypeID
 	INNER JOIN dbo.StageProductCategory AS PC ON PT.ProductCategoryID = PC.ProductCategoryID
-	AND R.PostalCode = L.PostalCode; -- future-proofing against duplicates from large tables
 END
 GO
 -- ====================================
