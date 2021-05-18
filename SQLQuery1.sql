@@ -667,32 +667,62 @@ GO
 -- ====================================
 -- Load factSalesActual table
 -- ====================================
-IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'dimCustomer')
+IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'factSalesActual')
 BEGIN
-	INSERT INTO dbo.dimCustomer
+	INSERT INTO dbo.factSalesActual
 	(
-	dimLocationKey
-	, CustomerID
-	, CustomerFullName
-	, CustomerFirstName
-	, CustomerLastName
-	, CustomerGender
+	dimProductKey
+	, dimStoreKey
+	, dimResellerKey
+	, dimCustomerKey
+	, dimChannelKey
+	, dimSaleDateKey
+	, dimLocationKey
+	, SalesHeaderID
+	, SalesDetailID
+	, SaleAmount
+	, SaleQuantity
+	, SaleUnitPrice
+	, SaleExtendedCost
+	, SaleTotalProfit
 	)
-	SELECT
-	L.dimLocationKey AS LocKey
-	, CAST(C.CustomerID AS NVARCHAR(50)) AS CustID
-	, C.FirstName + ' ' + C.LastName AS FullName
-	, C.FirstName AS [First]
-	, C.LastName AS [Last]
-	, C.Gender AS Gender
-	FROM dbo.StageCustomer AS C
-	INNER JOIN dbo.dimLocation AS L ON C.[Address] = L.[Address]
-	AND C.PostalCode = L.PostalCode; -- future-proofing against duplicates from large tables
+	SELECT 
+	dProd.dimProductKey AS ProductKey
+	, dStore.dimStoreKey AS StoreKey
+	, dResell.dimResellerKey AS ResellerKey
+	, dCust.dimCustomerKey AS CustomerKey
+	, dChan.dimChannelKey AS ChannelKey
+	, dDate.dimDateKey AS SaleDateKey
+	, (SELECT (CASE WHEN (sHeader.StoreID IS NOT NULL) THEN dStore.dimLocationKey 
+					WHEN (sHeader.CustomerID IS NOT NULL) THEN dCust.dimLocationKey
+					WHEN (sHeader.ResellerID IS NOT NULL) THEN dResell.dimLocationKey
+				END)) AS LocKey
+	, sHeader.SalesHeaderID -- Natural Key
+	, sDetail.SalesDetailID -- Natural Key
+	, sDetail.SalesAmount AS TotalPrice
+	, sDetail.SalesQuantity AS Quantity
+	, sDetail.SalesAmount/sDetail.SalesQuantity AS UnitPrice
+	, dProd.ProductCost*sDetail.SalesQuantity AS TotalCost
+	, sDetail.SalesAmount-(dProd.ProductCost*sDetail.SalesQuantity) AS TotalProfit
+	FROM dbo.StageSalesHeader AS sHeader
+	JOIN dbo.StageSalesDetail AS sDetail ON sHeader.SalesHeaderID = sDetail.SalesHeaderID
+	LEFT JOIN dbo.dimProduct AS dProd ON sDetail.ProductID = dProd.ProductID
+	LEFT JOIN dbo.dimStore AS dStore ON sHeader.StoreID = dStore.StoreID
+	LEFT JOIN dbo.dimReseller AS dResell ON CAST(sHeader.ResellerID AS NVARCHAR(50)) = dResell.ResellerID
+	LEFT JOIN dbo.dimCustomer AS dCust ON CAST(sHeader.CustomerID AS NVARCHAR(50)) = dCust.CustomerID
+	LEFT JOIN dbo.dimChannel AS dChan ON sHeader.ChannelID = dChan.ChannelID
+	LEFT JOIN dbo.DimDate AS dDate ON sHeader.[Date] = dDate.FullDate
 END
 GO
+
+	SELECT * FROm dimChannel
+	SELECT * FROm dimProduct
+	SELECT * FROm StageSalesHeader
+	SELECT * FROM StageSalesDetail
+	SELECT * FROM DimDate
 SELECT * FROM factSalesActual
-
-
+SELECT * FROM StageSalesHeader
+SELECT * FROM StageSalesDetail
 -- ====================================
 -- Delete factSRCSalesTarget table
 -- ====================================
