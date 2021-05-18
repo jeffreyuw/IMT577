@@ -1,3 +1,4 @@
+/*
 USE DestinationSystem
 
 SELECT * FROM dbo.DimDate
@@ -7,7 +8,8 @@ SELECT * FROM dbo.dimProduct
 SELECT * FROM dbo.dimReseller
 SELECT * FROM dbo.dimStore
 SELECT * FROM dbo.dimCustomer
-
+SELECT * FROM StageTargetCRS
+*/
 -- ====================================
 -- Begin load of unknown member for DimDate
 -- ====================================
@@ -398,6 +400,10 @@ BEGIN
 	AND R.PostalCode = L.PostalCode; -- future-proofing against duplicates from large tables
 END
 GO
+UPDATE dimReseller
+SET ResellerName = 'Mississippi Distributors'
+WHERE ResellerName = 'Mississipi Distributors'
+GO
 -- ====================================
 -- Begin load of unknown member for dimReseller
 -- ====================================
@@ -435,6 +441,7 @@ BEGIN
 	DROP TABLE dbo.dimStore;
 END
 GO
+
 -- ====================================
 -- Create dimStore table
 -- ====================================
@@ -467,7 +474,7 @@ BEGIN
 	SELECT
 	L.dimLocationKey AS LocKey
 	, S.StoreID AS StoreID
-	, S.City + ' ' + CAST(S.StoreNumber AS nvarchar(10)) AS [Name]
+	, 'Store Number ' + CAST(S.StoreNumber AS nvarchar(10)) AS [Name]
 	, S.StoreNumber AS Number
 	, S.StoreManager AS Manager
 	FROM dbo.StageStore AS S
@@ -501,7 +508,7 @@ VALUES
 -- Turn the identity insert to OFF so new rows auto assign identities
 SET IDENTITY_INSERT dbo.dimStore OFF;
 GO
-
+SELECT * FROM dimStore
 -- ====================================
 -- Delete dimCustomer table
 -- ====================================
@@ -801,9 +808,11 @@ END
 GO
 
 
-
+USE DestinationSystem
+SELECT * FROM dimProduct
 SELECT * FROM StageProduct
 SELECT * FROM StageTargetProduct
 SELECT * FROM factProductSalesTarget
+ORDER BY dimProductKey ASC, dimTargetDateKey ASC
 SELECT * FROM DimDate
 SELECT * FROM factSalesActual
