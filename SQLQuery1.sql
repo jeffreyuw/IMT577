@@ -153,7 +153,7 @@ BEGIN
 END
 GO
 -- ====================================
--- Load dimLocation table - IN PROCESS!!!!!!!!
+-- Load dimLocation table
 -- ====================================
 IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'dimLocation')
 BEGIN
@@ -715,14 +715,6 @@ BEGIN
 END
 GO
 
-	SELECT * FROm dimChannel
-	SELECT * FROm dimProduct
-	SELECT * FROm StageSalesHeader
-	SELECT * FROM StageSalesDetail
-	SELECT * FROM DimDate
-SELECT * FROM factSalesActual
-SELECT * FROM StageSalesHeader
-SELECT * FROM StageSalesDetail
 -- ====================================
 -- Delete factSRCSalesTarget table
 -- ====================================
@@ -772,13 +764,46 @@ BEGIN
 	factSalesTargetKey INT IDENTITY(1,1) CONSTRAINT PK_factProductSalesTarget PRIMARY KEY CLUSTERED NOT NULL, -- SurrogateKey
 	dimProductKey INT CONSTRAINT FK_ProductSalesTargetProduct FOREIGN KEY REFERENCES dbo.dimProduct(dimProductKey) NOT NULL,
 	dimTargetDateKey INT CONSTRAINT FK_ProductSalesTargetDate FOREIGN KEY REFERENCES dbo.DimDate(dimDateKey) NOT NULL,
-	ProductTargetSalesQuanitity INT NOT NULL
+	ProductTargetSalesQuantity INT NOT NULL
 	);
 END
 GO
 -- ====================================
 -- Load factProductSalesTarget table
 -- ====================================
+IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'factProductSalesTarget')
+BEGIN
+	WITH CTE_ProductDate (ProdKey, DateKey, ProdName, [Year]) AS
+	(
+	SELECT dProd.dimProductKey AS ProdKey
+	, dDate.DimDateKey AS DateKey
+	, dProd.ProductName AS ProdName
+	, dDate.CalendarYear AS [Year]
+	FROM dbo.dimProduct AS dProd
+	CROSS JOIN dbo.DimDate AS dDate
+	WHERE dProd.dimProductKey > 0
+	AND dDate.DimDateKey > 0
+	)
+	INSERT INTO dbo.factProductSalesTarget
+	(
+	dimProductKey
+	, dimTargetDateKey
+	, ProductTargetSalesQuantity
+	)
+	SELECT 
+	ProdKey
+	, DateKey 
+	, CEILING(sTarProd.SalesQuantityTarget/365) AS DailyTarget
+	FROM CTE_ProductDate AS CTE
+	INNER JOIN dbo.StageTargetProduct AS sTarProd ON CTE.ProdKey = sTarProd.ProductID
+	AND CTE.[Year] = sTarProd.[Year]
+END
+GO
 
 
+
+SELECT * FROM StageProduct
+SELECT * FROM StageTargetProduct
 SELECT * FROM factProductSalesTarget
+SELECT * FROM DimDate
+SELECT * FROM factSalesActual
