@@ -8,7 +8,18 @@ SELECT * FROM dbo.dimProduct
 SELECT * FROM dbo.dimReseller
 SELECT * FROM dbo.dimStore
 SELECT * FROM dbo.dimCustomer
+SELECT * FROM StageChannel
+SELECT * FROM StageChannelCategory
+SELECT * FROM StageCustomer
+SELECT * FROM StageProduct
+SELECT * FROM StageProductCategory
+SELECT * FROM StageProductType
+SELECT * FROM StageReseller
+SELECT * FROM StageSalesDetail
+SELECT * FROM StageSalesHeader
+SELECT * FROM StageStore
 SELECT * FROM StageTargetCRS
+SELECT * FROM StageTargetProduct
 */
 -- ====================================
 -- Begin load of unknown member for DimDate
@@ -751,7 +762,7 @@ GO
 -- ====================================
 
 
-SELECT * FROM factSRCSalesTarget
+--SELECT * FROM factSRCSalesTarget
 
 -- ====================================
 -- Delete factProductSalesTarget table
@@ -807,7 +818,7 @@ BEGIN
 END
 GO
 
-
+/*
 USE DestinationSystem
 SELECT * FROM dimProduct
 SELECT * FROM StageProduct
@@ -816,3 +827,4 @@ SELECT * FROM factProductSalesTarget
 ORDER BY dimProductKey ASC, dimTargetDateKey ASC
 SELECT * FROM DimDate
 SELECT * FROM factSalesActual
+*/
