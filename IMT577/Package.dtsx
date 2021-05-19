@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="130"
-  DTS:VersionGUID="{24BA61F8-52B3-476B-92D4-0653D4E3DCB6}">
+  DTS:VersionBuild="132"
+  DTS:VersionGUID="{B800C216-266C-40FF-9BDE-D71A955662B9}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -251,7 +251,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAA/RWyllabBCJ+z7v7IpJCXcnq2sqgb/zrf5EhIYM9bvQAAAAAOgAAAAAIAACAAAACH3vd+eYOhD6k1Pwh8Tsyi48lCczFv0L5/oXxWQ3I9EzAAAADtvkXh3Rni5CxbNbwOHIBw3SfcnLRqPW68Za4If78yeeKDzS/DqkdAS3LoyHWYDntAAAAALNQrV2it3ez6PCss/LQLENKDT8b49i4129rpP8k3MCMZDE+AlSJi5Qe8cI3yobUbKTSN/mfwJ92RnKCRyOnGlQ</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAf15VMrYsNP1bFDrkUhQmzUd8bMvQ7kdJc3nX26cYjjQAAAAAOgAAAAAIAACAAAACm93AnhTnxBtO5UfKU2zXVHBt+DZGqTnVDUR6qAUKcyjAAAABdeSdh2yvTIa5sHmEx6Ie4pKTqtJTPHFuwzSxiJqj/q+tY0o295YI2uj12M/yozPxAAAAAkz9MnVy20XF3VWePpMQakRynhKCExx6u5zAY9LHjF+GJ7XphkMAk1WglbbBZQOlgDXkvbBYaQiEtoJ5SUI2H3w</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -266,7 +266,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAtK3ucgxil52MYiDDEaze2g/rZ/a9uG0D0E6dYweBxiwAAAAAOgAAAAAIAACAAAAD/Z20qBwKcBnDSH5eK6bFWEtDzqrYMezjsgrq97YSWeDAAAACpF4FTktze0nvXrwgA5ek6XKwni4h+xYAcCQQa7NzfrREP4/inH09GT7v0STp9y9FAAAAAeC0jTpFwDVFvjVVkweTRnOflF7cI2ihv6Je6vuYWcgrLMewlXZiMfLjf0d+Rj+OLCHcUK54pOEKQHNYMj5xVKA</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAa/8sA/toyh0CQirhnF+8ER7MChyyqwbg9Xm7J9D0WnQAAAAAOgAAAAAIAACAAAABvjFIMbOHk1/yk8H+mbRazk9P8Qb0psLga9T0Yr/gKAjAAAACNkLX3HpFfXskdvJiYFYjcobawm86lB4lPCsxBVIZcEdeewTtleXXyNa26rYbaNf1AAAAA32mGDxCE9PV92EVCAtNLTOrN0u5yyI3HsLx8E0xI6w+5qazt58KXQpgYEfnSq/Y1Fdq/Y+qfW55CBxPsREj7BQ</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -281,7 +281,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACQNS9apcmrm8I1fY6EEtwHmwLIceknX2j/LHSh4NbUUQAAAAAOgAAAAAIAACAAAABqvaI8zLCOAvyGqeEvcRSxr6ZTspPGXtFwmf6gyKGaizAAAADrJfqpdUo67KwTX3E3jGx46ZeNdX6c8OIadTWeQiJ0Z0JZG5X69UGznwjqQeuIHx5AAAAAuufhgRP5x9R165JlmKo5SZMU8JaBCVNOmLCh1tyt8+Scq3adR5zVkpqyDWnt6SQGaMTfGIyZISvOkEfZCUKVuA</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAXjiBMEMDquKMnxj82TljdUrRx0MzPwxolger9wrG/FgAAAAAOgAAAAAIAACAAAACsoprENPRuV7oAuF1fkjsABm3GOTNnQCz0ngRZRqvdZzAAAAAGthg78vHgaAo8ggAYJcxDsBuDE5P/8oj42I4/R2VfEOkOOAKQ2ihJ6QTjeiy4adNAAAAA5EvIn/vtZ7A6epyIPc8OwqAU5sbcr8P19/J5CETJST1Suz1HyVtQtpNUh9Tju4wfP4tHI56+Pr3eSI6ROewdHg</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -296,7 +296,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACAajlRG5WPnBKuFDhF/ezoZI2nHDhKsyBAq/qSepVxtQAAAAAOgAAAAAIAACAAAABtAjIWdauLPhprp6bVPjkFE7GRnqnEz3tWjxXYP4dKnzAAAABTtHlnzLsKz79q/11fi2D6D0ccpAuHmFjY0LKNxISOY9/zW+fCIyinWm4YNj5isx1AAAAARFo4TnldVewGTEC2TMZhcsJlx9P6zxiysomsBZuIr41QnhdfcAbk9k6VOyYeSWkdSK48WGWoo8axGB2v+zTnCQ</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABvtR5kDxrT19JUX/r6EO2uKMjB6pfswZjEsq1BbnI0AAAAAAAOgAAAAAIAACAAAABEMIUCUDEdIOu4izJM4KdUZcS4rvq1KdPodCApOKZpoDAAAAABcWTS1be/4hCvzNpsb0hAgGq6tC0+H3/vtbm/lpzR4RXzIYBOxzgly+QSAK5CB/FAAAAABIr+1Ja+AdgNiCg1/q5wNZwwX5VWnZOg9AQ6vtf+v/M+CHnzThIaCkJR/BqTcaQG1gVRrtTqOoc37JDVLLqerQ</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -311,7 +311,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAY8qLrmWg9WWOygGTIJ9uA6lN1fc/y5kSOQDId7Sl6GAAAAAAOgAAAAAIAACAAAADk6p6PUc512xvvKI+bMx4m8rQIl4Cmxmu9mc0sgidVvzAAAAD4uL4XXcBr1CdELyx2IlkZN9qaRP3dtzvsiJNspR6bEzDo4cADQcbT+01DqXZCwB5AAAAAzI6vp2auc/6igVcCzY7Flk08UHISIIizTcaT1vRbjZqKoUNBdBysRSIYIpznGI4egvCZ4UIiZepyijCRSbg7Fg</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABUp4FF/q2uPvjMNzq2Qaem45srjqrpxFDVhQKLom3tAAAAAAAOgAAAAAIAACAAAABjyzvd7TWlQpTtbxxUWIArFAKAQUwcWzSGjaXnE+HoUTAAAAC0SWKr/C2NmzzOxgxhsC3Zrb6LfK3LPVtExm3nY3FoOlXC58GMhVRW9LkMiRJMdKxAAAAADaDY8LvmRDBhgH5U8plDu4z92Z0GaltyaoSEbfvUvK8S6y5zf556+8wGE7Kmo3EgB8ar4R591UYZ7Ft3wcGgxw</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -326,7 +326,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACCzqMXM1/jR3JRw6mdlKYWSV5VmGpcL1NoEPxMY/GLxAAAAAAOgAAAAAIAACAAAAD1dByaTmYV1HJekNgYj3wMCCVMZ07lQsNpTyMqeSECqzAAAADLdOP2oXVF1QHqIfNfFsxfBhfU75ADAElK2fERtie6uh59xka2VOCgOdg+P8K+/VlAAAAATpkaY6eQbXToz6UnHsAhpUyJ+MQE2XU4epSTjy0CurHthwZe4IovV4v5xmstAjnv2iVGNOMNQgdlzeeLI8hwGA</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADrDl2sVRhn8kbqm9GwaOWeTiGWQA2LSqJKZWurhNNkTQAAAAAOgAAAAAIAACAAAAAmEpgrl39QKvKEnxzWXKaZmZxsnEStUAXxG4RwFdLfjjAAAACl+cfCzZV3yIdmnu4qZqYRfTBs7kq0GUZvKJ0Eg2CBdgczMFuJ/5FzRo5gSGe/czFAAAAAl4NlrQK9QtDfn4HuG6Ay3lBVoOWeHfRxb6Aynj50UA10fLlkKDFv2kXoBah9eaj/7pyWe1fswtLB8h56XQiqfw</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -341,7 +341,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAB6qidRjNKVB+Nxffw8CyGeSrj0hxYa+Qj9qXIMpFJnEwAAAAAOgAAAAAIAACAAAABOhtdOAucAUp0smkGpuurSxg2c++YWdrDq+hgHX8qsyjAAAAAkbieUWmeHGKZ/PZcrguSHovijeVA20aLdzQYsDekAiPVnkNkeKDb7aRLb8PlCW25AAAAAU4srAQloDnoNSULqBBIeNj/b4PdVwx1GCqu4Te6+Esd2X1V9XoZi2l7X6RCITyrc6/5YUhOYfHEWDBzfQFfPdQ</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAJoFWr8Igs3q6QZAVUEEDtASlE380IVX/CK9a74TEbcAAAAAAOgAAAAAIAACAAAACczTSx1RO1ZJmqAFb9GAIPHi5sgTyt5W+9qNlxc4yZdTAAAADuUV4P/4KzkQCQ90CNa44XzmeRUPnS+I4QsPItg6kPpbSnsfuQ4c4LKW3PW3luu0VAAAAAazSdHwrtGBaybG4HzhNs74auI5Tt7+756MI2865YjgS5dGFFUWguGVwu0iZNcgUGg8hB6sqIszfFP2pIjQKbEQ</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -356,7 +356,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAD8etUWd8aiHMEP9lnBnvxWg7L+tTc2h4FbGqRBSBAjIgAAAAAOgAAAAAIAACAAAAAV11UTCqgTQ3E1hWmQHOl0ZcWZtQBkgJiW6aNpg8KRATAAAABJLdajEdRl2jlpgLCOev5QmXZZJeyxwH+aIr/J8hKWyG0cPBtVU1B014JcumvGzKNAAAAAaxgCIeeYqHWgA40nUh/GMQdm8z18n53GlfECUamBtJGI/+X68DlUdRgQSc6f+AIpCv18gzsSS6fohiyFKoxIIA</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABEEmk9CuUC6IlJrMs8FG7oCPwmVyEyo3wyUTvQJ594HgAAAAAOgAAAAAIAACAAAACFuvDdg1MZ3U7L+YB4Q4weO9GfYsmpMny4JzCa6TR1RzAAAACUsGQsbDRWLv7iQDIuUqPXWZcGMwkFOIbGq8cpLTDdxS5GqqSigcXJI4/3UnnOCAVAAAAAmqhRWwYg+0DZsdVTmsrEVPweyOmQGSM3Q9ELtFfxiFh1yCjIS2hdPEOq1Js90te6bW+oi3HPrczjEb/HA5oetw</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -371,7 +371,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAD42jrieaflQ87nIlzsRldjp0IgkKzWPdsuSALVHHy1zAAAAAAOgAAAAAIAACAAAAAQjf0s/Ol/TeVX0GlPBvA1pwJk0YYtJeyz5mwS5HU/UzAAAACvQI9V/PvWgU0h5so3rgGPnvbmLyasIBSdJfV8orD93XVFFO503pnJ75UqdPBA/YVAAAAA6LXksiOSPhLmLHOX3PqfC/DCey3fpwKdf3ynow+vg9aQE/jkVmoA0upyS1Npz94YgEOghUroc6mDMPJOMWiBsQ</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAA1Yc/67B/BHpR0ir61XNKyVNerdfUUgIq1vGYemM76ZgAAAAAOgAAAAAIAACAAAABMiF4TfbCk26NpQhycND7SidV4P6ar1+vj8HVzshkiwTAAAABm0Bf9ExTrJJlmvEMpMRtQ6o71YXhpfqNLYQix8yw/oWbqZhY8UBjm1Y2KQHyPnu1AAAAAPwoxWEQ5IRamU+sjzxfp5WruKDR3DysYMgUGY4Za1kmLVtJuVZWI1ewUFT7BAvo524FxEFqK4ll17sZSC4QCnA</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -386,7 +386,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABBL3F8IHF/sgMfznlvNtBIv43rs1utZOmiBP+355HYagAAAAAOgAAAAAIAACAAAABhWqBPaTF3belY5CxKmP6OkZmgWG1fJEPjbaaEU1GhUzAAAADA+Wk5t825LDN7uTLqJQjTisN5ncNvqsEayyXH2JF/5B22DIKy56XgyRdJ1iICjbNAAAAAOt8eGV82gC7M66vlE7afQbQOwWvWEChIHsZzfMSUFmaECsPVx6RY7vzbQIeO8DPW1nSNbUjHyf6fofsrDuMwWg</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABxsP+qJ7/ZGCO1JIxqJevIerDOLa4gUUBQZmylFzikaQAAAAAOgAAAAAIAACAAAAC01uDk2yNAyaFn7yEqRsGrz2+B7MXqNNun7kmMKnzsajAAAADAMFfoxrKh+jIGRpWRNuK029hzb1uPRf1OqEkv6IDNzOGQ3tm9emwgyXFc3XsqhLpAAAAAAEjR9xWbKk8hj9lV8XqUMR4pF/n1R9L7IIaadrqtGA7pzwo2ymimAuf/FvofwjnUF7MzqDM1OPdX6zlUvUkc2g</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -401,7 +401,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAC9WBdkf/V+Ji2lu2LxXGeaNNe42yVXv2rDSixBVWYSkQAAAAAOgAAAAAIAACAAAAD9OkQvJJ5LPlryJv6/9VfntYUl9DCaNPCUIVNhIdvq3TAAAAAjsyrv+ow8KH0AxxkIoMkKqaY4YI8NcmjZ/btpZTRJwIh+Fs60qFdTpK7pEwtVDq9AAAAAJJ0PieWVHH8/xAK2CZBuUVlRY8csthrips72EDsDPYAGGCUpFatF11M0QbaV3QBH+X4x5/taAFjG3/qRjs/R9w</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABaUFK30l2N72QBcnU6yJYTIW4HQCdY7X0AoDETwoeucgAAAAAOgAAAAAIAACAAAABwNgp2jnJZsORRsL5vqmPVAhSGKHmQAY6sFywBzZ3gQTAAAACdtyh77lVe+M6PWiPLNMP7qmqCrVF5VMXV5FPVXhc/C61s+WWnaZ3HP7Y/RBMOExxAAAAAM2ctIwXbcMnBWJFEujbipEkzSB3BAWfIJOlN0vFC3XXQtrXjfUxpC8lULpCm8nXEx9DPfwQnxRjpKVIzQ1dtXQ</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -416,7 +416,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABLleqn1Kt7POX7HiHJZ4rwBXPNjlJ+y+EYWus7YQxvhgAAAAAOgAAAAAIAACAAAAA7nCO9LB7/EJCis3D+uaBdpqmpySKhCBy8DEvG2ikGBDAAAACJDNWObHOVO4HMc3opCnUn2oWp8eZlyciiuk6u/Z9U8nK8L8jDpD/wj4RVANTUdSdAAAAA++g6HLhUBWjVJioVuu1faMbcibeXbGaHtfNlLTGj/FZ9In6kTwTbpb73u/Aj9JK6B4X1EqF3JAc46yt4lw9edA</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABcposYSW0D1CWc4L2nkoQqoA1X5q0misCH84U1cw2saQAAAAAOgAAAAAIAACAAAACj7TBO3K85p7JsF3ixrPMvAaFSiX6Nlm0K9TiHa4TAZjAAAAAVtYmMbPZcKt4Nc0+5cUhNRqAYCPHvXN/2fNtpsa3abA4PklhcFvUy3C9jcax2wRhAAAAADMkKoj9okr09AFMGrRz+8bgCqG1N4xNkdOKU3iGYS/McxLnj5U0W2ds7pHwxFvQyeBIxreo70octYvUJnmMouA</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -431,7 +431,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADfMpcAbwwm4Y9CEfeYrszOZVwwsOJWXjNP0v11VpBW5AAAAAAOgAAAAAIAACAAAABD0F+ywTAhI79TXaXg5GDwT4xTwGMALXrXhxPrEvjwvjAAAAB45ZpfjJWukwHa7KuFY4JzJgrYuT66TDyu9AHA4nKyaqZbwQncNB8qcnU09JwymC9AAAAABc+3AyCcgQQQLHGFO72+X9sO6fCZV2ncclTU4HIeVWlzLVWT5uqJCS+WmFtW2SXBas9DWV/ahlLncPsZoyoxqA</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADL9zQ7nLb+rtbmqHW5hR6wMz0ehNMm9L4dsAFmnK5K7QAAAAAOgAAAAAIAACAAAADsT8OkBczPYL/mIx9zWzX8A6Ssj25/UkIjheX7evSwAjAAAABrvtvc+1U7X/VzktOZLFUHAQjeeAhM3v5r4tFyuO2XLYYuAwj75wN3szJDCJJsp19AAAAASSUSRD9TeoGmV59AlyVjTGO/0iZgY4YRfwMpK0C9iLmceeTaesA362YrWDhsB21xgthA4ZkuslYG1zEwhXamHA</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -446,7 +446,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADlQg2FeQaN76S8wkJ9bsmi3+/u6pLxQon9NsAe2xIl5wAAAAAOgAAAAAIAACAAAACX6MBl+MRuhx+uQwEL0wPm8tyGACKZLVkAubKfCrKXVjAAAAADviB4RhK7z5ysffpKRi0bWEHNgDV7JybL4meTw3Xyw7LjqElt0WT/DX6BjtOmtjJAAAAAo5DZG69HFSAxO+L4oSh/rs8JL5ABo6QGA6fOrorsSTB72W1Aew52p9Iibtli2Eom8EOMVXt64T5TG5BwOyDfcQ</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADD4rA1EswIhbtnvoEg0PLNr3nTJI2j1SyBD9+v1xG0RgAAAAAOgAAAAAIAACAAAAAjEH4GRgPAySkafHO3X6gOXvLdTCQJ3OhpISiHSpV44jAAAACUZmZftYwV/i6EgWJV5gTF2a1ra/gM3zDlh4A8aQ/GTCpTsSDZ8zJAC0cIGeLqAMhAAAAAmCsDRulAxaBhNUw3w2J1u7ZvEusS2ABI/Z+un9G1PTgs+rUGs449Lyu8ep9qsXjU43G5RVbezblVJpKb1LsoxA</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -461,7 +461,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAkpYlBfmcEfaVOphjtho7BcLha105ISn8CH5vJxZB9RwAAAAAOgAAAAAIAACAAAAA7pFECvU5wO62DeDDjcuzgXWRr5CNglUTX42VTsFcpEDAAAABJKwzpYkCI74aFHlNqL5Ms3GwCYj9WgBqty12pyWsE3dodvLPIXqBLb6GIflLDLrtAAAAAWI28e8haut4QWb/maZ8xbjAkjjwqisOxIjea8463yeT/3gF7xmqrZpSD9AphJ0ZV2rp5ZQPGcg48khFSO46M4g</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAo6fBTv1Nrd7O0+shF1pSkoDhNbHp3CTgPsrbThR3SwAAAAAAOgAAAAAIAACAAAAAoIpfn67QBOxbcFW8ZICSKIpT+R9T956e797H/1A1sJjAAAACN7CBbBzxFCCFD6ux8sHniMPlU6iMhdZjZqaqHMi/HDpWdQpRhSyvdudu30JYh/3BAAAAALOAun8mucPERqhMTheCgkQTnaIHnigy5NcNemM1gIQHSvy5OUfQMrB+MvxRrTgeqhBAWz/l7l3YGDe9LHwiVYw</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -476,7 +476,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABBMMLq3EGm46HkvTahMJNNQjqL8po+tYhP7ycAIPtdngAAAAAOgAAAAAIAACAAAAA39jhP7dQhXLpnEBKzy//RW+VimR3hlHF++Vc01NnJHDAAAADgPrQUXV/O/o2Vym2fSS4P0CGmuuJQW+fasx+o9ybhr9j+235QcQNzKE9VJAUDkk1AAAAA+lzdqNXPWokFvu9VSht+5cderbIriiQqqSH057ne6zy5zZccKRCgApVIiBivlUHblfy1JSKsx5VzINanqX5+Cg</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADWQKA98XhbmZxiOvx/2RHhQK+BYsxMqRWFWh6d201zewAAAAAOgAAAAAIAACAAAADHGEg33n+/01VgOMXG9cf+u1YOR5BtcBXSSEAz33FjtDAAAABo0hc050ZJyA5qBRPRTZxtGNJA6fevRhTBaCHup9B3ScY+VI+FCFqi0mVrOsgM5qRAAAAA53jMNwseCFmN2IX7EyxlbNBQjKFjcDhFqmuUIWgWWstWRBWh4oS6YB1mbIIcaR8VEE/N+D/0oz3hg05LQhfeSQ</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -493,7 +493,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="Begin Dimension Table ETL Here"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="3">
+      DTS:ThreadHint="2">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
@@ -509,7 +509,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="Begin Fact Table ETL Here"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="1">
+      DTS:ThreadHint="3">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
@@ -519,6 +519,7 @@
       DTS:refId="Package\Create Destination Database Schema and Tables"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
+      DTS:Disabled="True"
       DTS:DTSID="{3FC62C29-3842-44D9-A423-090EAB9B89C5}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
@@ -903,7 +904,7 @@
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{C9C3DF5F-10B2-43AC-A852-12C5C1E847F9}"
-          SQLTask:SqlStatementSource="IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'dimChannel')&#xA;BEGIN&#xA;&#x9;DBCC CHECKIDENT (dimChannel, RESEED, 1)&#xA;&#x9;INSERT INTO dbo.dimChannel&#xA;&#x9;(&#xA;&#x9;ChannelID&#xA;&#x9;, ChannelCategoryID&#xA;&#x9;, ChannelName&#xA;&#x9;, ChannelCategory&#xA;&#x9;)&#xA;&#x9;SELECT&#xA;&#x9;dbo.StageChannel.ChannelID AS ChannelID&#xA;&#x9;,dbo.StageChannel.ChannelCategoryID AS ChannelCategoryID&#xA;&#x9;,dbo.StageChannel.Channel AS ChannelName&#xA;&#x9;,dbo.StageChannelCategory.ChannelCategory AS ChannelCategory&#xA;&#xA;&#x9;FROM StageChannel&#xA;&#x9;INNER JOIN StageChannelCategory&#xA;&#x9;ON StageChannel.ChannelCategoryID = StageChannelCategory.ChannelCategoryID;&#xA;END&#xA;GO" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'dimChannel')&#xA;BEGIN&#xA;&#x9;DBCC CHECKIDENT (dimChannel, RESEED, 1)&#xA;&#x9;INSERT INTO dbo.dimChannel&#xA;&#x9;(&#xA;&#x9;ChannelID&#xA;&#x9;, ChannelCategoryID&#xA;&#x9;, ChannelName&#xA;&#x9;, ChannelCategory&#xA;&#x9;)&#xA;&#x9;SELECT&#xA;&#x9;dbo.StageChannel.ChannelID AS ChannelID&#xA;&#x9;,dbo.StageChannel.ChannelCategoryID AS ChannelCategoryID&#xA;&#x9;,dbo.StageChannel.Channel AS ChannelName&#xA;&#x9;,dbo.StageChannelCategory.ChannelCategory AS ChannelCategory&#xA;&#xA;&#x9;FROM StageChannel&#xA;&#x9;INNER JOIN StageChannelCategory&#xA;&#x9;ON StageChannel.ChannelCategoryID = StageChannelCategory.ChannelCategoryID;&#xA;END&#xA;GO&#xA;&#xA;UPDATE dimChannel&#xA;SET ChannelName = 'Online'&#xA;WHERE ChannelName = 'On-line'&#xA;GO" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
@@ -1171,7 +1172,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="Load factSRCSalesTarget"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="4">
+      DTS:ThreadHint="1">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
@@ -2208,6 +2209,7 @@
       DTS:refId="Package\Stage Channel"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
+      DTS:Disabled="True"
       DTS:DTSID="{0D36F089-1E53-420F-9FA8-5B9956E58017}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -2635,6 +2637,7 @@
       DTS:refId="Package\Stage ChannelCategory"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
+      DTS:Disabled="True"
       DTS:DTSID="{4CEF6C75-0B27-46F4-9021-3801E7C9E04F}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -3034,6 +3037,7 @@
       DTS:refId="Package\Stage Customer"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
+      DTS:Disabled="True"
       DTS:DTSID="{04BF2B89-3DD1-4129-AF9C-8D72426D2993}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -3758,6 +3762,7 @@
       DTS:refId="Package\Stage Product"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
+      DTS:Disabled="True"
       DTS:DTSID="{AAE3E29A-0D9C-4DE0-A12A-078BE029A913}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -4431,6 +4436,7 @@
       DTS:refId="Package\Stage ProductCategory"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
+      DTS:Disabled="True"
       DTS:DTSID="{FB59A59E-949A-45AF-AE57-C3ABA2E91385}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -4830,6 +4836,7 @@
       DTS:refId="Package\Stage ProductType"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
+      DTS:Disabled="True"
       DTS:DTSID="{1A4A9CD7-780B-4236-8EDF-FDAD242806B1}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -5257,6 +5264,7 @@
       DTS:refId="Package\Stage Reseller"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
+      DTS:Disabled="True"
       DTS:DTSID="{FDB8570D-178A-44FD-8147-A80C0AF7BFE2}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -5920,6 +5928,7 @@
       DTS:refId="Package\Stage SalesDetail"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
+      DTS:Disabled="True"
       DTS:DTSID="{38387F5E-7EF4-4C93-9262-ACB87063E170}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -6408,6 +6417,7 @@
       DTS:refId="Package\Stage SalesHeader"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
+      DTS:Disabled="True"
       DTS:DTSID="{08722279-03AA-43DD-8EC3-E9CF6A087F05}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -6914,6 +6924,7 @@
       DTS:refId="Package\Stage Store"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
+      DTS:Disabled="True"
       DTS:DTSID="{1758A833-A15A-41E2-932F-8399A67F88CF}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -7567,6 +7578,7 @@
       DTS:refId="Package\Stage TargetCRS"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
+      DTS:Disabled="True"
       DTS:DTSID="{EE9BED3E-F6B2-4A26-8B10-EDF99AB593FE}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -8081,6 +8093,7 @@
       DTS:refId="Package\Stage TargetProduct"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
+      DTS:Disabled="True"
       DTS:DTSID="{B0C32CF5-03C3-446D-833E-8F381603D57F}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -8598,7 +8611,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="Transfer Data to Staging DB"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="2">
+      DTS:ThreadHint="4">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
@@ -8608,6 +8621,7 @@
       DTS:refId="Package\Truncate Channel"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
+      DTS:Disabled="True"
       DTS:DTSID="{6AE41EA0-EB39-4FE9-92C3-43325ED308F3}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
@@ -8625,6 +8639,7 @@
       DTS:refId="Package\Truncate ChannelCategory"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
+      DTS:Disabled="True"
       DTS:DTSID="{8DA507EB-ADB8-4DAA-8581-35415D83C5C3}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
@@ -8642,6 +8657,7 @@
       DTS:refId="Package\Truncate Customer"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
+      DTS:Disabled="True"
       DTS:DTSID="{9D8ED1EE-E989-49A8-A1ED-AB6349193939}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
@@ -8659,6 +8675,7 @@
       DTS:refId="Package\Truncate Product"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
+      DTS:Disabled="True"
       DTS:DTSID="{EACD0A04-A0BD-4B98-A381-F51BBB036380}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
@@ -8676,6 +8693,7 @@
       DTS:refId="Package\Truncate ProductCategory"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
+      DTS:Disabled="True"
       DTS:DTSID="{80FF8A0D-F31D-4FEB-9752-623779DCE8F1}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
@@ -8693,6 +8711,7 @@
       DTS:refId="Package\Truncate ProductType"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
+      DTS:Disabled="True"
       DTS:DTSID="{8DE7D5B9-AA5C-4876-A301-73BD6BAD15E4}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
@@ -8710,6 +8729,7 @@
       DTS:refId="Package\Truncate Reseller"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
+      DTS:Disabled="True"
       DTS:DTSID="{26F670EA-A4A6-46D8-ACD4-E88F40EF7030}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
@@ -8727,6 +8747,7 @@
       DTS:refId="Package\Truncate SalesDetail"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
+      DTS:Disabled="True"
       DTS:DTSID="{5B332A7C-974A-4F1F-AA3F-C0E10B3343E5}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
@@ -8744,6 +8765,7 @@
       DTS:refId="Package\Truncate SalesHeader"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
+      DTS:Disabled="True"
       DTS:DTSID="{48C0121F-F6DE-4A78-B375-F0A8BC3327C6}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
@@ -8761,6 +8783,7 @@
       DTS:refId="Package\Truncate Store"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
+      DTS:Disabled="True"
       DTS:DTSID="{6B0C8672-98A6-47AC-89BE-90DD4AB62AA7}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
@@ -8778,6 +8801,7 @@
       DTS:refId="Package\Truncate Target-CRS"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
+      DTS:Disabled="True"
       DTS:DTSID="{0451079E-D670-4542-A2C7-FEB5E017C28C}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
@@ -8795,6 +8819,7 @@
       DTS:refId="Package\Truncate TargetProduct"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
+      DTS:Disabled="True"
       DTS:DTSID="{8B11DED2-1450-46DE-A1B7-4C936E9694C8}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
@@ -8813,7 +8838,7 @@
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint]"
       DTS:CreationName=""
-      DTS:DTSID="{584E46FB-F897-410C-B76E-75D14C02C94E}"
+      DTS:DTSID="{F3C46037-D943-44A6-BBE0-5965E10464F8}"
       DTS:From="Package\Truncate Channel"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint"
@@ -8853,7 +8878,7 @@
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 13]"
       DTS:CreationName=""
-      DTS:DTSID="{1EBF5FF7-4325-4802-B883-FC6A0C01EB6D}"
+      DTS:DTSID="{77BE1499-5C84-4FDB-B588-AE8051B79779}"
       DTS:From="Package\Stage Channel"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 13"
@@ -9476,6 +9501,14 @@
           Id="Package\Load factSRCSalesTarget"
           TopLeft="769,1429" />
         <NodeLayout
+          Size="186,42"
+          Id="Package\Old Stage TargetCRS"
+          TopLeft="913.616161616162,466.979797979798" />
+        <NodeLayout
+          Size="204,42"
+          Id="Package\Old Starge TargetProduct"
+          TopLeft="908.393939393939,538.555555555556" />
+        <NodeLayout
           Size="152,42"
           Id="Package\Stage Channel"
           TopLeft="142.666666666667,191.555555555556" />
@@ -9516,13 +9549,13 @@
           Id="Package\Stage Store"
           TopLeft="557,360" />
         <NodeLayout
-          Size="186,42"
-          Id="Package\Old Stage TargetCRS"
-          TopLeft="913.616161616162,466.979797979798" />
+          Size="166,42"
+          Id="Package\Stage TargetCRS"
+          TopLeft="139,530.888888888889" />
         <NodeLayout
-          Size="204,42"
-          Id="Package\Old Starge TargetProduct"
-          TopLeft="908.393939393939,538.555555555556" />
+          Size="180,42"
+          Id="Package\Stage TargetProduct"
+          TopLeft="347.333333333333,531.111111111111" />
         <NodeLayout
           Size="217,42"
           Id="Package\Transfer Data to Staging DB"
@@ -9589,6 +9622,50 @@
                   Capacity="5">
                   <mssgle:LineSegment
                     End="0,37.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 10]"
+          TopLeft="224.25,494">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,36.8888888888887"
+              Start="0,0"
+              End="0,29.3888888888887">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,29.3888888888887" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 11]"
+          TopLeft="437.916666666667,491.99999841799">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,39.1111126931211"
+              Start="0,0"
+              End="0,31.6111126931211">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,31.6111126931211" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -9926,6 +10003,40 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 22]"
+          TopLeft="248.333333333333,530.888888888889">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="159.833333333333,-38.8888904708987"
+              Start="0,0"
+              End="159.833333333333,-31.3888904708987">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,-15.4733840104494" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,-15.4733840104494"
+                    Point2="0,-19.4733840104494"
+                    Point3="4,-19.4733840104494" />
+                  <mssgle:LineSegment
+                    End="155.833333333333,-19.4733840104494" />
+                  <mssgle:CubicBezierSegment
+                    Point1="155.833333333333,-19.4733840104494"
+                    Point2="159.833333333333,-19.4733840104494"
+                    Point3="159.833333333333,-23.4733840104494" />
+                  <mssgle:LineSegment
+                    End="159.833333333333,-31.3888904708987" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 23]"
           TopLeft="315.138888888889,912.388888888889">
           <EdgeLayout.Curve>
@@ -10127,6 +10238,28 @@
                     Point3="-52.2035742035742,21.270687645688" />
                   <mssgle:LineSegment
                     End="-52.2035742035742,27.041375291376" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 31]"
+          TopLeft="218.75,51">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,54"
+              Start="0,0"
+              End="0,46.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,46.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -10680,6 +10813,40 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 52]"
+          TopLeft="437.333333333333,573.111111111111">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-160.787878787879,102.161616161616"
+              Start="0,0"
+              End="-160.787878787879,94.6616161616159">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,47.080808080808" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,47.080808080808"
+                    Point2="0,51.080808080808"
+                    Point3="-4,51.080808080808" />
+                  <mssgle:LineSegment
+                    End="-156.787878787879,51.080808080808" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-156.787878787879,51.080808080808"
+                    Point2="-160.787878787879,51.080808080808"
+                    Point3="-160.787878787879,55.080808080808" />
+                  <mssgle:LineSegment
+                    End="-160.787878787879,94.6616161616159" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 53]"
           TopLeft="955,1221.33333333333">
           <EdgeLayout.Curve>
@@ -10991,140 +11158,20 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="166,42"
-          Id="Package\Stage TargetCRS"
-          TopLeft="139,530.888888888889" />
-        <NodeLayout
-          Size="180,42"
-          Id="Package\Stage TargetProduct"
-          TopLeft="347.333333333333,531.111111111111" />
-        <EdgeLayout
-          Id="Package.PrecedenceConstraints[Constraint 10]"
-          TopLeft="224.25,494">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,36.8888888888887"
-              Start="0,0"
-              End="0,29.3888888888887">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,29.3888888888887" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package.PrecedenceConstraints[Constraint 11]"
-          TopLeft="437.916666666667,491.99999841799">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,39.1111126931211"
-              Start="0,0"
-              End="0,31.6111126931211">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,31.6111126931211" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package.PrecedenceConstraints[Constraint 22]"
-          TopLeft="248.333333333333,530.888888888889">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="159.833333333333,-38.8888904708987"
-              Start="0,0"
-              End="159.833333333333,-31.3888904708987">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,-15.4733840104494" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,-15.4733840104494"
-                    Point2="0,-19.4733840104494"
-                    Point3="4,-19.4733840104494" />
-                  <mssgle:LineSegment
-                    End="155.833333333333,-19.4733840104494" />
-                  <mssgle:CubicBezierSegment
-                    Point1="155.833333333333,-19.4733840104494"
-                    Point2="159.833333333333,-19.4733840104494"
-                    Point3="159.833333333333,-23.4733840104494" />
-                  <mssgle:LineSegment
-                    End="159.833333333333,-31.3888904708987" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package.PrecedenceConstraints[Constraint 52]"
-          TopLeft="437.333333333333,573.111111111111">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-160.787878787879,102.161616161616"
-              Start="0,0"
-              End="-160.787878787879,94.6616161616159">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,47.080808080808" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,47.080808080808"
-                    Point2="0,51.080808080808"
-                    Point3="-4,51.080808080808" />
-                  <mssgle:LineSegment
-                    End="-156.787878787879,51.080808080808" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-156.787878787879,51.080808080808"
-                    Point2="-160.787878787879,51.080808080808"
-                    Point3="-160.787878787879,55.080808080808" />
-                  <mssgle:LineSegment
-                    End="-160.787878787879,94.6616161616159" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
           TopLeft="219.833333333333,147">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,44.5555555555557"
+              EndConnector="0,44.555555555556"
               Start="0,0"
-              End="0,37.0555555555557">
+              End="0,37.055555555556">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,37.0555555555557" />
+                    End="0,37.055555555556" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -11139,48 +11186,26 @@
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="173,-43.5555555555557"
+              EndConnector="173,-43.555555555556"
               Start="0,0"
-              End="173,-36.0555555555557">
+              End="173,-36.055555555556">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,-17.856129438787" />
+                    End="0,-17.8561294387871" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,-17.856129438787"
-                    Point2="0,-21.856129438787"
-                    Point3="4,-21.856129438787" />
+                    Point1="0,-17.8561294387871"
+                    Point2="0,-21.8561294387871"
+                    Point3="4,-21.8561294387871" />
                   <mssgle:LineSegment
-                    End="169,-21.856129438787" />
+                    End="169,-21.8561294387871" />
                   <mssgle:CubicBezierSegment
-                    Point1="169,-21.856129438787"
-                    Point2="173,-21.856129438787"
-                    Point3="173,-25.856129438787" />
+                    Point1="169,-21.8561294387871"
+                    Point2="173,-21.8561294387871"
+                    Point3="173,-25.8561294387871" />
                   <mssgle:LineSegment
-                    End="173,-36.0555555555557" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package.PrecedenceConstraints[Constraint 31]"
-          TopLeft="218.75,51">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,54"
-              Start="0,0"
-              End="0,46.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,46.5" />
+                    End="173,-36.055555555556" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -11193,10 +11218,220 @@
     </LayoutInfo>
   </Package>
   <TaskHost
+    design-time-name="Package\Old Stage TargetCRS">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="221,42"
+          Id="Package\Old Stage TargetCRS\Destination StageTargetCRS"
+          TopLeft="378,372" />
+        <NodeLayout
+          Size="161,42"
+          Id="Package\Old Stage TargetCRS\Data Conversion"
+          TopLeft="376,217" />
+        <NodeLayout
+          Size="189,42"
+          Id="Package\Old Stage TargetCRS\Flat File Source - CRS"
+          TopLeft="190,110" />
+        <EdgeLayout
+          Id="Package\Old Stage TargetCRS.Paths[Flat File Source Output]"
+          TopLeft="284.5,152">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="172,65"
+              Start="0,0"
+              End="172,57.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,28.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,28.5"
+                    Point2="0,32.5"
+                    Point3="4,32.5" />
+                  <mssgle:LineSegment
+                    End="168,32.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="168,32.5"
+                    Point2="172,32.5"
+                    Point3="172,36.5" />
+                  <mssgle:LineSegment
+                    End="172,57.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Old Stage TargetCRS.Paths[Data Conversion Output]"
+          TopLeft="456.5,259">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="32,113"
+              Start="0,0"
+              End="32,105.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,52.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,52.5"
+                    Point2="0,56.5"
+                    Point3="4,56.5" />
+                  <mssgle:LineSegment
+                    End="28,56.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="28,56.5"
+                    Point2="32,56.5"
+                    Point3="32,60.5" />
+                  <mssgle:LineSegment
+                    End="32,105.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Old Stage TargetCRS\Destination StageTargetCRS">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
+    design-time-name="Package\Old Starge TargetProduct">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="236,42"
+          Id="Package\Old Starge TargetProduct\Destination StageTargetProduct"
+          TopLeft="320,340" />
+        <NodeLayout
+          Size="161,42"
+          Id="Package\Old Starge TargetProduct\Data Conversion"
+          TopLeft="263,234" />
+        <NodeLayout
+          Size="203,42"
+          Id="Package\Old Starge TargetProduct\Flat File Source - Product"
+          TopLeft="141,81" />
+        <EdgeLayout
+          Id="Package\Old Starge TargetProduct.Paths[Flat File Source Output]"
+          TopLeft="242.5,123">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="101,111"
+              Start="0,0"
+              End="101,103.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,51.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,51.5"
+                    Point2="0,55.5"
+                    Point3="4,55.5" />
+                  <mssgle:LineSegment
+                    End="97,55.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="97,55.5"
+                    Point2="101,55.5"
+                    Point3="101,59.5" />
+                  <mssgle:LineSegment
+                    End="101,103.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Old Starge TargetProduct.Paths[Data Conversion Output]"
+          TopLeft="343.5,276">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="94.5,64"
+              Start="0,0"
+              End="94.5,56.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,28" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,28"
+                    Point2="0,32"
+                    Point3="4,32" />
+                  <mssgle:LineSegment
+                    End="90.5,32" />
+                  <mssgle:CubicBezierSegment
+                    Point1="90.5,32"
+                    Point2="94.5,32"
+                    Point3="94.5,36" />
+                  <mssgle:LineSegment
+                    End="94.5,56.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Old Starge TargetProduct\Destination StageTargetProduct">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
     design-time-name="Package\Stage Channel">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="158,42"
           Id="Package\Stage Channel\Source Channel"
@@ -11236,7 +11471,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -11428,7 +11665,7 @@
     design-time-name="Package\Stage Product">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="155,42"
           Id="Package\Stage Product\Source Product"
@@ -11468,7 +11705,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -11816,7 +12055,7 @@
     design-time-name="Package\Stage SalesHeader">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="180,42"
           Id="Package\Stage SalesHeader\Source SalesHeader"
@@ -11856,7 +12095,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -11967,220 +12208,22 @@
     </Properties>
   </PipelineComponentMetadata>
   <TaskHost
-    design-time-name="Package\Old Stage TargetCRS">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
-        <NodeLayout
-          Size="221,42"
-          Id="Package\Old Stage TargetCRS\Destination StageTargetCRS"
-          TopLeft="378,372" />
-        <NodeLayout
-          Size="161,42"
-          Id="Package\Old Stage TargetCRS\Data Conversion"
-          TopLeft="376,217" />
-        <NodeLayout
-          Size="189,42"
-          Id="Package\Old Stage TargetCRS\Flat File Source - CRS"
-          TopLeft="190,110" />
-        <EdgeLayout
-          Id="Package\Old Stage TargetCRS.Paths[Flat File Source Output]"
-          TopLeft="284.5,152">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="172,65"
-              Start="0,0"
-              End="172,57.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,28.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,28.5"
-                    Point2="0,32.5"
-                    Point3="4,32.5" />
-                  <mssgle:LineSegment
-                    End="168,32.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="168,32.5"
-                    Point2="172,32.5"
-                    Point3="172,36.5" />
-                  <mssgle:LineSegment
-                    End="172,57.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Old Stage TargetCRS.Paths[Data Conversion Output]"
-          TopLeft="456.5,259">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="32,113"
-              Start="0,0"
-              End="32,105.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,52.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,52.5"
-                    Point2="0,56.5"
-                    Point3="4,56.5" />
-                  <mssgle:LineSegment
-                    End="28,56.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="28,56.5"
-                    Point2="32,56.5"
-                    Point3="32,60.5" />
-                  <mssgle:LineSegment
-                    End="32,105.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-      </GraphLayout>
-    </LayoutInfo>
-  </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\Old Stage TargetCRS\Destination StageTargetCRS">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <TaskHost
-    design-time-name="Package\Old Starge TargetProduct">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
-        <NodeLayout
-          Size="236,42"
-          Id="Package\Old Starge TargetProduct\Destination StageTargetProduct"
-          TopLeft="320,340" />
-        <NodeLayout
-          Size="161,42"
-          Id="Package\Old Starge TargetProduct\Data Conversion"
-          TopLeft="263,234" />
-        <NodeLayout
-          Size="203,42"
-          Id="Package\Old Starge TargetProduct\Flat File Source - Product"
-          TopLeft="141,81" />
-        <EdgeLayout
-          Id="Package\Old Starge TargetProduct.Paths[Flat File Source Output]"
-          TopLeft="242.5,123">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="101,111"
-              Start="0,0"
-              End="101,103.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,51.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,51.5"
-                    Point2="0,55.5"
-                    Point3="4,55.5" />
-                  <mssgle:LineSegment
-                    End="97,55.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="97,55.5"
-                    Point2="101,55.5"
-                    Point3="101,59.5" />
-                  <mssgle:LineSegment
-                    End="101,103.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Old Starge TargetProduct.Paths[Data Conversion Output]"
-          TopLeft="343.5,276">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="94.5,64"
-              Start="0,0"
-              End="94.5,56.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,28" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,28"
-                    Point2="0,32"
-                    Point3="4,32" />
-                  <mssgle:LineSegment
-                    End="90.5,32" />
-                  <mssgle:CubicBezierSegment
-                    Point1="90.5,32"
-                    Point2="94.5,32"
-                    Point3="94.5,36" />
-                  <mssgle:LineSegment
-                    End="94.5,56.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-      </GraphLayout>
-    </LayoutInfo>
-  </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\Old Starge TargetProduct\Destination StageTargetProduct">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <TaskHost
     design-time-name="Package\Stage TargetCRS">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="189,42"
-          Id="Package\Stage TargetCRS\Flat File Source - CRS"
-          TopLeft="130,70" />
+          Size="221,42"
+          Id="Package\Stage TargetCRS\Destination StageTargetCRS"
+          TopLeft="349,337" />
         <NodeLayout
           Size="177,42"
           Id="Package\Stage TargetCRS\Convert Data Types"
           TopLeft="233,200" />
+        <NodeLayout
+          Size="189,42"
+          Id="Package\Stage TargetCRS\Flat File Source - CRS"
+          TopLeft="130,70" />
         <EdgeLayout
           Id="Package\Stage TargetCRS.Paths[Flat File Source Output]"
           TopLeft="224.5,112">
@@ -12212,13 +12255,11 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="221,42"
-          Id="Package\Stage TargetCRS\Destination StageTargetCRS"
-          TopLeft="349,337" />
         <EdgeLayout
           Id="Package\Stage TargetCRS.Paths[Data Conversion Output]"
           TopLeft="321.5,242">
@@ -12250,7 +12291,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -12273,15 +12316,19 @@
     design-time-name="Package\Stage TargetProduct">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="203,42"
-          Id="Package\Stage TargetProduct\Flat File Source - Product"
-          TopLeft="117,68" />
+          Size="236,42"
+          Id="Package\Stage TargetProduct\Destination StageTargetProduct"
+          TopLeft="366,329" />
         <NodeLayout
           Size="177,42"
           Id="Package\Stage TargetProduct\Convert Data Types"
           TopLeft="236,199" />
+        <NodeLayout
+          Size="203,42"
+          Id="Package\Stage TargetProduct\Flat File Source - Product"
+          TopLeft="117,68" />
         <EdgeLayout
           Id="Package\Stage TargetProduct.Paths[Flat File Source Output]"
           TopLeft="218.5,110">
@@ -12313,13 +12360,11 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="236,42"
-          Id="Package\Stage TargetProduct\Destination StageTargetProduct"
-          TopLeft="366,329" />
         <EdgeLayout
           Id="Package\Stage TargetProduct.Paths[Data Conversion Output]"
           TopLeft="324.5,241">
@@ -12351,7 +12396,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>

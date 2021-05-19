@@ -116,6 +116,10 @@ BEGIN
 	ON StageChannel.ChannelCategoryID = StageChannelCategory.ChannelCategoryID;
 END
 GO
+UPDATE dimChannel
+SET ChannelName = 'Online'
+WHERE ChannelName = 'On-line'
+GO
 -- ====================================
 -- Begin load of unknown member for dimChannel
 -- ====================================
@@ -751,18 +755,88 @@ BEGIN
 	factSalesTarget INT IDENTITY(1,1) CONSTRAINT PK_factSRCSalesTarget PRIMARY KEY CLUSTERED NOT NULL, -- SurrogateKey
 	dimStoreKey INT CONSTRAINT FK_SRCSalesTargetStore FOREIGN KEY REFERENCES dbo.dimStore(dimStoreKey) NUll,
 	dimResellerKey INT CONSTRAINT FK_SRCSalesTargetReseller FOREIGN KEY REFERENCES dbo.dimReseller(dimResellerKey) NULL,
-	dimChannelKey INT CONSTRAINT FK_SRCSalesTargetChannel FOREIGN KEY REFERENCES dbo.dimChannel(dimChannelKey) NOT NULL,
+	dimChannelKey INT CONSTRAINT FK_SRCSalesTargetChannel FOREIGN KEY REFERENCES dbo.dimChannel(dimChannelKey) NULL,
 	dimTargetDateKey INT CONSTRAINT FK_SRCSalesTargetDate FOREIGN KEY REFERENCES dbo.DimDate(dimDateKey) NOT NULL,
-	SalesTargetAmount NUMERIC(18,2) NOT NULL
+	SalesTargetAmount NUMERIC(18,2) NULL
 	);
 END
 GO
 -- ====================================
 -- Load factSRCSalesTarget table
 -- ====================================
+IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'factSRCSalesTarget')
+BEGIN
+	-- Create rows for Store targets
+	INSERT INTO dbo.factSRCSalesTarget
+	(
+	dimStoreKey
+	, dimTargetDateKey
+	)
+	SELECT dStore.dimStoreKey AS StoreKey
+	, dDate.DimDateKey AS DateKey
+	FROM dbo.dimStore AS dStore
+	CROSS JOIN dbo.DimDate AS dDate
+	WHERE dStore.dimStoreKey > 0
+	AND dDate.DimDateKey > 0
+	-- Create rows for Reseller targets
+	INSERT INTO dbo.factSRCSalesTarget
+	(
+	dimResellerKey
+	, dimTargetDateKey
+	)
+	SELECT dResell.dimResellerKey AS ResellKey
+	, dDate.DimDateKey AS DateKey
+	FROM dbo.dimReseller AS dResell
+	CROSS JOIN dbo.DimDate AS dDate
+	WHERE dResell.dimResellerKey > 0
+	AND dDate.DimDateKey > 0
 
+	UPDATE dbo.factSRCSalesTarget
+	SET dimChannelKey = '1'
+	WHERE dimStoreKey = '1'
+	OR dimStoreKey = '2'
+	OR dimStoreKey = '3'
+	OR dimStoreKey = '4'
 
+	UPDATE dbo.factSRCSalesTarget
+	SET dimChannelKey = '3'
+	WHERE dimStoreKey = '5'
+	OR dimStoreKey = '6'
+
+	UPDATE dbo.factSRCSalesTarget
+	SET dimChannelKey = '5'
+	WHERE dimResellerKey = '2'
+	OR dimResellerKey = '3'
+
+	UPDATE dbo.factSRCSalesTarget
+	SET dimChannelKey = '4'
+	WHERE dimResellerKey = '1'
+	OR dimResellerKey = '4'
+	
+	/*
+	-- Update rows with the target data
+	INSERT INTO dbo.factSRCSalesTarget
+	(
+	SalesTargetAmount
+	)
+	SELECT *
+	FROM dbo.factSRCSalesTarget AS fSRC
+	LEFT JOIN dbo.dimStore AS dStore ON fSRC.dimStoreKey = dStore.dimStoreKey
+	LEFT JOIN dbo.dimReseller AS dResell ON fSRC.dimResellerKey = dResell.dimResellerKey
+	LEFT JOIN dbo.dimChannel AS dChan ON fSRC.dimChannelKey = dChan.dimChannelKey
+	Left JOIN dbo.StageTargetCRS AS sTarCRS ON dStore.StoreName = sTarCRS.TargetName
+	AND dResell.ResellerName = sTarCRS.TargetName
+	AND dChan.ChannelName = sTarCRS.ChannelName
+	*/
+END
+GO
+	, (SELECT (CASE WHEN (sHeader.StoreID IS NOT NULL) THEN dStore.dimLocationKey 
+					WHEN (sHeader.CustomerID IS NOT NULL) THEN dCust.dimLocationKey
+					WHEN (sHeader.ResellerID IS NOT NULL) THEN dResell.dimLocationKey
+				END)) AS LocKey
 --SELECT * FROM factSRCSalesTarget
+--SELECT * FROM StageTargetCRS
+--SELECT * FROM dimReseller
 
 -- ====================================
 -- Delete factProductSalesTarget table
@@ -822,6 +896,7 @@ GO
 USE DestinationSystem
 SELECT * FROM dimProduct
 SELECT * FROM StageProduct
+SELECT * FROM StageTargetCRS
 SELECT * FROM StageTargetProduct
 SELECT * FROM factProductSalesTarget
 ORDER BY dimProductKey ASC, dimTargetDateKey ASC
