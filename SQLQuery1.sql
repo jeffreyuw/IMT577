@@ -889,6 +889,7 @@ SELECT * FROM dimProduct
 SELECT * FROM StageProduct
 SELECT * FROM StageTargetCRS
 SELECT * FROM StageTargetProduct
+SELECT * FROM factSRCSalesTarget
 SELECT * FROM factProductSalesTarget
 ORDER BY dimProductKey ASC, dimTargetDateKey ASC
 SELECT * FROM DimDate
