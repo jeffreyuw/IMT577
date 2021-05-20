@@ -21,6 +21,7 @@ SELECT * FROM StageStore
 SELECT * FROM StageTargetCRS
 SELECT * FROM StageTargetProduct
 */
+
 -- ====================================
 -- Begin load of unknown member for DimDate
 -- ====================================
@@ -766,7 +767,7 @@ GO
 -- ====================================
 IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'factSRCSalesTarget')
 BEGIN
-	WITH CTE_CRSDates -- First CTE
+	WITH CTE_CRSDates -- First CTE for target names and date keys (cross-joined table)
 	(
 	TargetName
 	, DateKey
@@ -779,7 +780,7 @@ BEGIN
 	CROSS JOIN dbo.DimDate AS dDate
 	WHERE dDate.DimDateKey > 0
 	)
-	, CTE_CRSTargets --2nd CTE
+	, CTE_CRSTargets --2nd CTE for target names and target keys
 	(
 	ChannelKey
 	, ChannelName
@@ -804,126 +805,28 @@ BEGIN
 	LEFT JOIN dbo.dimReseller AS dResell ON sTarCRS.TargetName = dResell.ResellerName
 	WHERE dChan.dimChannelKey > 0
 	)
-	INSERT INTO factSRCSalesTarget -- Smoosh the CTEs and insert data into fact table
-	(
-	)
-	SELECT *
-	FROM CTE_CRSDates AS Dates
-	LEFT JOIN CTE_CRSTargets ON Dates.TargetName = 
-
-END
-GO
-
-
-
-
-	SELECT dProd.dimProductKey AS ProdKey
-	, dDate.DimDateKey AS DateKey
-	, dProd.ProductName AS ProdName
-	, dDate.CalendarYear AS [Year]
-	FROM dbo.dimProduct AS dProd
-	CROSS JOIN dbo.DimDate AS dDate
-	WHERE dProd.dimProductKey > 0
-	AND dDate.DimDateKey > 0
-	)
-	INSERT INTO dbo.factProductSalesTarget
-	(
-	dimProductKey
-	, dimTargetDateKey
-	, ProductTargetSalesQuantity
-	)
-	SELECT 
-	ProdKey
-	, DateKey 
-	, CEILING(sTarProd.SalesQuantityTarget/365) AS DailyTarget
-	FROM CTE_ProductDate AS CTE
-	INNER JOIN dbo.StageTargetProduct AS sTarProd ON CTE.ProdKey = sTarProd.ProductID
-	AND CTE.[Year] = sTarProd.[Year]
-	ORDER BY Prodkey ASC, DateKey ASC
-END
-GO
-
-
-
-
---SELECT * FROM factSRCSalesTarget
---SELECT * FROM StageTargetCRS
---SELECT * FROM dimReseller
-
-
-/*  Last resort
-BEGIN
-	-- Create rows for Store targets
-	INSERT INTO dbo.factSRCSalesTarget
+	INSERT INTO dbo.factSRCSalesTarget -- Smoosh the CTEs and insert data into fact table
 	(
 	dimStoreKey
+	, dimResellerKey
+	, dimChannelKey
 	, dimTargetDateKey
+	, SalesTargetAmount
 	)
-	SELECT dStore.dimStoreKey AS StoreKey
-	, dDate.DimDateKey AS DateKey
-	FROM dbo.dimStore AS dStore
-	CROSS JOIN dbo.DimDate AS dDate
-	WHERE dStore.dimStoreKey > 0
-	AND dDate.DimDateKey > 0
-	-- Create rows for Reseller targets
-	INSERT INTO dbo.factSRCSalesTarget
-	(
-	dimResellerKey
-	, dimTargetDateKey
-	)
-	SELECT dResell.dimResellerKey AS ResellKey
-	, dDate.DimDateKey AS DateKey
-	FROM dbo.dimReseller AS dResell
-	CROSS JOIN dbo.DimDate AS dDate
-	WHERE dResell.dimResellerKey > 0
-	AND dDate.DimDateKey > 0
-
-	UPDATE dbo.factSRCSalesTarget
-	SET dimChannelKey = '1'
-	WHERE dimStoreKey = '1'
-	OR dimStoreKey = '2'
-	OR dimStoreKey = '3'
-	OR dimStoreKey = '4'
-
-	UPDATE dbo.factSRCSalesTarget
-	SET dimChannelKey = '3'
-	WHERE dimStoreKey = '5'
-	OR dimStoreKey = '6'
-
-	UPDATE dbo.factSRCSalesTarget
-	SET dimChannelKey = '5'
-	WHERE dimResellerKey = '2'
-	OR dimResellerKey = '3'
-
-	UPDATE dbo.factSRCSalesTarget
-	SET dimChannelKey = '4'
-	WHERE dimResellerKey = '1'
-	OR dimResellerKey = '4'
-	
-	/*
-	-- Update rows with the target data
-	INSERT INTO dbo.factSRCSalesTarget
-	(
-	SalesTargetAmount
-	)
-	SELECT *
-	FROM dbo.factSRCSalesTarget AS fSRC
-	LEFT JOIN dbo.dimStore AS dStore ON fSRC.dimStoreKey = dStore.dimStoreKey
-	LEFT JOIN dbo.dimReseller AS dResell ON fSRC.dimResellerKey = dResell.dimResellerKey
-	LEFT JOIN dbo.dimChannel AS dChan ON fSRC.dimChannelKey = dChan.dimChannelKey
-	Left JOIN dbo.StageTargetCRS AS sTarCRS ON dStore.StoreName = sTarCRS.TargetName
-	AND dResell.ResellerName = sTarCRS.TargetName
-	AND dChan.ChannelName = sTarCRS.ChannelName
-	*/
+	SELECT DISTINCT Targets.StoreKey
+	, Targets.ResellerKey
+	, Targets.ChannelKey
+	, Dates.DateKey
+	, sTarCRS.TargetSalesAmount/365 AS DailyTarget
+	FROM CTE_CRSDates AS Dates
+	LEFT JOIN dbo.DimDate AS dDate ON Dates.DateKey = dDate.DimDateKey               -- 1. 730 days
+	LEFT JOIN dbo.StageTargetCRS AS sTarCRS ON Dates.TargetName = sTarCRS.TargetName -- 2. match target names and year between
+		AND dDate.CalendarYear = CAST(sTarCRS.[Year] AS INT)                         -- staging table and cross-joined table
+	LEFT JOIN CTE_CRSTargets AS Targets ON Dates.TargetName = Targets.ResellerName   -- 3. match target names between cross-
+		OR Dates.TargetName = Targets.StoreName                                      -- joined table and table with target keys
+		OR Dates.TargetName = Targets.CustomerName
 END
 GO
-	, (SELECT (CASE WHEN (sHeader.StoreID IS NOT NULL) THEN dStore.dimLocationKey 
-					WHEN (sHeader.CustomerID IS NOT NULL) THEN dCust.dimLocationKey
-					WHEN (sHeader.ResellerID IS NOT NULL) THEN dResell.dimLocationKey
-				END)) AS LocKey
-
-End last resort  */ 
-
 
 -- ====================================
 -- Delete factProductSalesTarget table
