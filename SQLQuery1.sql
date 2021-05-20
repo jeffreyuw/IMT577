@@ -99,6 +99,7 @@ GO
 -- ====================================
 IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'dimChannel')
 BEGIN
+	DBCC CHECKIDENT (dimChannel, RESEED, 1)
 	INSERT INTO dbo.dimChannel
 	(
 	ChannelID
@@ -175,6 +176,7 @@ GO
 -- ====================================
 IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'dimLocation')
 BEGIN
+	DBCC CHECKIDENT (dimLocation, RESEED, 1)
 	-- Load customer addresses
 	INSERT INTO dbo.dimLocation
 	(
@@ -291,6 +293,7 @@ GO
 -- ====================================
 IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'dimProduct')
 BEGIN
+	DBCC CHECKIDENT (dimProduct, RESEED, 1)
 	INSERT INTO dbo.dimProduct
 	(
 	ProductID
@@ -395,6 +398,7 @@ GO
 -- ====================================
 IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'dimReseller')
 BEGIN
+	DBCC CHECKIDENT (dimReseller, RESEED, 1)
 	INSERT INTO dbo.dimReseller
 	(
 	dimLocationKey
@@ -479,6 +483,7 @@ GO
 -- ====================================
 IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'dimStore')
 BEGIN
+	DBCC CHECKIDENT (dimStore, RESEED, 1)
 	INSERT INTO dbo.dimStore
 	(
 	dimLocationKey
@@ -555,6 +560,7 @@ GO
 -- ====================================
 IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'dimCustomer')
 BEGIN
+	DBCC CHECKIDENT (dimCustomer, RESEED, 1)
 	INSERT INTO dbo.dimCustomer
 	(
 	dimLocationKey
@@ -606,54 +612,6 @@ VALUES
 SET IDENTITY_INSERT dbo.dimCustomer OFF;
 GO
 
-/*
---==========================
---David's Reseller Table
---==========================
-IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'dimReseller')
-BEGIN
-DBCC CHECKIDENT (dimReseller, RESEED, 1)
-    INSERT INTO dbo.dimReseller
-    (
-    dimLocationKey 
-    , ResellerID 
-    , ResellerName
-    , ContactName
-    , PhoneNumber
-    , Email
-    )
-    SELECT 
-    dbo.dimLocation.dimLocationKey AS dimLocationKey
-    , CAST(dbo.stageReseller.ResellerID AS VARCHAR(50))
-    , ResellerName
-    , Contact
-    , PhoneNumber
-    , EmailAddress
-    FROM dbo.StageReseller
-        INNER JOIN dbo.dimLocation 
-            ON StageReseller.Address = dimLocation.Address
-            AND StageReseller.PostalCode = dimLocation.PostalCode;
-END
-GO
-*/
-
-
-
--- ====================================
--- Fact tables!!!!
--- ====================================
-/*
-USE DestinationSystem
-
-SELECT * FROM dbo.DimDate
-SELECT * FROM dbo.dimLocation
-SELECT * FROM dbo.dimChannel
-SELECT * FROM dbo.dimProduct
-SELECT * FROM dbo.dimReseller
-SELECT * FROM dbo.dimStore
-SELECT * FROM dbo.dimCustomer
-*/
-
 -- ====================================
 -- Delete factSalesActual table
 -- ====================================
@@ -692,6 +650,7 @@ GO
 -- ====================================
 IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'factSalesActual')
 BEGIN
+	DBCC CHECKIDENT (factSalesActual, RESEED, 1)
 	INSERT INTO dbo.factSalesActual
 	(
 	dimProductKey
@@ -765,6 +724,9 @@ GO
 -- ====================================
 -- Load factSRCSalesTarget table
 -- ====================================
+IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'factSRCSalesTarget')
+	DBCC CHECKIDENT (factSRCSalesTarget, RESEED, 1)
+
 IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'factSRCSalesTarget')
 BEGIN
 	WITH CTE_CRSDates -- First CTE for target names and date keys (cross-joined table)
@@ -853,6 +815,9 @@ GO
 -- ====================================
 -- Load factProductSalesTarget table
 -- ====================================
+IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'factProductSalesTarget')
+	DBCC CHECKIDENT (factProductSalesTarget, RESEED, 1)
+
 IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'factProductSalesTarget')
 BEGIN
 	WITH CTE_ProductDate (ProdKey, DateKey, ProdName, [Year]) AS 
