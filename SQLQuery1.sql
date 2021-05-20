@@ -8,6 +8,9 @@ SELECT * FROM dbo.dimProduct
 SELECT * FROM dbo.dimReseller
 SELECT * FROM dbo.dimStore
 SELECT * FROM dbo.dimCustomer
+SELECT * FROM factSalesActual
+SELECT * FROM factSRCSalesTarget
+SELECT * FROM factProductSalesTarget
 SELECT * FROM StageChannel
 SELECT * FROM StageChannelCategory
 SELECT * FROM StageCustomer
