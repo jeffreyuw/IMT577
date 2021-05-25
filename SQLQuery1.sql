@@ -699,7 +699,7 @@ BEGIN
 	LEFT JOIN dbo.DimDate AS dDate ON sHeader.[Date] = dDate.FullDate
 END
 GO
-SELECT * FROM factSalesActual
+
 -- ====================================
 -- Delete factSRCSalesTarget table
 -- ====================================

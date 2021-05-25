@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="142"
-  DTS:VersionGUID="{F1D2B82C-4094-4F0B-9A53-716BD500B63A}">
+  DTS:VersionBuild="143"
+  DTS:VersionGUID="{B9753149-01EA-44C7-9AAB-85F46D6C8A11}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -251,7 +251,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABZp478LpLxZKWcV6Ha70fptxwER0pT6KPsikacaezXbAAAAAAOgAAAAAIAACAAAAAS0pvlwwjaD1OQLGGbY1PutMjzwQpglL7VHgikCoSg9zAAAABXugORL82lub8shGz3viHiXJNOXpwqPTFVmxuswlqNN1jQ2BGnS0+anIFnIt98JMJAAAAAW6fjewEOgPspOOvkGkpOE6kBlSoXRj/nefWHD3R91egZemlpKJcNRYJulDscj+bZZDYvYYEMmxmkWftHeUbe5g</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADZ9FXiwoVW/w6XrckWXL+3gLDP+jeNwSWa7UBFqxXrIgAAAAAOgAAAAAIAACAAAACsb385ixm4a6Fir9yJk7TwpqoKa8aEpZkxbhmLAmEMCjAAAABkmhVTp7Q26f1evn+QIc8D091Tyxw3zoMeM0latPn+oHoFL2EpVICJc6MfQf43Da9AAAAAKMHBitBX/pjHhJLOmJQe+5F1rIEWwQZfV/Va6mq1Y55Ko1ILqsPvKs7DdkML7n1cEDKx4xeP28250DaAt5Z7VQ</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -266,7 +266,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADhKCB9IGiJCJYTqA2VDXPmOi6YavRVinoPiTsDZCPXjAAAAAAOgAAAAAIAACAAAAAOheYyE5z71IhprhaUjmdlwj8zf6TGi9HS6G1I8/uYCDAAAAAK7qFK8Mk4omzGnvJY9+WwUVgKpQyE9m9El2HCRK4Vfp/I3DrWbx8+ZHlgHB1nH4tAAAAAzDLxYFFkaJCVKiI3hwQmf7McxsNEgWQB95vIafefQRY5OB6Z50HU0wy3ZtkA3WgaO6jVF2TLrWdj1CkULZXbkg</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAC4ZNEjW+mYkr3kUJLoi3rRTxiM8qB1W4PNfSbHwspsNgAAAAAOgAAAAAIAACAAAAApNrQgWc6iQLXBUvTe4QvJ3rFdD5UEN8r/hR4b4Wpj8DAAAACkk8/2H1SsaGY9i2rmBJQ/kK9cIbAK5K6l0zakvYiqV58+4xFC4q4nlx7/fm34MPhAAAAAwlPvccBScTcWks/inCDMD4j5w8ZW3OsSisYWpDHQdBkNnpoDu2kgIuLaTz8kTIougpmGzOLgfY3N5Me0VlqLEw</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -281,7 +281,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADFtPwpSeJyHjDdhMbAam4cLLFsbj4SF9PIuPt9wm/qbAAAAAAOgAAAAAIAACAAAAAfoTL5AfT/rbvGGA4ptyLURr3PH1boGnHBjsQ/j7dIozAAAACgXN3WCWaflOeiimR02bFztaEG+lB0/2BpsJkad6rF3QPTXK65GckfeNcv8Dzgz8JAAAAA5gcVeFEa5PzYSNADEwLimVvt+nxr/NG56fI6r4Ny+ZMG6QKxdyIlGrqkVlWBdkIW/sGeyyflm/3IfgXwa3yFSw</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAIJcLj/XVUMyxRFszqsUR9zmpuRveEOKaFFWEdyEPBwAAAAAAOgAAAAAIAACAAAADj9vAbaaPV3P09ynIYWyK3sIBo1A3h3Qh7aJqc8CI4oTAAAAAyhH61V9FV2Ca3UlB8BnPLvPU7rp7Buivi+SYo3O64DtXhjT1ZZnyLzmIMYxPEyBtAAAAAuwSMfNUOlyPs6f+KVS22khim4f9rHssuilhWe7oIUijaqI/hQzdTdKRRDqrj5fKH12GuyerXsuy2WdCwC1IA7w</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -296,7 +296,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAq8FAqWO8TJ2Qw+Ba3wRPjsXdDiFFh/JkEHMPfxrnKDwAAAAAOgAAAAAIAACAAAADaJGPWO1GOq10YXUm55S9aQO17ha7+76x0LN1D9ij4VTAAAAB5orMVa+JGYorUH60o14mlytly1E4yOVGNcr2z/pZWk4XBOKq2oWYPLlLBwtB+fZNAAAAA+Rx4C9K9zsWJrVYLLxkHGETSzjgXFH9Ni6wM3lnNebE3ebtrd9n8sekIDoCeL2y7AZxJ3v0OG7f2LLuZ9nHlZw</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACHv5deaLC6nVp8cM67yjWQwmtncElBPsBXV9tOt1Ob1gAAAAAOgAAAAAIAACAAAACAmItNvrIhlkM97UeA8g8b3V5AtlB+GZVMmKhh8rY5CTAAAADPBihvUQpoTj/NxWpfbcZvic9CdqBdMvO3p03jTDIfxIfSYK8SfPxVEswGgG3LvWVAAAAANkxTKQXnJ0d8XAvxJuDY9q7vMVOt0KUD5fCp+58xEUSai1fykaRA4KlLPpfdy/Z/tkEvuANjW/8LblqPLDoaww</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -311,7 +311,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADVgt8vuTVtFmcYUvXgtFFqBda+Frv8D1ZINgAG88lQAwAAAAAOgAAAAAIAACAAAACvWHqmoJXgGuRQg8n5O4JntB+b6kzRg4/nRCwPd46lODAAAABDlPiDFPdceTTty9pTPDGri5R6xJHaBBK0RK3ClmjylMcNwfVuYntFSmCPk4mvqn1AAAAAn3muWuOgvEigBWalcvIeNSsvmVlz+kDDnKbIxoEhbbT3POQhR5T/iTw8OUMnoJqNDKuKV2Ps52sLuHkc9qnU6Q</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAD/4TjA3misFNAYCYn3fFsph3vQLfQ6NDgqQVlWh9KWzgAAAAAOgAAAAAIAACAAAAAw+uFUO6kce7bDmrGSA9USVm2kmriR/PPnCNQQlRQaizAAAADSaLX74aZ1JO1jibUjhVbMKAmXOAF3aKC8BWMIZGVtrB4oaC7qIATkd1db/V5WcV5AAAAAnnhnGqONKXkYbZkluqaqWOcmHLdZMWxnAfGKxfpjpuNzEK5yRfWCkX11ufur7ZLjmmLoIWntKUXvQYzC6eg3eQ</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -326,7 +326,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADn8oC+M0aAj2Xi5EUDxRP2r+Y8GizzXAKuyaCkDc0USwAAAAAOgAAAAAIAACAAAABH4LTiYtwALYIhU1Bq5tGpbJ0LtgeD2QdwTxUb6u0wtDAAAABo/wQq8HfUiZInzx93lXR/O0RNUrH+2at7hBYrborKx6pR8h0kdR1fPSyCTUa/XEZAAAAA7BTp5DA9iYh3w9i9S6INiMrEdmTX5wRJmCrKncEI55t3q+LWTj6LNc8gR+C7FWHUq25z9rVN/S8DukCkrJ9kdg</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAk7FK4TEKqJA0+1ZneSsp8JsHCjRQw4CBP2I1IK/gq9AAAAAAOgAAAAAIAACAAAADEcewyVzssTP+dYkjqIybYBcso+QSn5rX1fMTYDuvLpzAAAAAOogdVaYoFp7ulEFfNUC40ioKPjITTg5ZZbVJUSPqSCGh9BL5NEuYB1u/vpq/OYmdAAAAAggcZikDc81vAr6Emq+APbcE4lMjNXy9jxzVG8ywU5wAjWR2XW5Du9qoh7ImSDnGJtrp/F8TYHzYrA4f4qvzz/Q</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -341,7 +341,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAALuWU6MgdIIxkh2XSraybay756gho2bxOb+gOv17zNAAAAAAOgAAAAAIAACAAAADUolUTwzv9qeUxH8oFjtws7YTpognGp2i51pU8tb0oiDAAAACITrKtExZ9M4jZLcXVGKWZQzNQB1qj8RI46t0VFdJC0r7axVPF7xgmeVf1GRZ8AG5AAAAALeEzdwBOKXmElZg86RnftTBQH2amc1ti9WlVgKxiDKwgsSl9niUH0+c0s/Trb86eULmUohSsmPh6HhSQewrzCQ</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAD0+0hgDdtDBD1Qe+11Nb77sFqTNg4sSUCejjbbFrFLqQAAAAAOgAAAAAIAACAAAAAleZmGbVttGRXU/AS2SlolCFthReEBcAgTmQQPEb9T8zAAAAD/6CobedSi45E0lwflFOQPPjm9l0QhvSjYPyoqLKwa495ksU/OlR137M5kA3J6ueRAAAAAxcZlwqmCHgMV9GeXm6EePBvZC7r/QotwUycEEpVgk/pnUQYHRYdPwW2RLtxuVJXlH0eMe1RJTFF7/l/kjosTDA</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -356,7 +356,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAmsnj56KR+3Q9X0KVVitUsz4Spjyb5US+C49XpG3j9LwAAAAAOgAAAAAIAACAAAADFws7Hji0m4lUciqXXXjUbe21LzTi2Pixi8I+vs5elnDAAAACGFif9pKSVc62zVDEUJmibSk8mlvd5Td69YboSste5kGO5xUvMODf179KlaDs1PHNAAAAAinJPBUIg/Houx3AfxKeObVQOM25UyPVaWgMOmFX2d8EL0nkmAUTBGmeQy9OgOYsdI04f94xzbQdi5DpzfTfXfg</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACB+7QpkDunzeG9P6nYg9SI39yAlAS+qbL0mTQOujqHFQAAAAAOgAAAAAIAACAAAABtEVussvae21Wmfi/srcfN8vbHNcCov774THr7PWg4ETAAAADK8KEXchMLutHkKkkKKlaclU0cDAk7K8aR1wAAlyzGZoAQY+bYp8GhaA896D11C/JAAAAA5K0hNSyGd4LhhBBEFEfkDhYCbzl2SmpI2rjH1BWq+wmDDP10XpB9K8TtSa9g03gdd3VTD4/E2CU5v1ETsLLAOw</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -371,7 +371,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADMIDsU8jHiyAPHmUlBfyOACByJtzW2cj98h5HbyaPt7QAAAAAOgAAAAAIAACAAAADCWRJNXz/DImz3fQ3TuFc84CvuoB/oi2Q1Hppy6qJ0eDAAAADUsrbV23n2qrARzTIdDP5Lc7+MuV2Bc7+WYLdGDumOZOSuKTcHKy9IpY7zp97fN41AAAAA5TOPh2CsGJvgmI5o5zSvrzrRzaIklM02PN7djwqT1/W2jSvhXSy9w0WrhbwEfaHD3FhHaTtarzBE45sZlP/X3Q</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABOEY6liCp22sjgN0IU8BQm+B8Dnc6Jk/pR7a7ho1JMVQAAAAAOgAAAAAIAACAAAACqVwb4dusEy1CTj+Wc9NEgcTPpVIFpdi74FiihpMDvMzAAAADKEaYYLQpIcl5bnPIrlol3RwOv93CAHIzu3v1krkOB3mE7kYM4ULrk5GbXLUkFb1RAAAAAQO9x7V35ROt5MmUzwdSMBZ0SaMczXXB1Ly22B4P9obhMpZ88NXFnpyckiHemBkQAPwgbGrr0r1A/BOV3PBcc2Q</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -386,7 +386,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABPaFo2JToedOEbt67JJV5X+PfYhploDt2LMDQZzU8LhAAAAAAOgAAAAAIAACAAAAB0G3jYwBclaHXKCV8Mb2J7fVxW93UjVZZwC6wOFCaBlDAAAABpu0H2aNBththPNwH+VhBktQvLXe3DTItRh0tlX/ESxrb2JRLRX5FndpCN90lEEIlAAAAANSyUlKRKxZw90k+LSaoe/iffzWVzmKb7do5V2KBE9+i+hHOi1wA98t3iGbtBKEeo73tRSRJ2Hv5dpxhT6ckooQ</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADHUdkwSyGuvcX6mVCtCyab0huNi5sEssv+gvNqv8UMAQAAAAAOgAAAAAIAACAAAADUOB3S7hFAaVfvOxBEbRZhOsIx5NBau6lwaXCYFNjIIjAAAAAm36+yYG9LJA24zjkeX+c1yj8zpberIt9OgzozFHPB5t1vU9FwY2UIUZc0s+4aisNAAAAALY5bIaGrAPd0ElQIMT77X4Mq+P3XOkGYR8zyaKY+hqZeXvO/gTU1uTaOFAXt2YiYjkT1Rp4ydpir1Ee+pnmWvg</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -401,7 +401,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACfOjniImcPIL76Z9zValI16aKZhamEUS08Hw6YGOt6bwAAAAAOgAAAAAIAACAAAADZMm0IbldGsvJOu+bjvzl/0D3IR5WEeWzy5Js00zl8BTAAAACP9asa9N4Fzt/1gjngsSZoynZiuAbX/sMLOpjVfEl4UrhTLVY3gBByUqWwCOC5TN1AAAAATtXMsqHVb/ufxSFfxh0O9OsUw2dr3Iw41hbsop8NDBi/E0PpxYv8bfipIrMznaHF+GhZn3nyBHnmlLYSCB4UIQ</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADozht6heBYd2Fub5Fr3bDYgl3L45C+LHYXBG8NTTG1XAAAAAAOgAAAAAIAACAAAADQxrg9hiu3rT9KSSCAUNchE78BOinitk8wARvK/9/c2jAAAAAcrJQlVLSxCsGr2HciytL07hu5p1qM6To23ahVol/33FgQ+6voYpS7dYI8TQpOJrpAAAAAn/gG2fgOmNJ08VsZABLHViUSiiIjn0g1nqQwJEkI1jqJ9gnFo9j5Kkiw8X/oTeXmGKRW5QBCrAvObgXvQzNXpw</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -416,7 +416,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADSIzhXI4eSdt/xUxgZqiNIHriZANp7J/KP5TKqyKrLRQAAAAAOgAAAAAIAACAAAACqO8v7Fyri10dBaRCjq/uBA7lnfeSfwpcul9J5lHxvITAAAAAz8tooN5pR3tmob6H1XBcTrCC60ByhPC3jLwefWVj/OzgSAfKLYZ0E2TeKo6BkZm9AAAAAWO7ophoFfHgQUNdDqGusS2F2i+jGdfUILEXHgF4K66aI6CcPpcoXUrkHzk8gkOdOvRhxmXmTL1uikVRQJq3LZA</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAYTJI9YYegHH8kIyKva5pyxkYc4Ywf+K209/wYK9OkVAAAAAAOgAAAAAIAACAAAADqo5PBObmc6k2G7EpF8NLmKCDd9bTDLX6lVXBKIA2/+zAAAADfRcEqeA9uqIZ5I8ICv6ECOvK+Uh3zfOgmcp+g2ePleJkBQc8adv3OC6NUs0wwiJZAAAAAN9tZ3N4ZK62T/05N/ZgzWI+qZQT+jheMH6RlDmrDzg0nvnY/2G2V27T6rOYhqmZW/76VxYHSOPy2aFGjB0neXw</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -431,7 +431,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAmV4CrwLyFLYTjMUev8zevmnOw6dHoxfsMUD8iGNN71AAAAAAOgAAAAAIAACAAAAAFwwbzK6kQ3Hk6S9Ec9qWjCrxXElhJn/xptR4/wJB94jAAAACDKK0ukwxq2TTJNdCpcamBZEg40aQ/57C6SOyeyYysGClPCkpyaEHHUqAtwN8w5ihAAAAAvqzXEehM3WDEza9LPzq14bqQtRJIsdLizFzE78ONHshdFamk8VjooJdrf1eOoLhmvxigS1biQntmVyjfK6FnPg</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADyz2OaxZiZ0gPcLX35MoXuu2NeO6SAev864i3ReuFUPQAAAAAOgAAAAAIAACAAAACjZJSXtlwxKDfOjyeB1dPuanOf782YeWj2d2WRXP+4JDAAAAAmsaZVUjCQ7Cz7ru0fR4icwv1Mz4r/UqMQTzcYNgpa4HciMitU6vwtnTYcMNKvf/VAAAAAjveGM96gGlzGaTpIHJKcgir7Y6YO/piBQihMfqEdr0VG1Ree75lkolDxvJV0q1BAHte5mVYnK35bJzfmmBykZA</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -446,7 +446,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABgeOAlwUwUEnr2o2kNb7WimjNl+fUZ8FMizert7+fqZgAAAAAOgAAAAAIAACAAAADcIQoQaSv35OiEAx6DEdgujr2kQNvbpG0KEsacIttCLDAAAADKwmGxj9TF4kCDfF9fjppbyaei52jQFdkE9nOjwrnt6osEn00aN5Kuwo5aL4XlBpFAAAAAcXPJXOYFEhL8yTlwVan+4h8F7oCJac7yErPqC+NHJdfabI8vH1AmA+OScEKCoTP9IjI+t3iHOSUvOkbFsoFt8A</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABnp/rhd6vW/pc6fyB2htMpOLMrNgOGSsqiWt3YCQ4V3QAAAAAOgAAAAAIAACAAAABmOednd6ayylV60OGSbnxDx23t2A6y/TPsvFYTdicIZjAAAAAeuq2uFB2Ck22fHCi03yhxIE26RELZq34gwiqVRAnj62zdECWP97S/Ws1H4hafV15AAAAAhPUajnzoXaieVlPX2sVEpMW3is3JxcBBpHE0rHdfHIKLaxze25c0GfXpjsTKYpWct+uD/1FCihDV/hIr9n6jmQ</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -461,7 +461,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAC0MUfsslGv98zi2LypJovK9CE/qFZ5GuR7fjfO7VAckAAAAAAOgAAAAAIAACAAAABYGpUihPar0Mhu1qyHCfT7DtvXzI0mFKziV/bT5xoiYDAAAAAD87Nj4Xf9eeM33AFCT0ACmKvcc015oRfXqnule18gBsV73iyw3MOWEhgPJEaC0Q5AAAAAG5M52Yp3QKvbimZTeTHXP7rWNB/Uw//J7mXL0w7ti26puNMXypYp00YpcukeCPzX/AlV6jJVxDLjw+3gz16XaA</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAk4iNo6bFld0lhSdYi4ScmDmuLdP952d0hOju0T8+5PAAAAAAOgAAAAAIAACAAAAA1u/lC2GLajnuxaNm8uVSJ4bWnYOp5y35GYGF+TlIcszAAAAAygB2owCitZ9ekMOB7KrKDSaNWYdhETbT3FmmElH7X1NHr1a3wjEpeB5UD2fV2HJNAAAAAucW612O8BfVFGauw4jhswhH3p+SEoxIjDyjmfPYyxTP4wClO+HsiX4sN/I/Ii+VjDwNaAgOweuSWKa52ZBHZxQ</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -476,7 +476,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACHXhSpAEeZjivaZbEecoyeyWFCJ3bKQxfVAioerbl/6gAAAAAOgAAAAAIAACAAAABocQJr/dMNWf2aw963kCuEyZPmV63MBmAd2Bnt3kyhCDAAAADlKIQuUjCSKkIoZIiSifjmffWwdGYYy6LujL/bVaJt1SgXNAH+nFTNoZpsXVEUelBAAAAA6Tm0AzPLdw7bjaCVtYysX69KnDvf0OMRtUhuUqvOF0QWAhuvoxrCnQypEDy3hND2acOAV+chxor/w9tmpMLnbA</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwYc9cag84EmDEg74nYz3VgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAB3jX77F1GJmArlSfz4rH9388788OjXr4VUn4evft1NkgAAAAAOgAAAAAIAACAAAAAI2UKkmngZ+cwJGvTDGPEtUw6sGfzJldWVaFN3Q2mpgTAAAAAsdvnE8qMZyo9BPqPdAKHtlBMZpmEKneMqi1rS/I+BLEVwiJLKarpNL/KP/T8T+hpAAAAAuE3S9kBL/os4HA57shutiQpYLXciSkyP16oMkjq9Vyyovi7zSWhZbX7xrOW9OQpvQeOLwqpXhoA63EhG2taOAQ</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -493,7 +493,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="Begin Dimension Table ETL Here"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="2">
+      DTS:ThreadHint="1">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
@@ -509,7 +509,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="Begin Fact Table ETL Here"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="1">
+      DTS:ThreadHint="2">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
@@ -1158,7 +1158,7 @@
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{C9C3DF5F-10B2-43AC-A852-12C5C1E847F9}"
-          SQLTask:SqlStatementSource="IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'factSalesActual')&#xA;BEGIN&#xA;&#x9;DBCC CHECKIDENT (factSalesActual, RESEED, 1)&#xA;&#x9;INSERT INTO dbo.factSalesActual&#xA;&#x9;(&#xA;&#x9;dimProductKey&#xA;&#x9;, dimStoreKey&#xA;&#x9;, dimResellerKey&#xA;&#x9;, dimCustomerKey&#xA;&#x9;, dimChannelKey&#xA;&#x9;, dimSaleDateKey&#xA;&#x9;, dimLocationKey&#xA;&#x9;, SalesHeaderID&#xA;&#x9;, SalesDetailID&#xA;&#x9;, SaleAmount&#xA;&#x9;, SaleQuantity&#xA;&#x9;, SaleUnitPrice&#xA;&#x9;, SaleExtendedCost&#xA;&#x9;, SaleTotalProfit&#xA;&#x9;)&#xA;&#x9;SELECT &#xA;&#x9;dProd.dimProductKey AS ProductKey&#xA;&#x9;, dStore.dimStoreKey AS StoreKey&#xA;&#x9;, dResell.dimResellerKey AS ResellerKey&#xA;&#x9;, dCust.dimCustomerKey AS CustomerKey&#xA;&#x9;, dChan.dimChannelKey AS ChannelKey&#xA;&#x9;, dDate.dimDateKey AS SaleDateKey&#xA;&#x9;, (SELECT (CASE WHEN (sHeader.StoreID IS NOT NULL) THEN dStore.dimLocationKey &#xA;&#x9;&#x9;             WHEN (sHeader.CustomerID IS NOT NULL) THEN dCust.dimLocationKey&#xA;&#x9;&#x9;             WHEN (sHeader.ResellerID IS NOT NULL) THEN dResell.dimLocationKey&#xA;&#x9;&#x9;   END)) AS LocKey&#xA;&#x9;, sHeader.SalesHeaderID -- Natural Key&#xA;&#x9;, sDetail.SalesDetailID -- Natural Key&#xA;&#x9;, sDetail.SalesAmount AS TotalPrice&#xA;&#x9;, sDetail.SalesQuantity AS Quantity&#xA;&#x9;, sDetail.SalesAmount/sDetail.SalesQuantity AS UnitPrice&#xA;&#x9;, dProd.ProductCost*sDetail.SalesQuantity AS TotalCost&#xA;&#x9;, sDetail.SalesAmount-(dProd.ProductCost*sDetail.SalesQuantity) AS TotalProfit&#xA;&#x9;FROM dbo.StageSalesHeader AS sHeader&#xA;&#x9;JOIN dbo.StageSalesDetail AS sDetail ON sHeader.SalesHeaderID = sDetail.SalesHeaderID&#xA;&#x9;LEFT JOIN dbo.dimProduct AS dProd ON sDetail.ProductID = dProd.ProductID&#xA;&#x9;LEFT JOIN dbo.dimStore AS dStore ON sHeader.StoreID = dStore.StoreID&#xA;&#x9;LEFT JOIN dbo.dimReseller AS dResell ON CAST(sHeader.ResellerID AS NVARCHAR(50)) = dResell.ResellerID&#xA;&#x9;LEFT JOIN dbo.dimCustomer AS dCust ON CAST(sHeader.CustomerID AS NVARCHAR(50)) = dCust.CustomerID&#xA;&#x9;LEFT JOIN dbo.dimChannel AS dChan ON sHeader.ChannelID = dChan.ChannelID&#xA;&#x9;LEFT JOIN dbo.DimDate AS dDate ON sHeader.[Date] = dDate.FullDate&#xA;END&#xA;GO" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'factSalesActual')&#xA;BEGIN&#xA;&#x9;DBCC CHECKIDENT (factSalesActual, RESEED, 1)&#xA;&#x9;INSERT INTO dbo.factSalesActual&#xA;&#x9;(&#xA;&#x9;dimProductKey&#xA;&#x9;, dimStoreKey&#xA;&#x9;, dimResellerKey&#xA;&#x9;, dimCustomerKey&#xA;&#x9;, dimChannelKey&#xA;&#x9;, dimSaleDateKey&#xA;&#x9;, dimLocationKey&#xA;&#x9;, SalesHeaderID&#xA;&#x9;, SalesDetailID&#xA;&#x9;, SaleAmount&#xA;&#x9;, SaleQuantity&#xA;&#x9;, SaleUnitPrice&#xA;&#x9;, SaleExtendedCost&#xA;&#x9;, SaleTotalProfit&#xA;&#x9;)&#xA;&#x9;SELECT &#xA;&#x9;dProd.dimProductKey AS ProductKey&#xA;&#x9;, ISNULL(dStore.dimStoreKey, -1) AS StoreKey&#xA;&#x9;, ISNULL(dResell.dimResellerKey, -1) AS ResellerKey&#xA;&#x9;, ISNULL(dCust.dimCustomerKey, -1) AS CustomerKey&#xA;&#x9;, dChan.dimChannelKey AS ChannelKey&#xA;&#x9;, dDate.dimDateKey AS SaleDateKey&#xA;&#x9;, (SELECT (CASE WHEN (sHeader.StoreID IS NOT NULL) THEN dStore.dimLocationKey &#xA;&#x9;&#x9;&#x9;&#x9;&#x9;WHEN (sHeader.CustomerID IS NOT NULL) THEN dCust.dimLocationKey&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;WHEN (sHeader.ResellerID IS NOT NULL) THEN dResell.dimLocationKey&#xA;&#x9;&#x9;&#x9;&#x9;END)) AS LocKey&#xA;&#x9;, sHeader.SalesHeaderID -- Natural Key&#xA;&#x9;, sDetail.SalesDetailID -- Natural Key&#xA;&#x9;, sDetail.SalesAmount AS TotalPrice&#xA;&#x9;, sDetail.SalesQuantity AS Quantity&#xA;&#x9;, sDetail.SalesAmount/sDetail.SalesQuantity AS UnitPrice&#xA;&#x9;, dProd.ProductCost*sDetail.SalesQuantity AS TotalCost&#xA;&#x9;, sDetail.SalesAmount-(dProd.ProductCost*sDetail.SalesQuantity) AS TotalProfit&#xA;&#x9;FROM dbo.StageSalesHeader AS sHeader&#xA;&#x9;JOIN dbo.StageSalesDetail AS sDetail ON sHeader.SalesHeaderID = sDetail.SalesHeaderID&#xA;&#x9;LEFT JOIN dbo.dimProduct AS dProd ON sDetail.ProductID = dProd.ProductID&#xA;&#x9;LEFT JOIN dbo.dimStore AS dStore ON sHeader.StoreID = dStore.StoreID&#xA;&#x9;LEFT JOIN dbo.dimReseller AS dResell ON CAST(sHeader.ResellerID AS NVARCHAR(50)) = dResell.ResellerID&#xA;&#x9;LEFT JOIN dbo.dimCustomer AS dCust ON CAST(sHeader.CustomerID AS NVARCHAR(50)) = dCust.CustomerID&#xA;&#x9;LEFT JOIN dbo.dimChannel AS dChan ON sHeader.ChannelID = dChan.ChannelID&#xA;&#x9;LEFT JOIN dbo.DimDate AS dDate ON sHeader.[Date] = dDate.FullDate&#xA;END&#xA;GO" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
@@ -1175,7 +1175,7 @@
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{C9C3DF5F-10B2-43AC-A852-12C5C1E847F9}"
-          SQLTask:SqlStatementSource="IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'factSRCSalesTarget')&#xA;&#x9;DBCC CHECKIDENT (factSRCSalesTarget, RESEED, 1)&#xA;&#xA;IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'factSRCSalesTarget')&#xA;BEGIN&#xA;&#x9;WITH CTE_CRSDates -- First CTE for target names and date keys (cross-joined table)&#xA;&#x9;(&#xA;&#x9;TargetName&#xA;&#x9;, DateKey&#xA;&#x9;) &#xA;&#x9;AS&#xA;&#x9;(&#xA;&#x9;SELECT DISTINCT sTarCRS.TargetName&#xA;&#x9;, dDate.DimDateKey&#xA;&#x9;FROM dbo.StageTargetCRS AS sTarCRS&#xA;&#x9;CROSS JOIN dbo.DimDate AS dDate&#xA;&#x9;WHERE dDate.DimDateKey &gt; 0&#xA;&#x9;)&#xA;&#x9;, CTE_CRSTargets --2nd CTE for target names and target keys&#xA;&#x9;(&#xA;&#x9;ChannelKey&#xA;&#x9;, ChannelName&#xA;&#x9;, StoreKey&#xA;&#x9;, StoreName&#xA;&#x9;, ResellerKey&#xA;&#x9;, ResellerName&#xA;&#x9;, CustomerName&#xA;&#x9;)&#xA;&#x9;AS&#xA;&#x9;(&#xA;&#x9;SELECT dChan.dimChannelKey&#xA;&#x9;, dChan.ChannelName&#xA;&#x9;, dStore.dimStoreKey&#xA;&#x9;, dStore.StoreName&#xA;&#x9;, dResell.dimResellerKey&#xA;&#x9;, dResell.ResellerName&#xA;&#x9;, CASE WHEN sTarCRS.TargetName = 'Customer Sales' THEN 'Customer Sales' END AS CustomerName&#xA;&#x9;FROM dbo.StageTargetCRS AS sTarCRS&#xA;&#x9;LEFT JOIN dbo.dimChannel AS dChan ON sTarCRS.ChannelName = dchan.ChannelName&#xA;&#x9;LEFT JOIN dbo.dimStore AS dStore on sTarCRS.TargetName = dStore.StoreName&#xA;&#x9;LEFT JOIN dbo.dimReseller AS dResell ON sTarCRS.TargetName = dResell.ResellerName&#xA;&#x9;WHERE dChan.dimChannelKey &gt; 0&#xA;&#x9;)&#xA;&#x9;INSERT INTO dbo.factSRCSalesTarget -- Smoosh the CTEs and insert data into fact table&#xA;&#x9;(&#xA;&#x9;dimStoreKey&#xA;&#x9;, dimResellerKey&#xA;&#x9;, dimChannelKey&#xA;&#x9;, dimTargetDateKey&#xA;&#x9;, SalesTargetAmount&#xA;&#x9;)&#xA;&#x9;SELECT DISTINCT Targets.StoreKey&#xA;&#x9;, Targets.ResellerKey&#xA;&#x9;, Targets.ChannelKey&#xA;&#x9;, Dates.DateKey&#xA;&#x9;, sTarCRS.TargetSalesAmount/365 AS DailyTarget&#xA;&#x9;FROM CTE_CRSDates AS Dates&#xA;&#x9;LEFT JOIN dbo.DimDate AS dDate ON Dates.DateKey = dDate.DimDateKey               -- 1. 730 days&#xA;&#x9;LEFT JOIN dbo.StageTargetCRS AS sTarCRS ON Dates.TargetName = sTarCRS.TargetName -- 2. match target names and year between&#xA;&#x9;&#x9;AND dDate.CalendarYear = CAST(sTarCRS.[Year] AS INT)                         -- staging table and cross-joined table&#xA;&#x9;LEFT JOIN CTE_CRSTargets AS Targets ON Dates.TargetName = Targets.ResellerName   -- 3. match target names between cross-&#xA;&#x9;&#x9;OR Dates.TargetName = Targets.StoreName                                      -- joined table and table with target keys&#xA;&#x9;&#x9;OR Dates.TargetName = Targets.CustomerName&#xA;END&#xA;GO" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'factSRCSalesTarget')&#xA;&#x9;DBCC CHECKIDENT (factSRCSalesTarget, RESEED, 1)&#xA;&#xA;IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'factSRCSalesTarget')&#xA;BEGIN&#xA;&#x9;WITH CTE_CRSDates -- First CTE for target names and date keys (cross-joined table)&#xA;&#x9;(&#xA;&#x9;TargetName&#xA;&#x9;, DateKey&#xA;&#x9;) &#xA;&#x9;AS&#xA;&#x9;(&#xA;&#x9;SELECT DISTINCT sTarCRS.TargetName&#xA;&#x9;, dDate.DimDateKey&#xA;&#x9;FROM dbo.StageTargetCRS AS sTarCRS&#xA;&#x9;CROSS JOIN dbo.DimDate AS dDate&#xA;&#x9;WHERE dDate.DimDateKey &gt; 0&#xA;&#x9;)&#xA;&#x9;, CTE_CRSTargets --2nd CTE for target names and target keys&#xA;&#x9;(&#xA;&#x9;ChannelKey&#xA;&#x9;, ChannelName&#xA;&#x9;, StoreKey&#xA;&#x9;, StoreName&#xA;&#x9;, ResellerKey&#xA;&#x9;, ResellerName&#xA;&#x9;, CustomerName&#xA;&#x9;)&#xA;&#x9;AS&#xA;&#x9;(&#xA;&#x9;SELECT dChan.dimChannelKey&#xA;&#x9;, dChan.ChannelName&#xA;&#x9;, dStore.dimStoreKey&#xA;&#x9;, dStore.StoreName&#xA;&#x9;, dResell.dimResellerKey&#xA;&#x9;, dResell.ResellerName&#xA;&#x9;, CASE WHEN sTarCRS.TargetName = 'Customer Sales' THEN 'Customer Sales' END AS CustomerName&#xA;&#x9;FROM dbo.StageTargetCRS AS sTarCRS&#xA;&#x9;LEFT JOIN dbo.dimChannel AS dChan ON sTarCRS.ChannelName = dchan.ChannelName&#xA;&#x9;LEFT JOIN dbo.dimStore AS dStore on sTarCRS.TargetName = dStore.StoreName&#xA;&#x9;LEFT JOIN dbo.dimReseller AS dResell ON sTarCRS.TargetName = dResell.ResellerName&#xA;&#x9;WHERE dChan.dimChannelKey &gt; 0&#xA;&#x9;)&#xA;&#x9;INSERT INTO dbo.factSRCSalesTarget -- Smoosh the CTEs and insert data into fact table&#xA;&#x9;(&#xA;&#x9;dimStoreKey&#xA;&#x9;, dimResellerKey&#xA;&#x9;, dimChannelKey&#xA;&#x9;, dimTargetDateKey&#xA;&#x9;, SalesTargetAmount&#xA;&#x9;)&#xA;&#x9;SELECT DISTINCT ISNULL(Targets.StoreKey, -1)&#xA;&#x9;, ISNULL(Targets.ResellerKey, -1)&#xA;&#x9;, Targets.ChannelKey&#xA;&#x9;, Dates.DateKey&#xA;&#x9;, sTarCRS.TargetSalesAmount/365 AS DailyTarget&#xA;&#x9;FROM CTE_CRSDates AS Dates&#xA;&#x9;LEFT JOIN dbo.DimDate AS dDate ON Dates.DateKey = dDate.DimDateKey               -- 1. 730 days&#xA;&#x9;LEFT JOIN dbo.StageTargetCRS AS sTarCRS ON Dates.TargetName = sTarCRS.TargetName -- 2. match target names and year between&#xA;&#x9;&#x9;AND dDate.CalendarYear = CAST(sTarCRS.[Year] AS INT)                         -- staging table and cross-joined table&#xA;&#x9;LEFT JOIN CTE_CRSTargets AS Targets ON Dates.TargetName = Targets.ResellerName   -- 3. match target names between cross-&#xA;&#x9;&#x9;OR Dates.TargetName = Targets.StoreName                                      -- joined table and table with target keys&#xA;&#x9;&#x9;OR Dates.TargetName = Targets.CustomerName&#xA;END&#xA;GO" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
