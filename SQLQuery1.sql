@@ -673,9 +673,9 @@ BEGIN
 	)
 	SELECT 
 	dProd.dimProductKey AS ProductKey
-	, dStore.dimStoreKey AS StoreKey
-	, dResell.dimResellerKey AS ResellerKey
-	, dCust.dimCustomerKey AS CustomerKey
+	, ISNULL(dStore.dimStoreKey, -1) AS StoreKey
+	, ISNULL(dResell.dimResellerKey, -1) AS ResellerKey
+	, ISNULL(dCust.dimCustomerKey, -1) AS CustomerKey
 	, dChan.dimChannelKey AS ChannelKey
 	, dDate.dimDateKey AS SaleDateKey
 	, (SELECT (CASE WHEN (sHeader.StoreID IS NOT NULL) THEN dStore.dimLocationKey 
@@ -699,7 +699,7 @@ BEGIN
 	LEFT JOIN dbo.DimDate AS dDate ON sHeader.[Date] = dDate.FullDate
 END
 GO
-
+SELECT * FROM factSalesActual
 -- ====================================
 -- Delete factSRCSalesTarget table
 -- ====================================
@@ -778,8 +778,8 @@ BEGIN
 	, dimTargetDateKey
 	, SalesTargetAmount
 	)
-	SELECT DISTINCT Targets.StoreKey
-	, Targets.ResellerKey
+	SELECT DISTINCT ISNULL(Targets.StoreKey, -1)
+	, ISNULL(Targets.ResellerKey, -1)
 	, Targets.ChannelKey
 	, Dates.DateKey
 	, sTarCRS.TargetSalesAmount/365 AS DailyTarget
@@ -853,6 +853,8 @@ GO
 
 /*
 USE DestinationSystem
+SELECT * FROM dimLocation
+SELECT * FROM dimReseller
 SELECT * FROM dimProduct
 SELECT * FROM StageProduct
 SELECT * FROM StageTargetCRS
