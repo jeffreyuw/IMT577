@@ -6,6 +6,7 @@ SELECT TOP 20 * FROM factSalesActual
 SELECT * FROM dimStore
 SELECT * from StageTargetProduct
 SELECT * FROM factProductSalesTarget
+WHERE dimproductkey = 13
 */
 
 -- ====================================
@@ -22,19 +23,20 @@ WHERE Product.ProductCategory LIKE 'Womens Apparel'
 	OR Product.ProductCategory LIKE 'Accessories'
 GROUP BY dDate.CalendarYear, Product.ProductName, Product.ProductCategory, Product.ProductType
 ORDER BY Product.ProductName, dDate.CalendarYear
-
+GO
 -- ====================================
 -- Sales by month and product name
 -- ====================================
-SELECT dDate.MonthNumberOfYear, dDate.[MonthName], dDate.CalendarYear, Product.ProductName, SUM(Sales.SaleAmount) AS 'Monthly Sales'
+SELECT dDate.MonthNumberOfYear, dDate.[MonthName], dDate.CalendarYear, Product.ProductName, Product.ProductCategory, Product.ProductType
+, SUM(Sales.SaleAmount) AS 'Monthly Sales'
 FROM factSalesActual AS Sales
 LEFT JOIN dimProduct AS Product ON Sales.dimProductKey = Product.dimProductKey
 LEFT JOIN DimDate AS dDate ON Sales.dimSaleDateKey = dDate.DimDateKey
 WHERE Product.ProductCategory LIKE 'Womens Apparel'
 	OR Product.ProductCategory LIKE 'Accessories'
-GROUP BY dDate.CalendarYear, dDate.MonthNumberOfYear, Product.ProductName, dDate.[MonthName]
+GROUP BY dDate.CalendarYear, dDate.MonthNumberOfYear, Product.ProductName, dDate.[MonthName], Product.ProductCategory, Product.ProductType
 ORDER BY Product.ProductName, dDate.CalendarYear, dDate.MonthNumberOfYear
-
+GO
 -- ====================================
 -- Sales by day of the week and product name
 -- ====================================
@@ -46,7 +48,7 @@ WHERE Product.ProductCategory LIKE 'Womens Apparel'
 	OR Product.ProductCategory LIKE 'Accessories'
 GROUP BY dDate.CalendarYear, dDate.DayNumberOfWeek, Product.ProductName, dDate.DayNameOfWeek
 ORDER BY Product.ProductName, dDate.CalendarYear, dDate.DayNumberOfWeek
-
+GO
 -- ====================================
 -- Targets by year and product name
 -- ====================================
@@ -58,15 +60,29 @@ WHERE Product.ProductCategory LIKE 'Womens Apparel'
 	OR Product.ProductCategory LIKE 'Accessories'
 GROUP BY Product.ProductName, dDate.CalendarYear
 ORDER BY Product.ProductName, dDate.CalendarYear
-
+GO
 -- ====================================
--- Sales and Targets by year and product name
+-- Targets by month and product name
 -- ====================================
+SELECT dDate.CalendarYear, dDate.[MonthName], Product.ProductName, SUM(SalesTarget.ProductTargetSalesQuantity) AS 'Monthly Target'
+FROM factProductSalesTarget AS SalesTarget
+LEFT JOIN dimProduct AS Product ON SalesTarget.dimProductKey = Product.dimProductKey
+LEFT JOIN DimDate AS dDate ON SalesTarget.dimTargetDateKey = dDate.DimDateKey
+WHERE Product.ProductCategory LIKE 'Womens Apparel'
+	OR Product.ProductCategory LIKE 'Accessories'
+GROUP BY Product.ProductName, dDate.CalendarYear, dDate.MonthNumberOfYear, dDate.[MonthName]
+ORDER BY Product.ProductName, dDate.CalendarYear, dDate.MonthNumberOfYear
+GO
+-- ====================================
+-- Sales and Targets by year and product name -- works!
+-- ====================================
+CREATE VIEW [dbo].[viewYearlySalesAndTargets]
+AS
 SELECT dDate.CalendarYear, Product.ProductName, Product.ProductCategory, Product.ProductType, SUM(Sales.SaleAmount) AS 'Yearly Sales'
 	, SUM(Sales.SaleExtendedCost) AS 'Yearly Cost', SUM(Sales.SaleTotalProfit) AS 'Yearly Profit'
 	, CAST(SUM(Sales.SaleTotalProfit)/SUM(Sales.SaleAmount)*100 AS numeric(5,2)) AS 'Profit Margin'
 	, SUM(Sales.SaleQuantity) AS 'Quantity Sold'
-	, subq1.[Yearly Target]
+	, subq1.[Yearly Target] AS 'Yearly Quantity Target'
 FROM factSalesActual AS Sales
 LEFT JOIN dimProduct AS Product ON Sales.dimProductKey = Product.dimProductKey
 LEFT JOIN DimDate AS dDate ON Sales.dimSaleDateKey = dDate.DimDateKey
@@ -79,7 +95,25 @@ LEFT JOIN (
 		OR Product.ProductCategory LIKE 'Accessories'
 	GROUP BY Product.ProductName, dDate.CalendarYear
 	) AS subq1 ON Product.ProductName = subq1.ProductName
+		AND dDate.CalendarYear = subq1.CalendarYear
 WHERE Product.ProductCategory LIKE 'Womens Apparel'
 	OR Product.ProductCategory LIKE 'Accessories'
 GROUP BY dDate.CalendarYear, Product.ProductName, Product.ProductCategory, Product.ProductType, subq1.ProductName, subq1.[Yearly Target]
-ORDER BY Product.ProductName, dDate.CalendarYear
+--ORDER BY Product.ProductName, dDate.CalendarYear
+GO
+
+-- ====================================
+-- Sales and Targets by month and product name
+-- ====================================
+--CREATE VIEW [dbo].[viewMonthlySalesAndTargets]
+--AS
+SELECT dDate.MonthNumberOfYear, dDate.[MonthName], dDate.CalendarYear, Product.ProductName, Product.ProductCategory, Product.ProductType
+, SUM(Sales.SaleAmount) AS 'Monthly Sales'
+FROM factSalesActual AS Sales
+LEFT JOIN dimProduct AS Product ON Sales.dimProductKey = Product.dimProductKey
+LEFT JOIN DimDate AS dDate ON Sales.dimSaleDateKey = dDate.DimDateKey
+WHERE Product.ProductCategory LIKE 'Womens Apparel'
+	OR Product.ProductCategory LIKE 'Accessories'
+GROUP BY dDate.CalendarYear, dDate.MonthNumberOfYear, Product.ProductName, dDate.[MonthName], Product.ProductCategory, Product.ProductType
+ORDER BY Product.ProductName, dDate.CalendarYear, dDate.MonthNumberOfYear
+GO
