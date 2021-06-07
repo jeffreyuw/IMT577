@@ -1,4 +1,5 @@
 /*
+jad76
 USE DestinationSystem
 SELECT * FROM dimProduct
 WHERE dimProduct.ProductCategory LIKE 'Accessories'

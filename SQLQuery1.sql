@@ -1,4 +1,5 @@
 /*
+jad76
 USE DestinationSystem
 
 SELECT * FROM dbo.DimDate
